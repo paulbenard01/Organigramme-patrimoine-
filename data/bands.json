@@ -1,0 +1,62 @@
+[
+  {
+    "id": "intl",
+    "name": "International & Europe",
+    "desc": "Organisations, comités et réseaux qui encadrent le patrimoine au-delà des frontières."
+  },
+  {
+    "id": "etat",
+    "name": "État : administration centrale",
+    "desc": "Le ministère de la Culture, ses directions et les autres ministères qui ont une compétence patrimoniale."
+  },
+  {
+    "id": "consult",
+    "name": "Instances consultatives",
+    "desc": "Commissions et comités qui rendent des avis avant les décisions de l’État."
+  },
+  {
+    "id": "op",
+    "name": "Opérateurs & établissements nationaux",
+    "desc": "Établissements publics et services à compétence nationale sous tutelle de l’État."
+  },
+  {
+    "id": "deconc",
+    "name": "État en région et en département",
+    "desc": "Préfets, DRAC et leurs services : là où se prennent la plupart des décisions de terrain."
+  },
+  {
+    "id": "coll",
+    "name": "Collectivités territoriales",
+    "desc": "Régions, départements, communes et Paris : propriétaires, financeurs et gestionnaires."
+  },
+  {
+    "id": "statut",
+    "name": "Protections, labels & procédures",
+    "desc": "Ce qui s’accorde, s’inscrit ou se prescrit, et par qui."
+  },
+  {
+    "id": "fin",
+    "name": "Financements & dispositifs",
+    "desc": "Crédits publics, fonds dédiés, fiscalité, mécénat et recettes."
+  },
+  {
+    "id": "assoc",
+    "name": "Fondations, associations & privés",
+    "desc": "Société civile, mécènes, réseaux de collectivités et acteurs privés."
+  },
+  {
+    "id": "metier",
+    "name": "Métiers, corps & réseaux professionnels",
+    "desc": "Qui fait le travail, avec quelle qualification, et où se former."
+  },
+  {
+    "id": "textes",
+    "name": "Textes de référence",
+    "desc": "Codes, lois et conventions : la base juridique transversale de tout le reste."
+  },
+  {
+    "id": "outils",
+    "name": "Bases, portails & événements",
+    "desc": "Les outils de recherche du quotidien et les rendez-vous nationaux."
+  }
+]

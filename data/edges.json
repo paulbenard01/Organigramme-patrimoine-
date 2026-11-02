@@ -1,0 +1,2273 @@
+[
+  {
+    "source": "mc",
+    "target": "dgpa",
+    "type": "tut"
+  },
+  {
+    "source": "mc",
+    "target": "dgca",
+    "type": "tut"
+  },
+  {
+    "source": "mc",
+    "target": "dgmic",
+    "type": "tut"
+  },
+  {
+    "source": "mc",
+    "target": "dgdcer",
+    "type": "tut"
+  },
+  {
+    "source": "mc",
+    "target": "igac",
+    "type": "tut"
+  },
+  {
+    "source": "mc",
+    "target": "mobilier",
+    "type": "tut"
+  },
+  {
+    "source": "mc",
+    "target": "drac",
+    "type": "tut",
+    "label": "pilote le réseau"
+  },
+  {
+    "source": "dgpa",
+    "target": "smf",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "sp",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "siaf",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "sarchi",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "diri",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "mpm",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "cmn",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "versailles",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "chambord",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "oppic",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "citearchi",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "inp",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "inrap",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "lrmh",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "mpp",
+    "type": "tut"
+  },
+  {
+    "source": "dgpa",
+    "target": "ecolelouvre",
+    "type": "tut"
+  },
+  {
+    "source": "sp",
+    "target": "sdmhsp",
+    "type": "tut"
+  },
+  {
+    "source": "sp",
+    "target": "sda",
+    "type": "tut"
+  },
+  {
+    "source": "sp",
+    "target": "migpc",
+    "type": "tut"
+  },
+  {
+    "source": "diri",
+    "target": "drvpci",
+    "type": "tut"
+  },
+  {
+    "source": "smf",
+    "target": "mnep",
+    "type": "tut"
+  },
+  {
+    "source": "smf",
+    "target": "mnscn",
+    "type": "tut"
+  },
+  {
+    "source": "smf",
+    "target": "rmngp",
+    "type": "tut"
+  },
+  {
+    "source": "smf",
+    "target": "c2rmf",
+    "type": "tut"
+  },
+  {
+    "source": "siaf",
+    "target": "an",
+    "type": "tut"
+  },
+  {
+    "source": "sda",
+    "target": "drassm",
+    "type": "tut"
+  },
+  {
+    "source": "dgca",
+    "target": "cnap",
+    "type": "tut"
+  },
+  {
+    "source": "dgmic",
+    "target": "bnf",
+    "type": "tut"
+  },
+  {
+    "source": "dgdcer",
+    "target": "ensa",
+    "type": "tut"
+  },
+  {
+    "source": "mesr",
+    "target": "inrap",
+    "type": "tut",
+    "label": "co-tutelle"
+  },
+  {
+    "source": "mesr",
+    "target": "inha",
+    "type": "tut",
+    "label": "co-tutelle"
+  },
+  {
+    "source": "mesr",
+    "target": "mnhn",
+    "type": "tut",
+    "label": "co-tutelle"
+  },
+  {
+    "source": "mc",
+    "target": "inha",
+    "type": "tut",
+    "label": "co-tutelle"
+  },
+  {
+    "source": "mte",
+    "target": "mnhn",
+    "type": "tut",
+    "label": "co-tutelle"
+  },
+  {
+    "source": "marmees",
+    "target": "dmca",
+    "type": "tut"
+  },
+  {
+    "source": "dmca",
+    "target": "shd",
+    "type": "tut"
+  },
+  {
+    "source": "dmca",
+    "target": "museesarmees",
+    "type": "tut"
+  },
+  {
+    "source": "minint",
+    "target": "ocbc",
+    "type": "tut"
+  },
+  {
+    "source": "meae",
+    "target": "delunesco",
+    "type": "tut"
+  },
+  {
+    "source": "mte",
+    "target": "dreal",
+    "type": "tut"
+  },
+  {
+    "source": "prefreg",
+    "target": "drac",
+    "type": "tut",
+    "label": "autorité hiérarchique"
+  },
+  {
+    "source": "drac",
+    "target": "crmh",
+    "type": "tut"
+  },
+  {
+    "source": "drac",
+    "target": "sra",
+    "type": "tut"
+  },
+  {
+    "source": "drac",
+    "target": "udap",
+    "type": "tut"
+  },
+  {
+    "source": "drac",
+    "target": "conseillermusees",
+    "type": "tut"
+  },
+  {
+    "source": "drac",
+    "target": "conseillerethno",
+    "type": "tut"
+  },
+  {
+    "source": "udap",
+    "target": "abf",
+    "type": "tut"
+  },
+  {
+    "source": "region",
+    "target": "inventaire",
+    "type": "tut"
+  },
+  {
+    "source": "dept",
+    "target": "ad",
+    "type": "tut"
+  },
+  {
+    "source": "commune",
+    "target": "musterr",
+    "type": "tut"
+  },
+  {
+    "source": "commune",
+    "target": "servarcheo",
+    "type": "tut"
+  },
+  {
+    "source": "paris",
+    "target": "parismusees",
+    "type": "tut"
+  },
+  {
+    "source": "unesco",
+    "target": "cpm",
+    "type": "tut"
+  },
+  {
+    "source": "unesco",
+    "target": "igcpci",
+    "type": "tut"
+  },
+  {
+    "source": "mc",
+    "target": "mhclasse",
+    "type": "oct"
+  },
+  {
+    "source": "mc",
+    "target": "spr",
+    "type": "oct"
+  },
+  {
+    "source": "mc",
+    "target": "mdf",
+    "type": "oct"
+  },
+  {
+    "source": "mc",
+    "target": "vpah",
+    "type": "oct"
+  },
+  {
+    "source": "mc",
+    "target": "illustres",
+    "type": "oct"
+  },
+  {
+    "source": "mc",
+    "target": "jardin",
+    "type": "oct"
+  },
+  {
+    "source": "mc",
+    "target": "ccr",
+    "type": "oct"
+  },
+  {
+    "source": "mc",
+    "target": "ethnopole",
+    "type": "oct"
+  },
+  {
+    "source": "mc",
+    "target": "maitreart",
+    "type": "oct"
+  },
+  {
+    "source": "mc",
+    "target": "objetmh",
+    "type": "oct",
+    "label": "classement"
+  },
+  {
+    "source": "mc",
+    "target": "tresor",
+    "type": "oct",
+    "label": "refus de certificat"
+  },
+  {
+    "source": "mc",
+    "target": "domnat",
+    "type": "oct",
+    "label": "propose (décret)"
+  },
+  {
+    "source": "mc",
+    "target": "acmh",
+    "type": "oct",
+    "label": "recrute par concours"
+  },
+  {
+    "source": "prefreg",
+    "target": "mhinscrit",
+    "type": "oct"
+  },
+  {
+    "source": "prefreg",
+    "target": "acr",
+    "type": "oct"
+  },
+  {
+    "source": "prefreg",
+    "target": "epv",
+    "type": "oct"
+  },
+  {
+    "source": "prefreg",
+    "target": "objetmh",
+    "type": "oct",
+    "label": "inscription"
+  },
+  {
+    "source": "prefreg",
+    "target": "abords",
+    "type": "oct",
+    "label": "délimite les PDA"
+  },
+  {
+    "source": "prefreg",
+    "target": "archprev",
+    "type": "oct",
+    "label": "prescrit"
+  },
+  {
+    "source": "mte",
+    "target": "siteclasse",
+    "type": "oct"
+  },
+  {
+    "source": "mte",
+    "target": "grandsite",
+    "type": "oct"
+  },
+  {
+    "source": "cnpci",
+    "target": "invpci",
+    "type": "oct",
+    "label": "valide les inclusions"
+  },
+  {
+    "source": "cpm",
+    "target": "pm",
+    "type": "oct"
+  },
+  {
+    "source": "igcpci",
+    "target": "pciunesco",
+    "type": "oct"
+  },
+  {
+    "source": "ue",
+    "target": "lpe",
+    "type": "oct"
+  },
+  {
+    "source": "coe",
+    "target": "itineraire",
+    "type": "oct"
+  },
+  {
+    "source": "fdp",
+    "target": "labelfdp",
+    "type": "oct"
+  },
+  {
+    "source": "region",
+    "target": "pir",
+    "type": "oct"
+  },
+  {
+    "source": "sda",
+    "target": "opprive",
+    "type": "oct",
+    "label": "agrément"
+  },
+  {
+    "source": "prefdep",
+    "target": "caoa",
+    "type": "oct",
+    "label": "nomme"
+  },
+  {
+    "source": "cnpa",
+    "target": "mhclasse",
+    "type": "avis"
+  },
+  {
+    "source": "cnpa",
+    "target": "spr",
+    "type": "avis"
+  },
+  {
+    "source": "cnpa",
+    "target": "domnat",
+    "type": "avis"
+  },
+  {
+    "source": "cnpa",
+    "target": "objetmh",
+    "type": "avis",
+    "label": "classement"
+  },
+  {
+    "source": "crpa",
+    "target": "mhinscrit",
+    "type": "avis"
+  },
+  {
+    "source": "crpa",
+    "target": "acr",
+    "type": "avis"
+  },
+  {
+    "source": "crpa",
+    "target": "objetmh",
+    "type": "avis",
+    "label": "inscription"
+  },
+  {
+    "source": "crpa",
+    "target": "abords",
+    "type": "avis",
+    "label": "PDA"
+  },
+  {
+    "source": "crpa",
+    "target": "abf",
+    "type": "avis",
+    "label": "recours contre ses avis"
+  },
+  {
+    "source": "hcmf",
+    "target": "mdf",
+    "type": "avis"
+  },
+  {
+    "source": "comsci",
+    "target": "mdf",
+    "type": "avis",
+    "label": "acquisitions, restaurations"
+  },
+  {
+    "source": "comsci",
+    "target": "fram",
+    "type": "avis"
+  },
+  {
+    "source": "cctn",
+    "target": "tresor",
+    "type": "avis"
+  },
+  {
+    "source": "ciad",
+    "target": "dation",
+    "type": "avis"
+  },
+  {
+    "source": "civs",
+    "target": "mnep",
+    "type": "avis",
+    "label": "restitution de biens spoliés"
+  },
+  {
+    "source": "civs",
+    "target": "musterr",
+    "type": "avis",
+    "label": "restitution de biens spoliés"
+  },
+  {
+    "source": "ctra",
+    "target": "archprev",
+    "type": "avis",
+    "label": "évaluation scientifique"
+  },
+  {
+    "source": "cnra",
+    "target": "sda",
+    "type": "avis",
+    "label": "politique de recherche"
+  },
+  {
+    "source": "cnpci",
+    "target": "pciunesco",
+    "type": "avis",
+    "label": "avis au ministre"
+  },
+  {
+    "source": "cdnps",
+    "target": "siteclasse",
+    "type": "avis"
+  },
+  {
+    "source": "cssp",
+    "target": "siteclasse",
+    "type": "avis"
+  },
+  {
+    "source": "icomos",
+    "target": "pm",
+    "type": "avis",
+    "label": "évaluation"
+  },
+  {
+    "source": "uicn",
+    "target": "pm",
+    "type": "avis",
+    "label": "évaluation"
+  },
+  {
+    "source": "iccrom",
+    "target": "pm",
+    "type": "avis"
+  },
+  {
+    "source": "abf",
+    "target": "abords",
+    "type": "avis"
+  },
+  {
+    "source": "abf",
+    "target": "spr",
+    "type": "avis"
+  },
+  {
+    "source": "abf",
+    "target": "labelfdp",
+    "type": "avis"
+  },
+  {
+    "source": "abf",
+    "target": "siteclasse",
+    "type": "avis",
+    "label": "sites inscrits"
+  },
+  {
+    "source": "abf",
+    "target": "commune",
+    "type": "avis",
+    "label": "autorisations d’urbanisme"
+  },
+  {
+    "source": "csa",
+    "target": "siaf",
+    "type": "avis"
+  },
+  {
+    "source": "sdmhsp",
+    "target": "mhclasse",
+    "type": "ges"
+  },
+  {
+    "source": "sdmhsp",
+    "target": "cnpa",
+    "type": "ges",
+    "label": "secrétariat"
+  },
+  {
+    "source": "crmh",
+    "target": "mhclasse",
+    "type": "ges"
+  },
+  {
+    "source": "crmh",
+    "target": "mhinscrit",
+    "type": "ges"
+  },
+  {
+    "source": "crmh",
+    "target": "objetmh",
+    "type": "ges"
+  },
+  {
+    "source": "crmh",
+    "target": "subvmh",
+    "type": "ges"
+  },
+  {
+    "source": "caoa",
+    "target": "objetmh",
+    "type": "ges",
+    "label": "récolement"
+  },
+  {
+    "source": "sra",
+    "target": "archprev",
+    "type": "ges",
+    "label": "instruit"
+  },
+  {
+    "source": "inrap",
+    "target": "archprev",
+    "type": "ges",
+    "label": "diagnostics, fouilles"
+  },
+  {
+    "source": "servarcheo",
+    "target": "archprev",
+    "type": "ges"
+  },
+  {
+    "source": "opprive",
+    "target": "archprev",
+    "type": "ges",
+    "label": "fouilles"
+  },
+  {
+    "source": "smf",
+    "target": "mdf",
+    "type": "ges",
+    "label": "instruit"
+  },
+  {
+    "source": "smf",
+    "target": "tresor",
+    "type": "ges",
+    "label": "certificats, AST"
+  },
+  {
+    "source": "conseillermusees",
+    "target": "mdf",
+    "type": "ges",
+    "label": "accompagnement et contrôle"
+  },
+  {
+    "source": "drvpci",
+    "target": "invpci",
+    "type": "ges"
+  },
+  {
+    "source": "drvpci",
+    "target": "ethnopole",
+    "type": "ges"
+  },
+  {
+    "source": "drvpci",
+    "target": "immateriel",
+    "type": "ges"
+  },
+  {
+    "source": "drvpci",
+    "target": "pciunesco",
+    "type": "ges",
+    "label": "candidatures, rapports"
+  },
+  {
+    "source": "mpm",
+    "target": "pm",
+    "type": "ges"
+  },
+  {
+    "source": "delunesco",
+    "target": "pm",
+    "type": "ges",
+    "label": "dépôt des dossiers"
+  },
+  {
+    "source": "delunesco",
+    "target": "pciunesco",
+    "type": "ges",
+    "label": "dépôt des dossiers"
+  },
+  {
+    "source": "dreal",
+    "target": "siteclasse",
+    "type": "ges"
+  },
+  {
+    "source": "dreal",
+    "target": "grandsite",
+    "type": "ges"
+  },
+  {
+    "source": "migpc",
+    "target": "inventaire",
+    "type": "ges",
+    "label": "contrôle scientifique et technique"
+  },
+  {
+    "source": "siaf",
+    "target": "ad",
+    "type": "ges",
+    "label": "contrôle scientifique et technique"
+  },
+  {
+    "source": "siaf",
+    "target": "francearchives",
+    "type": "ges"
+  },
+  {
+    "source": "commune",
+    "target": "spr",
+    "type": "ges",
+    "label": "PVAP"
+  },
+  {
+    "source": "commune",
+    "target": "psmv",
+    "type": "ges"
+  },
+  {
+    "source": "fdp",
+    "target": "loto",
+    "type": "ges"
+  },
+  {
+    "source": "fdj",
+    "target": "loto",
+    "type": "ges",
+    "label": "jeux"
+  },
+  {
+    "source": "meco",
+    "target": "malraux",
+    "type": "ges"
+  },
+  {
+    "source": "meco",
+    "target": "regimemh",
+    "type": "ges"
+  },
+  {
+    "source": "meco",
+    "target": "mecenat",
+    "type": "ges"
+  },
+  {
+    "source": "meco",
+    "target": "epv",
+    "type": "ges"
+  },
+  {
+    "source": "drac",
+    "target": "fip",
+    "type": "ges"
+  },
+  {
+    "source": "drac",
+    "target": "fram",
+    "type": "ges"
+  },
+  {
+    "source": "drac",
+    "target": "frar",
+    "type": "ges"
+  },
+  {
+    "source": "drac",
+    "target": "subvmh",
+    "type": "ges"
+  },
+  {
+    "source": "mc",
+    "target": "fondspat",
+    "type": "ges"
+  },
+  {
+    "source": "mc",
+    "target": "p175",
+    "type": "ges"
+  },
+  {
+    "source": "mc",
+    "target": "pop",
+    "type": "ges"
+  },
+  {
+    "source": "mc",
+    "target": "atlas",
+    "type": "ges"
+  },
+  {
+    "source": "mc",
+    "target": "jep",
+    "type": "ges"
+  },
+  {
+    "source": "mc",
+    "target": "rdvj",
+    "type": "ges"
+  },
+  {
+    "source": "mc",
+    "target": "nuit",
+    "type": "ges"
+  },
+  {
+    "source": "prefdep",
+    "target": "detr",
+    "type": "ges"
+  },
+  {
+    "source": "region",
+    "target": "feder",
+    "type": "ges"
+  },
+  {
+    "source": "bnf",
+    "target": "gallica",
+    "type": "ges"
+  },
+  {
+    "source": "dmca",
+    "target": "mdh",
+    "type": "ges"
+  },
+  {
+    "source": "isf",
+    "target": "jema",
+    "type": "ges"
+  },
+  {
+    "source": "isf",
+    "target": "maitreart",
+    "type": "ges",
+    "label": "accompagne le dispositif"
+  },
+  {
+    "source": "patenv",
+    "target": "jpp",
+    "type": "ges"
+  },
+  {
+    "source": "inp",
+    "target": "conservateur",
+    "type": "ges",
+    "label": "recrute et forme"
+  },
+  {
+    "source": "inp",
+    "target": "restaurateur",
+    "type": "ges",
+    "label": "forme"
+  },
+  {
+    "source": "citearchi",
+    "target": "archpat",
+    "type": "ges",
+    "label": "forme (École de Chaillot)"
+  },
+  {
+    "source": "acmh",
+    "target": "mhclasse",
+    "type": "ges",
+    "label": "maîtrise d’œuvre (État)"
+  },
+  {
+    "source": "archpat",
+    "target": "mhclasse",
+    "type": "ges",
+    "label": "maîtrise d’œuvre (hors État)"
+  },
+  {
+    "source": "udap",
+    "target": "abords",
+    "type": "ges"
+  },
+  {
+    "source": "p175",
+    "target": "drac",
+    "type": "fin"
+  },
+  {
+    "source": "p175",
+    "target": "cmn",
+    "type": "fin"
+  },
+  {
+    "source": "p175",
+    "target": "mnep",
+    "type": "fin"
+  },
+  {
+    "source": "p175",
+    "target": "inrap",
+    "type": "fin"
+  },
+  {
+    "source": "p175",
+    "target": "subvmh",
+    "type": "fin"
+  },
+  {
+    "source": "subvmh",
+    "target": "mhclasse",
+    "type": "fin"
+  },
+  {
+    "source": "subvmh",
+    "target": "mhinscrit",
+    "type": "fin"
+  },
+  {
+    "source": "subvmh",
+    "target": "commune",
+    "type": "fin"
+  },
+  {
+    "source": "fip",
+    "target": "commune",
+    "type": "fin"
+  },
+  {
+    "source": "region",
+    "target": "fip",
+    "type": "fin",
+    "label": "cofinance"
+  },
+  {
+    "source": "region",
+    "target": "fram",
+    "type": "fin",
+    "label": "cofinance"
+  },
+  {
+    "source": "region",
+    "target": "frar",
+    "type": "fin",
+    "label": "cofinance"
+  },
+  {
+    "source": "fram",
+    "target": "musterr",
+    "type": "fin"
+  },
+  {
+    "source": "frar",
+    "target": "musterr",
+    "type": "fin"
+  },
+  {
+    "source": "fondspat",
+    "target": "tresor",
+    "type": "fin"
+  },
+  {
+    "source": "rap",
+    "target": "archprev",
+    "type": "fin"
+  },
+  {
+    "source": "rap",
+    "target": "inrap",
+    "type": "fin"
+  },
+  {
+    "source": "loto",
+    "target": "fdp",
+    "type": "fin"
+  },
+  {
+    "source": "fdp",
+    "target": "commune",
+    "type": "fin",
+    "label": "souscriptions"
+  },
+  {
+    "source": "mecenat",
+    "target": "fdp",
+    "type": "fin"
+  },
+  {
+    "source": "mecenat",
+    "target": "mnep",
+    "type": "fin"
+  },
+  {
+    "source": "mecenat",
+    "target": "cmn",
+    "type": "fin"
+  },
+  {
+    "source": "fondent",
+    "target": "fdp",
+    "type": "fin"
+  },
+  {
+    "source": "fmh",
+    "target": "mhclasse",
+    "type": "fin"
+  },
+  {
+    "source": "detr",
+    "target": "commune",
+    "type": "fin"
+  },
+  {
+    "source": "feder",
+    "target": "region",
+    "type": "fin"
+  },
+  {
+    "source": "ue",
+    "target": "feder",
+    "type": "fin"
+  },
+  {
+    "source": "dept",
+    "target": "caue",
+    "type": "fin",
+    "label": "taxe d’aménagement"
+  },
+  {
+    "source": "dept",
+    "target": "commune",
+    "type": "fin",
+    "label": "aides au patrimoine"
+  },
+  {
+    "source": "region",
+    "target": "commune",
+    "type": "fin",
+    "label": "aides au patrimoine"
+  },
+  {
+    "source": "tarifdiff",
+    "target": "mnep",
+    "type": "fin"
+  },
+  {
+    "source": "tarifdiff",
+    "target": "versailles",
+    "type": "fin"
+  },
+  {
+    "source": "tarifdiff",
+    "target": "chambord",
+    "type": "fin"
+  },
+  {
+    "source": "tarifdiff",
+    "target": "cmn",
+    "type": "fin"
+  },
+  {
+    "source": "ressources",
+    "target": "mnep",
+    "type": "fin"
+  },
+  {
+    "source": "ressources",
+    "target": "cmn",
+    "type": "fin"
+  },
+  {
+    "source": "dation",
+    "target": "mnep",
+    "type": "fin",
+    "label": "enrichit les collections"
+  },
+  {
+    "source": "garantie",
+    "target": "mdf",
+    "type": "fin",
+    "label": "expositions"
+  },
+  {
+    "source": "ffsam",
+    "target": "musterr",
+    "type": "fin",
+    "label": "dons, acquisitions"
+  },
+  {
+    "source": "mecenat",
+    "target": "tresor",
+    "type": "fin",
+    "label": "réduction de 90 % pour un trésor national"
+  },
+  {
+    "source": "g8",
+    "target": "demeure",
+    "type": "res"
+  },
+  {
+    "source": "g8",
+    "target": "vmf",
+    "type": "res"
+  },
+  {
+    "source": "g8",
+    "target": "mpf",
+    "type": "res"
+  },
+  {
+    "source": "g8",
+    "target": "rempart",
+    "type": "res"
+  },
+  {
+    "source": "g8",
+    "target": "sitesmon",
+    "type": "res"
+  },
+  {
+    "source": "g8",
+    "target": "patenv",
+    "type": "res"
+  },
+  {
+    "source": "g8",
+    "target": "cpjf",
+    "type": "res"
+  },
+  {
+    "source": "sitescites",
+    "target": "commune",
+    "type": "res"
+  },
+  {
+    "source": "pbvf",
+    "target": "commune",
+    "type": "res"
+  },
+  {
+    "source": "pcc",
+    "target": "commune",
+    "type": "res"
+  },
+  {
+    "source": "icom",
+    "target": "icomfr",
+    "type": "res"
+  },
+  {
+    "source": "icomos",
+    "target": "icomosfr",
+    "type": "res"
+  },
+  {
+    "source": "admical",
+    "target": "fondent",
+    "type": "res"
+  },
+  {
+    "source": "afroa",
+    "target": "regisseur",
+    "type": "res"
+  },
+  {
+    "source": "ffcr",
+    "target": "restaurateur",
+    "type": "res"
+  },
+  {
+    "source": "anabf",
+    "target": "abf",
+    "type": "res"
+  },
+  {
+    "source": "ordre",
+    "target": "archpat",
+    "type": "res"
+  },
+  {
+    "source": "ordre",
+    "target": "acmh",
+    "type": "res"
+  },
+  {
+    "source": "fems",
+    "target": "musterr",
+    "type": "res"
+  },
+  {
+    "source": "mc",
+    "target": "g8",
+    "type": "lien",
+    "label": "préside"
+  },
+  {
+    "source": "mc",
+    "target": "loto",
+    "type": "lien",
+    "label": "comité de sélection"
+  },
+  {
+    "source": "spr",
+    "target": "psmv",
+    "type": "lien",
+    "label": "documents de gestion"
+  },
+  {
+    "source": "malraux",
+    "target": "spr",
+    "type": "lien",
+    "label": "s’applique en SPR"
+  },
+  {
+    "source": "regimemh",
+    "target": "mhclasse",
+    "type": "lien"
+  },
+  {
+    "source": "regimemh",
+    "target": "mhinscrit",
+    "type": "lien"
+  },
+  {
+    "source": "aliph",
+    "target": "unesco",
+    "type": "lien"
+  },
+  {
+    "source": "abfpm",
+    "target": "pm",
+    "type": "lien",
+    "label": "gestionnaires"
+  },
+  {
+    "source": "rgsf",
+    "target": "grandsite",
+    "type": "lien"
+  },
+  {
+    "source": "aaf",
+    "target": "ad",
+    "type": "lien"
+  },
+  {
+    "source": "aaf",
+    "target": "an",
+    "type": "lien"
+  },
+  {
+    "source": "gmh",
+    "target": "mhclasse",
+    "type": "lien",
+    "label": "entreprises de restauration"
+  },
+  {
+    "source": "abfbib",
+    "target": "abf",
+    "type": "lien",
+    "label": "même sigle !"
+  },
+  {
+    "source": "icomfr",
+    "target": "mdf",
+    "type": "lien"
+  },
+  {
+    "source": "icomosfr",
+    "target": "pm",
+    "type": "lien"
+  },
+  {
+    "source": "cnfu",
+    "target": "unesco",
+    "type": "lien"
+  },
+  {
+    "source": "cnfu",
+    "target": "drvpci",
+    "type": "lien",
+    "label": "rapports périodiques"
+  },
+  {
+    "source": "meae",
+    "target": "cnfu",
+    "type": "lien"
+  },
+  {
+    "source": "affectataire",
+    "target": "commune",
+    "type": "lien",
+    "label": "églises communales"
+  },
+  {
+    "source": "minint",
+    "target": "affectataire",
+    "type": "lien",
+    "label": "Bureau central des cultes"
+  },
+  {
+    "source": "opr",
+    "target": "affectataire",
+    "type": "lien"
+  },
+  {
+    "source": "ocbc",
+    "target": "objetmh",
+    "type": "lien",
+    "label": "vols"
+  },
+  {
+    "source": "ocbc",
+    "target": "tresor",
+    "type": "lien",
+    "label": "trafic"
+  },
+  {
+    "source": "caoa",
+    "target": "crmh",
+    "type": "lien"
+  },
+  {
+    "source": "caoa",
+    "target": "dept",
+    "type": "lien",
+    "label": "souvent employé par"
+  },
+  {
+    "source": "restaurateur",
+    "target": "mdf",
+    "type": "lien",
+    "label": "seuls habilités"
+  },
+  {
+    "source": "restaurateur",
+    "target": "c2rmf",
+    "type": "lien"
+  },
+  {
+    "source": "regisseur",
+    "target": "conservateur",
+    "type": "lien"
+  },
+  {
+    "source": "regisseur",
+    "target": "garantie",
+    "type": "lien"
+  },
+  {
+    "source": "conservateur",
+    "target": "mdf",
+    "type": "lien",
+    "label": "responsable scientifique"
+  },
+  {
+    "source": "animateur",
+    "target": "vpah",
+    "type": "lien"
+  },
+  {
+    "source": "sitescites",
+    "target": "vpah",
+    "type": "lien"
+  },
+  {
+    "source": "sitescites",
+    "target": "spr",
+    "type": "lien"
+  },
+  {
+    "source": "lrmh",
+    "target": "mhclasse",
+    "type": "lien",
+    "label": "expertise des matériaux"
+  },
+  {
+    "source": "oppic",
+    "target": "mhclasse",
+    "type": "lien",
+    "label": "maîtrise d’ouvrage déléguée"
+  },
+  {
+    "source": "coe",
+    "target": "jep",
+    "type": "lien"
+  },
+  {
+    "source": "ue",
+    "target": "jep",
+    "type": "lien"
+  },
+  {
+    "source": "europanostra",
+    "target": "ue",
+    "type": "lien",
+    "label": "Prix européens du patrimoine"
+  },
+  {
+    "source": "ensa",
+    "target": "sarchi",
+    "type": "lien"
+  },
+  {
+    "source": "ordre",
+    "target": "sarchi",
+    "type": "lien"
+  },
+  {
+    "source": "caue",
+    "target": "sarchi",
+    "type": "lien"
+  },
+  {
+    "source": "epcc",
+    "target": "commune",
+    "type": "lien"
+  },
+  {
+    "source": "epcc",
+    "target": "region",
+    "type": "lien"
+  },
+  {
+    "source": "parismusees",
+    "target": "mdf",
+    "type": "lien"
+  },
+  {
+    "source": "musterr",
+    "target": "mdf",
+    "type": "lien"
+  },
+  {
+    "source": "mnep",
+    "target": "mdf",
+    "type": "lien"
+  },
+  {
+    "source": "mnscn",
+    "target": "mdf",
+    "type": "lien"
+  },
+  {
+    "source": "institut",
+    "target": "mdf",
+    "type": "lien",
+    "label": "musée Condé, Jacquemart-André"
+  },
+  {
+    "source": "fmh",
+    "target": "demeure",
+    "type": "lien"
+  },
+  {
+    "source": "chambord",
+    "target": "domnat",
+    "type": "lien"
+  },
+  {
+    "source": "ethnopole",
+    "target": "invpci",
+    "type": "lien"
+  },
+  {
+    "source": "conseillerethno",
+    "target": "invpci",
+    "type": "lien"
+  },
+  {
+    "source": "conseillerethno",
+    "target": "drvpci",
+    "type": "lien"
+  },
+  {
+    "source": "c2rmf",
+    "target": "mdf",
+    "type": "lien",
+    "label": "au service des"
+  },
+  {
+    "source": "an",
+    "target": "francearchives",
+    "type": "lien"
+  },
+  {
+    "source": "ad",
+    "target": "francearchives",
+    "type": "lien"
+  },
+  {
+    "source": "lpe",
+    "target": "mc",
+    "type": "lien",
+    "label": "présélection nationale"
+  },
+  {
+    "source": "jardin",
+    "target": "cpjf",
+    "type": "lien"
+  },
+  {
+    "source": "rdvj",
+    "target": "cpjf",
+    "type": "lien"
+  },
+  {
+    "source": "prefdep",
+    "target": "cdnps",
+    "type": "lien",
+    "label": "préside"
+  },
+  {
+    "source": "ecolelouvre",
+    "target": "conservateur",
+    "type": "lien",
+    "label": "prépare aux concours"
+  },
+  {
+    "source": "cnfpt",
+    "target": "conservateur",
+    "type": "lien",
+    "label": "conservateurs territoriaux"
+  },
+  {
+    "source": "cmn",
+    "target": "tarifdiff",
+    "type": "lien"
+  },
+  {
+    "source": "paris",
+    "target": "mhclasse",
+    "type": "lien",
+    "label": "propriétaire de nombreux MH"
+  },
+  {
+    "source": "paris",
+    "target": "affectataire",
+    "type": "lien",
+    "label": "églises parisiennes"
+  },
+  {
+    "source": "mpp",
+    "target": "pop",
+    "type": "lien",
+    "label": "base Mémoire"
+  },
+  {
+    "source": "museesarmees",
+    "target": "mdf",
+    "type": "lien"
+  },
+  {
+    "source": "mobilier",
+    "target": "mdf",
+    "type": "lien"
+  },
+  {
+    "source": "shd",
+    "target": "mdh",
+    "type": "lien"
+  },
+  {
+    "source": "civs",
+    "target": "smf",
+    "type": "lien"
+  },
+  {
+    "source": "codepat",
+    "target": "mc",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "dgpa",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "drac",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "crmh",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "sra",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "udap",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "abf",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "caoa",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "cnpa",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "crpa",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "hcmf",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "smf",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "siaf",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "an",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "ad",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "inrap",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "mdf",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "mhclasse",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "mhinscrit",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "objetmh",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "abords",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "spr",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "archprev",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "tresor",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "restaurateur",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "domnat",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "comsci",
+    "type": "loi"
+  },
+  {
+    "source": "codepat",
+    "target": "cctn",
+    "type": "loi"
+  },
+  {
+    "source": "codeenv",
+    "target": "siteclasse",
+    "type": "loi"
+  },
+  {
+    "source": "codeenv",
+    "target": "dreal",
+    "type": "loi"
+  },
+  {
+    "source": "codeenv",
+    "target": "cdnps",
+    "type": "loi"
+  },
+  {
+    "source": "codeenv",
+    "target": "cssp",
+    "type": "loi"
+  },
+  {
+    "source": "codeenv",
+    "target": "grandsite",
+    "type": "loi"
+  },
+  {
+    "source": "codeenv",
+    "target": "mte",
+    "type": "loi"
+  },
+  {
+    "source": "codeurb",
+    "target": "commune",
+    "type": "loi"
+  },
+  {
+    "source": "codeurb",
+    "target": "abf",
+    "type": "loi"
+  },
+  {
+    "source": "codeurb",
+    "target": "abords",
+    "type": "loi"
+  },
+  {
+    "source": "codeurb",
+    "target": "spr",
+    "type": "loi"
+  },
+  {
+    "source": "codeurb",
+    "target": "psmv",
+    "type": "loi"
+  },
+  {
+    "source": "codeurb",
+    "target": "udap",
+    "type": "loi"
+  },
+  {
+    "source": "cgppp",
+    "target": "mdf",
+    "type": "loi",
+    "label": "domaine public"
+  },
+  {
+    "source": "cgppp",
+    "target": "mnep",
+    "type": "loi",
+    "label": "domaine public"
+  },
+  {
+    "source": "cgppp",
+    "target": "mnscn",
+    "type": "loi",
+    "label": "domaine public"
+  },
+  {
+    "source": "cgppp",
+    "target": "musterr",
+    "type": "loi",
+    "label": "domaine public"
+  },
+  {
+    "source": "cgppp",
+    "target": "an",
+    "type": "loi",
+    "label": "domaine public"
+  },
+  {
+    "source": "cgppp",
+    "target": "ad",
+    "type": "loi",
+    "label": "domaine public"
+  },
+  {
+    "source": "cgppp",
+    "target": "domnat",
+    "type": "loi",
+    "label": "domaine public"
+  },
+  {
+    "source": "cgppp",
+    "target": "bnf",
+    "type": "loi",
+    "label": "domaine public"
+  },
+  {
+    "source": "cgi",
+    "target": "mecenat",
+    "type": "loi"
+  },
+  {
+    "source": "cgi",
+    "target": "malraux",
+    "type": "loi"
+  },
+  {
+    "source": "cgi",
+    "target": "regimemh",
+    "type": "loi"
+  },
+  {
+    "source": "cgi",
+    "target": "dation",
+    "type": "loi"
+  },
+  {
+    "source": "cgi",
+    "target": "labelfdp",
+    "type": "loi"
+  },
+  {
+    "source": "cgi",
+    "target": "fdp",
+    "type": "loi"
+  },
+  {
+    "source": "codepenal",
+    "target": "ocbc",
+    "type": "loi"
+  },
+  {
+    "source": "codepenal",
+    "target": "objetmh",
+    "type": "loi"
+  },
+  {
+    "source": "codepenal",
+    "target": "mhclasse",
+    "type": "loi"
+  },
+  {
+    "source": "codepenal",
+    "target": "tresor",
+    "type": "loi"
+  },
+  {
+    "source": "loi1905",
+    "target": "affectataire",
+    "type": "loi"
+  },
+  {
+    "source": "loi1905",
+    "target": "commune",
+    "type": "loi"
+  },
+  {
+    "source": "loi1905",
+    "target": "paris",
+    "type": "loi"
+  },
+  {
+    "source": "loi1913",
+    "target": "mhclasse",
+    "type": "loi"
+  },
+  {
+    "source": "loi1913",
+    "target": "mhinscrit",
+    "type": "loi"
+  },
+  {
+    "source": "loi1913",
+    "target": "objetmh",
+    "type": "loi"
+  },
+  {
+    "source": "loi1913",
+    "target": "abords",
+    "type": "loi"
+  },
+  {
+    "source": "loi1930",
+    "target": "siteclasse",
+    "type": "loi"
+  },
+  {
+    "source": "loi1962",
+    "target": "malraux",
+    "type": "loi"
+  },
+  {
+    "source": "loi1962",
+    "target": "spr",
+    "type": "loi",
+    "label": "secteurs sauvegardés"
+  },
+  {
+    "source": "loi1977",
+    "target": "caue",
+    "type": "loi"
+  },
+  {
+    "source": "loi1977",
+    "target": "ordre",
+    "type": "loi"
+  },
+  {
+    "source": "loi1977",
+    "target": "sarchi",
+    "type": "loi"
+  },
+  {
+    "source": "loi2001",
+    "target": "archprev",
+    "type": "loi"
+  },
+  {
+    "source": "loi2001",
+    "target": "inrap",
+    "type": "loi"
+  },
+  {
+    "source": "loi2001",
+    "target": "rap",
+    "type": "loi"
+  },
+  {
+    "source": "loi2001",
+    "target": "servarcheo",
+    "type": "loi"
+  },
+  {
+    "source": "loi2001",
+    "target": "opprive",
+    "type": "loi"
+  },
+  {
+    "source": "loi2001",
+    "target": "sra",
+    "type": "loi"
+  },
+  {
+    "source": "loi2002",
+    "target": "mdf",
+    "type": "loi"
+  },
+  {
+    "source": "loi2002",
+    "target": "hcmf",
+    "type": "loi"
+  },
+  {
+    "source": "loi2002",
+    "target": "musterr",
+    "type": "loi"
+  },
+  {
+    "source": "loi2002",
+    "target": "mnep",
+    "type": "loi"
+  },
+  {
+    "source": "loi2002",
+    "target": "comsci",
+    "type": "loi"
+  },
+  {
+    "source": "loi2002",
+    "target": "restaurateur",
+    "type": "loi"
+  },
+  {
+    "source": "loi2002",
+    "target": "conservateur",
+    "type": "loi"
+  },
+  {
+    "source": "loi2004",
+    "target": "inventaire",
+    "type": "loi"
+  },
+  {
+    "source": "loi2004",
+    "target": "region",
+    "type": "loi"
+  },
+  {
+    "source": "lcap",
+    "target": "spr",
+    "type": "loi"
+  },
+  {
+    "source": "lcap",
+    "target": "cnpa",
+    "type": "loi"
+  },
+  {
+    "source": "lcap",
+    "target": "crpa",
+    "type": "loi"
+  },
+  {
+    "source": "lcap",
+    "target": "acr",
+    "type": "loi"
+  },
+  {
+    "source": "lcap",
+    "target": "domnat",
+    "type": "loi"
+  },
+  {
+    "source": "lcap",
+    "target": "invpci",
+    "type": "loi"
+  },
+  {
+    "source": "lcap",
+    "target": "abords",
+    "type": "loi",
+    "label": "PDA"
+  },
+  {
+    "source": "lcap",
+    "target": "archprev",
+    "type": "loi",
+    "label": "mobilier présumé de l’État"
+  },
+  {
+    "source": "loi2023spol",
+    "target": "civs",
+    "type": "loi"
+  },
+  {
+    "source": "loi2023spol",
+    "target": "mnep",
+    "type": "loi"
+  },
+  {
+    "source": "loi2023spol",
+    "target": "musterr",
+    "type": "loi"
+  },
+  {
+    "source": "loi2023spol",
+    "target": "smf",
+    "type": "loi"
+  },
+  {
+    "source": "loi2023restes",
+    "target": "mnep",
+    "type": "loi"
+  },
+  {
+    "source": "loi2023restes",
+    "target": "musterr",
+    "type": "loi"
+  },
+  {
+    "source": "loi2023restes",
+    "target": "mnhn",
+    "type": "loi"
+  },
+  {
+    "source": "loicolonial",
+    "target": "mnep",
+    "type": "loi"
+  },
+  {
+    "source": "loicolonial",
+    "target": "musterr",
+    "type": "loi"
+  },
+  {
+    "source": "loicolonial",
+    "target": "mc",
+    "type": "loi"
+  },
+  {
+    "source": "conv1954",
+    "target": "marmees",
+    "type": "loi"
+  },
+  {
+    "source": "conv1954",
+    "target": "aliph",
+    "type": "loi"
+  },
+  {
+    "source": "conv1954",
+    "target": "unesco",
+    "type": "loi"
+  },
+  {
+    "source": "conv1970",
+    "target": "ocbc",
+    "type": "loi"
+  },
+  {
+    "source": "conv1970",
+    "target": "tresor",
+    "type": "loi"
+  },
+  {
+    "source": "conv1970",
+    "target": "smf",
+    "type": "loi"
+  },
+  {
+    "source": "conv1970",
+    "target": "unesco",
+    "type": "loi"
+  },
+  {
+    "source": "conv1972",
+    "target": "pm",
+    "type": "loi"
+  },
+  {
+    "source": "conv1972",
+    "target": "cpm",
+    "type": "loi"
+  },
+  {
+    "source": "conv1972",
+    "target": "mpm",
+    "type": "loi"
+  },
+  {
+    "source": "conv1972",
+    "target": "icomos",
+    "type": "loi"
+  },
+  {
+    "source": "conv1972",
+    "target": "uicn",
+    "type": "loi"
+  },
+  {
+    "source": "conv2003",
+    "target": "pciunesco",
+    "type": "loi"
+  },
+  {
+    "source": "conv2003",
+    "target": "invpci",
+    "type": "loi"
+  },
+  {
+    "source": "conv2003",
+    "target": "igcpci",
+    "type": "loi"
+  },
+  {
+    "source": "conv2003",
+    "target": "drvpci",
+    "type": "loi"
+  },
+  {
+    "source": "conv2003",
+    "target": "cnpci",
+    "type": "loi"
+  },
+  {
+    "source": "lavalette",
+    "target": "archprev",
+    "type": "loi"
+  },
+  {
+    "source": "lavalette",
+    "target": "sda",
+    "type": "loi"
+  },
+  {
+    "source": "regue",
+    "target": "tresor",
+    "type": "loi"
+  },
+  {
+    "source": "regue",
+    "target": "smf",
+    "type": "loi"
+  },
+  {
+    "source": "regue",
+    "target": "ue",
+    "type": "loi"
+  }
+]

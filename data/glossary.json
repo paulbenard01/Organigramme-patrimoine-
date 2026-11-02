@@ -1,0 +1,355 @@
+[
+  {
+    "term": "AVAP",
+    "name": "Aire de mise en valeur de l’architecture et du patrimoine",
+    "def": "Ancien dispositif (2010-2016), devenu SPR.",
+    "see": [
+      "spr"
+    ]
+  },
+  {
+    "term": "ZPPAUP",
+    "name": "Zone de protection du patrimoine architectural, urbain et paysager",
+    "def": "Ancien dispositif (1983-2010), devenu AVAP puis SPR.",
+    "see": [
+      "spr"
+    ]
+  },
+  {
+    "term": "Secteur sauvegardé",
+    "name": "Secteur sauvegardé (loi Malraux, 1962)",
+    "def": "Ancien dispositif devenu SPR en 2016.",
+    "see": [
+      "spr",
+      "loi1962"
+    ]
+  },
+  {
+    "term": "PDA",
+    "name": "Périmètre délimité des abords",
+    "def": "Remplace le rayon de 500 m autour d’un MH.",
+    "see": [
+      "abords"
+    ]
+  },
+  {
+    "term": "PLU / PLUi",
+    "name": "Plan local d’urbanisme (intercommunal)",
+    "def": "Document d’urbanisme auquel sont annexées les servitudes patrimoniales.",
+    "see": [
+      "commune",
+      "codeurb"
+    ]
+  },
+  {
+    "term": "VUE",
+    "name": "Valeur universelle exceptionnelle",
+    "def": "Critère central d’une inscription au patrimoine mondial.",
+    "see": [
+      "pm"
+    ]
+  },
+  {
+    "term": "PSC",
+    "name": "Projet scientifique et culturel",
+    "def": "Document stratégique exigé des musées de France.",
+    "see": [
+      "mdf"
+    ]
+  },
+  {
+    "term": "Récolement",
+    "name": "Récolement",
+    "def": "Vérification sur pièce et sur place de la présence et de l’état des biens inscrits à l’inventaire ; décennal pour les musées de France.",
+    "see": [
+      "mdf",
+      "regisseur"
+    ]
+  },
+  {
+    "term": "SCN",
+    "name": "Service à compétence nationale",
+    "def": "Service du ministère sans personnalité juridique propre (ex. C2RMF, Archives nationales).",
+    "see": [
+      "mnscn",
+      "c2rmf",
+      "an"
+    ]
+  },
+  {
+    "term": "EPA",
+    "name": "Établissement public administratif",
+    "def": "Personne publique autonome sous tutelle (ex. CMN, INP, Louvre).",
+    "see": [
+      "cmn",
+      "inp"
+    ]
+  },
+  {
+    "term": "EPIC",
+    "name": "Établissement public industriel et commercial",
+    "def": "Établissement public aux activités commerciales (ex. RMN-GP, Chambord).",
+    "see": [
+      "rmngp",
+      "chambord"
+    ]
+  },
+  {
+    "term": "RUP",
+    "name": "Reconnue d’utilité publique",
+    "def": "Statut d’association ou de fondation qui permet de recevoir dons et legs.",
+    "see": [
+      "fdp"
+    ]
+  },
+  {
+    "term": "CST",
+    "name": "Contrôle scientifique et technique",
+    "def": "Contrôle exercé par l’État sur les musées de France, les archives et les travaux sur MH.",
+    "see": [
+      "drac",
+      "siaf",
+      "conseillermusees"
+    ]
+  },
+  {
+    "term": "AST",
+    "name": "Autorisation de sortie temporaire",
+    "def": "Autorisation du ministre pour faire sortir un trésor national du territoire (prêt, restauration).",
+    "see": [
+      "tresor",
+      "smf"
+    ]
+  },
+  {
+    "term": "CIAP",
+    "name": "Centre d’interprétation de l’architecture et du patrimoine",
+    "def": "Équipement exigé des villes et pays d’art et d’histoire.",
+    "see": [
+      "vpah"
+    ]
+  },
+  {
+    "term": "DG2TDC",
+    "name": "Délégation générale à la transmission, aux territoires et à la démocratie culturelle",
+    "def": "Remplacée en 2025 par la DGDCER.",
+    "see": [
+      "dgdcer"
+    ]
+  },
+  {
+    "term": "DGP",
+    "name": "Direction générale des patrimoines",
+    "def": "Nom de la DGPA de 2010 à 2021.",
+    "see": [
+      "dgpa"
+    ]
+  },
+  {
+    "term": "SDAP / STAP",
+    "name": "Anciens noms de l’UDAP",
+    "def": "Service départemental puis territorial de l’architecture et du patrimoine.",
+    "see": [
+      "udap"
+    ]
+  },
+  {
+    "term": "CRPS / CDOM",
+    "name": "Anciennes commissions régionales",
+    "def": "Remplacées par la CRPA en 2016-2017.",
+    "see": [
+      "crpa"
+    ]
+  },
+  {
+    "term": "CPEI",
+    "name": "Comité du patrimoine ethnologique et immatériel",
+    "def": "Prédécesseur du Comité national du PCI.",
+    "see": [
+      "cnpci"
+    ]
+  },
+  {
+    "term": "CIRA",
+    "name": "Commission interrégionale de la recherche archéologique",
+    "def": "Remplacée par la CTRA.",
+    "see": [
+      "ctra"
+    ]
+  },
+  {
+    "term": "MAP",
+    "name": "Médiathèque de l’architecture et du patrimoine",
+    "def": "Ancien nom de la MPP.",
+    "see": [
+      "mpp"
+    ]
+  },
+  {
+    "term": "DPMA / DMPA",
+    "name": "Ancienne direction du ministère des Armées",
+    "def": "Prédécesseur de la DMCA.",
+    "see": [
+      "dmca"
+    ]
+  },
+  {
+    "term": "INMA",
+    "name": "Institut national des métiers d’art",
+    "def": "Ancien nom de l’Institut pour les savoir-faire français.",
+    "see": [
+      "isf"
+    ]
+  },
+  {
+    "term": "FNAP",
+    "name": "Fonds national pour l’archéologie préventive",
+    "def": "Alimenté par la redevance ; aide certaines fouilles.",
+    "see": [
+      "rap"
+    ]
+  },
+  {
+    "term": "FNAC",
+    "name": "Fonds national d’art contemporain",
+    "def": "Collection de l’État gérée par le CNAP.",
+    "see": [
+      "cnap"
+    ]
+  },
+  {
+    "term": "DSA",
+    "name": "Diplôme de spécialisation et d’approfondissement",
+    "def": "« Architecture et patrimoine » : diplôme des architectes du patrimoine (École de Chaillot).",
+    "see": [
+      "archpat"
+    ]
+  },
+  {
+    "term": "TREIMA",
+    "name": "Thésaurus de recherche électronique et d’imagerie en matière artistique",
+    "def": "Base des biens culturels volés gérée par l’OCBC.",
+    "see": [
+      "ocbc"
+    ]
+  },
+  {
+    "term": "LOLF",
+    "name": "Loi organique relative aux lois de finances",
+    "def": "Cadre du budget de l’État en missions et programmes (ex. P175).",
+    "see": [
+      "p175"
+    ]
+  },
+  {
+    "term": "Mérimée / Palissy / Joconde",
+    "name": "Bases nationales du patrimoine",
+    "def": "Immeubles, objets mobiliers, collections des musées de France (sur POP).",
+    "see": [
+      "pop"
+    ]
+  },
+  {
+    "term": "OGS",
+    "name": "Opération Grand Site",
+    "def": "Démarche de gestion qui peut mener au label Grand Site de France.",
+    "see": [
+      "grandsite",
+      "dreal"
+    ]
+  },
+  {
+    "term": "ZPPA",
+    "name": "Zone de présomption de prescription archéologique",
+    "def": "Zone où les projets sont transmis d’office au SRA.",
+    "see": [
+      "sra",
+      "archprev"
+    ]
+  },
+  {
+    "term": "MISSA",
+    "name": "Mission de la sécurité, de la sûreté et de l’audit",
+    "def": "Mission de la DIRI.",
+    "see": [
+      "diri"
+    ]
+  },
+  {
+    "term": "SLL",
+    "name": "Service du livre et de la lecture",
+    "def": "Service de la DGMIC, compétent pour le patrimoine écrit.",
+    "see": [
+      "dgmic"
+    ]
+  },
+  {
+    "term": "Domaine public mobilier",
+    "name": "Domaine public mobilier",
+    "def": "Biens mobiliers des personnes publiques présentant un intérêt public (collections, archives…).",
+    "see": [
+      "cgppp"
+    ]
+  },
+  {
+    "term": "Inaliénabilité",
+    "name": "Inaliénabilité",
+    "def": "Interdiction de vendre ou donner un bien du domaine public.",
+    "see": [
+      "cgppp",
+      "mdf"
+    ]
+  },
+  {
+    "term": "Imprescriptibilité",
+    "name": "Imprescriptibilité",
+    "def": "La propriété publique ne se perd pas avec le temps ; l’État peut revendiquer sans délai.",
+    "see": [
+      "cgppp"
+    ]
+  },
+  {
+    "term": "Avis conforme",
+    "name": "Avis conforme",
+    "def": "Avis que l’autorité qui décide doit suivre (ex. accord de l’ABF en SPR).",
+    "see": [
+      "abf"
+    ]
+  },
+  {
+    "term": "Servitude d’utilité publique",
+    "name": "Servitude d’utilité publique",
+    "def": "Limite au droit de propriété instituée dans l’intérêt général, annexée au PLU.",
+    "see": [
+      "abords",
+      "spr",
+      "siteclasse"
+    ]
+  },
+  {
+    "term": "Préemption",
+    "name": "Droit de préemption de l’État",
+    "def": "Possibilité pour l’État de se substituer au dernier enchérisseur lors d’une vente publique.",
+    "see": [
+      "tresor"
+    ]
+  },
+  {
+    "term": "Découverte fortuite",
+    "name": "Découverte fortuite",
+    "def": "Vestige trouvé par hasard : déclaration obligatoire au maire.",
+    "see": [
+      "archprev",
+      "sra"
+    ]
+  },
+  {
+    "term": "OIPM",
+    "name": "Œuvre d’intérêt patrimonial majeur",
+    "def": "Bien qu’une entreprise peut acquérir avec un avantage fiscal à condition de le prêter ou de l’exposer.",
+    "see": [
+      "tresor",
+      "mecenat"
+    ]
+  }
+]
