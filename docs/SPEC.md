@@ -13,11 +13,22 @@ Donner en quelques secondes la réponse à trois questions face à un sigle ou u
 ## Vues
 
 ### Carte mentale (vue d'ouverture)
-- Racine « Patrimoine en France » au centre ; les 6 strates d'acteurs à droite (international → collectivités), les 6 strates d'instruments à gauche (statuts → outils).
-- Toucher une branche la déplie (groupes et acteurs) et recentre ; la toucher à nouveau la replie. Le nombre d'éléments repliés s'affiche (« +24 »).
-- Toucher un acteur : ouvre sa fiche, déplie les branches de tous ses voisins, dessine les liens typés (couleur et pointillés selon le type, flèche vers la cible) et cadre l'ensemble.
-- Boutons : Déplier tout, Replier, Recentrer, zoom − et +. Pincer ou molette pour zoomer, glisser pour se déplacer.
-- La recherche déplie et met en évidence les résultats.
+Deux modes. Une phrase au-dessus de la carte dit toujours comment la lire.
+
+**Vue d'ensemble (arbre)**
+- Racine « Patrimoine en France » au centre ; « Les acteurs · qui agit » à droite (international → collectivités), « Les instruments · avec quoi » à gauche (statuts → outils).
+- Strates en pastilles colorées avec leur nombre d'éléments ; groupes ; éléments en étiquettes (sigle + libellé court).
+- Toucher une strate l'ouvre et referme les autres (une seule à la fois), affiche sa description et cadre la branche. « Déplier tout » ouvre tout.
+- Sous 700 px de large : arbre en retrait, de haut en bas (acteurs puis instruments), lisible sans zoomer.
+- La recherche ouvre les branches des résultats et les surligne ; `Entrée` ouvre le premier.
+
+**Vue « liens » (un élément au centre)**
+- Toucher un élément : il passe au centre (sigle, nom, nature, image si disponible).
+- À gauche, ce qui agit sur lui ; à droite, ce sur quoi il agit. Chaque type de relation est une étiquette colorée (« Sous la tutelle de », « Accorde ou prononce », « Textes applicables »…) avec ses éléments en dessous et la précision du lien en italique.
+- Plus de 12 éléments dans un groupe : 10 affichés, puis « + N autres ».
+- Toucher un voisin s'y déplace ; le fil d'Ariane (« ← Vue d'ensemble › MC › DGPA ») permet de revenir.
+- Sous 700 px : relations entrantes en haut, sortantes en bas. Sur téléphone, la fiche ne s'ouvre qu'en touchant la carte centrale.
+- Boutons : Recentrer, zoom − et +. Pincer ou molette pour zoomer, glisser pour se déplacer.
 
 ### Strates
 - 12 strates horizontales de l'international au local, puis statuts, financements, société civile, métiers, textes, outils.
@@ -44,11 +55,17 @@ Trombinoscope par niveau (international, gouvernement, ministère, commissions, 
 ### Glossaire
 Tous les sigles des nœuds + termes hors nœuds (anciens sigles, notions juridiques), classés par lettre.
 
+### Images
+- Photothèque des images libres (Wikipédia / Wikimedia Commons) associées aux nœuds, musées et personnes, filtrable (institutions, musées, personnes, sans image) et liste complète des crédits.
+- Toucher une vignette ouvre une visionneuse : image, auteur, licence, article source, lien vers la fiche, et un **chercheur** en direct (Articles Wikipédia ou Wikimedia Commons).
+- « Utiliser » garde une image dans le navigateur (mention « choix local ») ; « Copier » donne la ligne JSON à ajouter à `data/pictures.json`.
+- Les images apparaissent aussi dans la fiche, la vue « liens », les musées et le trombinoscope.
+
 ## Recherche
 Un champ unique, filtre la vue courante (insensible aux accents). Sur la carte, `Entrée` ouvre le premier résultat. `/` place le curseur dans le champ.
 
 ## Navigation
-Vue courante dans le hash (`#mindmap` par défaut, `#carte` pour les strates, `#musees`, `#qui`, `#droit`, `#parcours`, `#glossaire`). Sur mobile, changer de vue ferme la fiche.
+Vue courante dans le hash (`#mindmap` par défaut, `#carte` pour les strates, `#musees`, `#qui`, `#droit`, `#parcours`, `#glossaire`, `#images`), suivie de l'élément ouvert : `#mindmap/drac`. Sur mobile, changer de vue ferme la fiche.
 
 ## Hors périmètre (pour l'instant)
 Édition dans l'interface, comptes, synchronisation, données en temps réel.
@@ -57,7 +74,7 @@ Vue courante dans le hash (`#mindmap` par défaut, `#carte` pour les strates, `#
 
 1. **Mode révision des sigles** : cartes « sigle → nom complet → rôle », tirées des nœuds, avec score local.
 2. **Annuaire des 13 DRAC** : une fiche par région (adresse, directeur·rice, CRMH, SRA), vérifiée et datée.
-3. **Liens profonds vers une fiche** (`#n-drac`) pour partager ou mettre en favori.
+3. ~~Liens profonds vers une fiche~~ : fait (`#mindmap/drac`).
 4. **Filtre par type de lien** sur la carte (n'afficher que « finance », par exemple).
 5. **Frise des réorganisations** : DAPA → DGP → DGPA, DG2TDC → DGDCER, CRPS → CRPA, etc.
 6. **Liens Légifrance par article** dans les fiches et la vue Droit.

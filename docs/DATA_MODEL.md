@@ -13,6 +13,7 @@ Tous les fichiers sont dans `data/`, en JSON UTF-8. `scripts/build.mjs` les vali
 | `glossary.json` | Termes hors nœuds : anciens sigles, notions juridiques |
 | `people.json` | Qui est qui (trombinoscope) |
 | `museums.json` | Vue Musées |
+| `pictures.json` | Images (généré par `scripts/find-pictures.mjs`, relu à la main) |
 
 ## meta.json
 
@@ -57,6 +58,7 @@ Chaque `id` a une couleur `--b-<id>` dans le template (clair et sombre).
 | `note` | non | « À savoir » : anciens noms, homonymes, points à vérifier |
 | `url` | non | Site officiel (https) |
 | `examples` | non | `{ count?, items?, registry?: { label, url } }` pour les statuts, labels et listes |
+| `wiki` | non | Titre exact de l'article fr.wikipedia.org à utiliser pour chercher l'image (sinon : recherche sur `name`) |
 
 Exemple :
 
@@ -131,7 +133,8 @@ Les sigles des nœuds entrent automatiquement dans le glossaire : n'ajoutez ici 
 | `since` | non | Date ou période vérifiée |
 | `source` | recommandé | URL de la source de vérification |
 | `note` | non | Réserve, point à vérifier |
-| `photo` | non | Chemin d'image ; à défaut, initiales |
+| `photo` | non | Chemin d'image local ; `pictures.json` est prioritaire ; à défaut, initiales |
+| `wiki` | non | Titre exact de l'article Wikipédia pour la recherche d'image |
 
 ## museums.json
 
@@ -145,3 +148,37 @@ Les sigles des nœuds entrent automatiquement dans le glossaire : n'ajoutez ici 
 | `dir` | non | Direction, seulement si vérifiée |
 | `mdf` | non | `true` si appellation Musée de France |
 | `note`, `url` | non | Complément, site officiel |
+| `wiki` | non | Titre exact de l'article Wikipédia pour la recherche d'image |
+
+## pictures.json
+
+Un objet dont les clés désignent l'élément illustré : `n:<id du nœud>`, `m:<slug du nom du musée>`, `p:<slug du nom de la personne>` (slug : sans accents, minuscules, mots séparés par `-`, ex. `m:musee-du-louvre`).
+
+```json
+{
+  "n:mc": {
+    "file": "Ministère_de_la_Culture.svg",
+    "title": "Ministère de la Culture (France)",
+    "match": "auto",
+    "checked": "2026-11-02",
+    "thumb": "https://upload.wikimedia.org/…/400px-….png",
+    "commons": "https://commons.wikimedia.org/wiki/File:…",
+    "artist": "Gouvernement de la République française",
+    "license": "Licence Ouverte",
+    "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+  },
+  "n:dgpa": { "none": true, "why": "portrait d’un ancien directeur" },
+  "n:drac": { "file": "Choisi_sur_Commons.jpg", "pinned": true }
+}
+```
+
+| Champ | Rôle |
+|---|---|
+| `file` | Nom du fichier sur Wikimedia Commons |
+| `title` | Article Wikipédia d'où vient l'image (recherche automatique) |
+| `match` | `auto` (recherche sur le nom) ou `wiki` (champ `wiki` de l'élément) |
+| `checked` | Date de relecture humaine ; sans elle, une image `auto` est marquée « à vérifier » |
+| `pinned` | Choix manuel : le script ne change pas le fichier, il complète crédits et vignette (`--meta`) |
+| `none` | Pas d'image (le script ne cherche plus) ; `why` explique pourquoi |
+| `thumb`, `w`, `h` | Vignette (400 px) et dimensions |
+| `commons`, `artist`, `license`, `licenseUrl` | Crédit affiché sous l'image (obligatoire pour le build) |

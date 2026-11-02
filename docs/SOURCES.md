@@ -35,6 +35,10 @@ Voir le champ `source` de chaque entrée de `data/people.json`. Points à revér
 - Présidence de l'INRAP (offre d'emploi publiée en 2026).
 - Présidence de la CNPA après le renouvellement sénatorial de septembre 2026.
 
+## Images
+
+Les images de `data/pictures.json` viennent de Wikimedia Commons, via l'image principale de l'article fr.wikipedia.org correspondant (recherche du 2 novembre 2026). Chaque image garde son auteur et sa licence, affichés sous l'image et dans la vue Images (« Crédits des images »). 100 images trouvées automatiquement ; 15 écartées à la relecture des titres (portrait d'un ancien directeur pour la DGPA, fonds belge homonyme pour le Fonds du patrimoine, cartes politiques pour régions et départements, photos sans rapport…) ; 85 retenues.
+
 ## Restitutions
 
 | Point | Source |

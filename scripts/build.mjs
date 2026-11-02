@@ -10,6 +10,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const read = (f) => JSON.parse(fs.readFileSync(path.join(root, "data", f + ".json"), "utf8"));
 const FILES = ["meta", "bands", "nodes", "edges", "parcours", "legal", "glossary", "people", "museums"];
 const data = Object.fromEntries(FILES.map((f) => [f, read(f)]));
+// Images (facultatif) : data/pictures.json, produit par scripts/find-pictures.mjs
+data.pictures = fs.existsSync(path.join(root, "data", "pictures.json")) ? read("pictures") : {};
 
 const REL_TYPES = ["tut", "oct", "avis", "ges", "fin", "res", "loi", "lien"];
 const errors = [];
@@ -78,6 +80,17 @@ for (const m of data.museums) {
   if (m.owner && !has(m.owner)) err(`musée ${m.name}: rattachement inconnu ${m.owner}`);
 }
 
+// pictures
+const slug = (s) => String(s || "").normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const picKeys = new Set([...data.nodes.map((n) => "n:" + n.id), ...data.museums.map((m) => "m:" + slug(m.name)), ...data.people.map((p) => "p:" + slug(p.name))]);
+for (const [k, v] of Object.entries(data.pictures)) {
+  if (!picKeys.has(k)) warnings.push(`image orpheline (aucun nœud, musée ou personne) : ${k}`);
+  if (v.none) continue;
+  if (!v.thumb) { warnings.push(`image ${k} sans vignette : lancez « npm run pictures -- --meta »`); continue; }
+  if (!/^https:\/\//.test(v.thumb)) err(`image ${k}: vignette non https`);
+  if (!v.license || !v.artist) err(`image ${k}: auteur ou licence manquant (crédit obligatoire)`);
+}
+
 // key roles per level
 for (const lvl of data.meta.keyRoles || []) for (const r of lvl.roles) if (!has(r.node)) err(`rôle « ${r.title} » : nœud inconnu ${r.node}`);
 
@@ -87,7 +100,7 @@ if (errors.length) {
   console.error(`\n${errors.length} erreur(s). Build interrompu.`);
   process.exit(1);
 }
-console.log(`✔ Données valides : ${data.nodes.length} nœuds, ${data.edges.length} liens, ${data.parcours.length} parcours, ${data.legal.length} thèmes juridiques, ${data.glossary.length} termes, ${data.people.length} personnes, ${data.museums.length} musées.`);
+console.log(`✔ Données valides : ${data.nodes.length} nœuds, ${data.edges.length} liens, ${data.parcours.length} parcours, ${data.legal.length} thèmes juridiques, ${data.glossary.length} termes, ${data.people.length} personnes, ${data.museums.length} musées, ${Object.values(data.pictures).filter((v) => v.thumb).length} images.`);
 
 if (process.argv.includes("--check")) process.exit(0);
 

@@ -6,19 +6,20 @@ Instructions pour Claude Code. Lis ce fichier en entier avant toute modification
 
 Une app web en une seule page, en français, qui cartographie l'écosystème du patrimoine en France : institutions, instances consultatives, statuts et labels, financements, associations, métiers, textes juridiques, musées et personnes clés. Elle sert d'outil d'orientation personnel à un étudiant de Master 2 en gestion du patrimoine culturel (Paris 1), qui croise chaque jour des sigles du ministère de la Culture.
 
-Sept vues : **Carte mentale** (vue d'ouverture, arbre dépliable avec liens transversaux), **Strates** (liste par couches + liens dessinés), **Musées**, **Qui est qui** (trombinoscope), **Droit** (légalité patrimoniale), **Parcours** (procédures pas à pas), **Glossaire**. Une fiche latérale (bureau) ou en feuille basse (mobile) s'ouvre sur chaque élément.
+Huit vues : **Carte mentale** (vue d'ouverture : arbre d'ensemble, puis vue « liens » centrée sur un élément), **Strates** (liste par couches + liens dessinés), **Musées**, **Qui est qui** (trombinoscope), **Droit** (légalité patrimoniale), **Parcours** (procédures pas à pas), **Glossaire**, **Images** (photothèque et chercheur d'images). Une fiche latérale (bureau) ou en feuille basse (mobile) s'ouvre sur chaque élément.
 
 ## Architecture
 
 ```
-data/*.json          ← SOURCE DE VÉRITÉ (on modifie ici)
+data/*.json          ← SOURCE DE VÉRITÉ (on modifie ici) ; pictures.json = images
 src/template.html    ← interface : HTML + CSS + JS, sans dépendance
 scripts/build.mjs    ← valide les données puis les insère dans le template
-dist/index.html      ← GÉNÉRÉ, autonome (ne jamais éditer à la main)
+scripts/find-pictures.mjs ← cherche les images sur Wikipédia/Commons → data/pictures.json
+dist/index.html      ← GÉNÉRÉ, autonome (ne jamais éditer à la main, non versionné)
 docs/                ← SPEC, modèle de données, sources
 ```
 
-Seule dépendance externe : **d3 7.9.0** (cdnjs), utilisée uniquement par la carte mentale (module `MM` du template : mise en page `d3.tree` de chaque côté de la racine, zoom `d3.zoom`). Si d3 ne charge pas, la carte mentale affiche un message et les autres vues fonctionnent.
+Seule dépendance externe : **d3 7.9.0** (cdnjs), utilisée uniquement par la carte mentale (module `MM` du template : mise en page `d3.tree`, zoom `d3.zoom`). Les images sont chargées depuis `upload.wikimedia.org` ; le chercheur interroge les API de fr.wikipedia.org et commons.wikimedia.org (`origin=*`). Si d3 ne charge pas, la carte mentale affiche un message et les autres vues fonctionnent.
 
 Le build remplace le marqueur `/*__APP_DATA__*/null` du template par le JSON de tous les fichiers de `data/`. Le résultat est un fichier unique, publiable tel quel (GitHub Pages, Cloudflare Pages, artefact claude.ai).
 
@@ -28,7 +29,8 @@ Le build remplace le marqueur `/*__APP_DATA__*/null` du template par le JSON de 
 npm run check    # valide les données (ids, liens, renvois) sans construire
 npm run build    # valide puis écrit dist/index.html
 npm run serve    # sert dist/ sur http://localhost:8000
-python3 scripts/smoke.py   # test navigateur optionnel (Playwright)
+npm run pictures # cherche les images manquantes (voir « Images » ci-dessous)
+npm run smoke    # test navigateur (Playwright) ; lancé aussi en CI sur chaque PR
 ```
 
 Aucune dépendance npm. Node ≥ 18.
@@ -68,17 +70,27 @@ Les organigrammes, les nominations, les chiffres et les réformes changent souve
 - **Polices** : Spectral (titres), IBM Plex Sans (texte), IBM Plex Mono (sigles, références). Pas de nouvelle police.
 - **Couleurs de bandes** `--b-<bande>` et **couleurs de relations** `--r-<type>` : une nouvelle bande ou un nouveau type de lien exige ses deux valeurs (clair et sombre).
 - Pas de nouvelle bibliothèque externe sans raison forte (d3 est déjà là) ; version exacte épinglée sur cdnjs.
-- Carte mentale : les branches de droite sont les acteurs (`intl` à `coll`), celles de gauche les instruments (`statut` à `outils`) ; voir `RIGHT` et `OFF` dans le module `MM`. Une nouvelle bande doit être placée d'un côté.
+- Carte mentale, deux modes dans le même SVG (module `MM`) :
+  - `tree` : les branches de droite sont les acteurs (`intl` à `coll`, constante `RIGHT`), celles de gauche les instruments. Une nouvelle bande doit être placée d'un côté. Une seule strate ouverte à la fois (sauf « Déplier tout »). Sous 700 px de large, arbre en retrait vertical (`layoutV`).
+  - `focus` : l'élément choisi au centre ; à gauche les liens entrants, à droite les sortants, groupés par type (`egoGroups`), 10 éléments par groupe puis « + N autres ». Sous 700 px, entrants en haut et sortants en bas. Sur téléphone, la fiche ne s'ouvre qu'en touchant la carte centrale.
+  - Les tailles des pastilles sont mesurées (`tw`, canvas) : si tu changes une police dans le CSS `.mm-*`, change aussi `F` dans `MM`.
 - Les liens de la carte sont tracés en SVG à partir de la position réelle des puces (`draw()`), recalculés au redimensionnement : ne pas casser `#links`, `.map` ni les attributs `data-node`.
 - Accessibilité : toutes les puces sont des `<button>`, focus visible, `Échap` ferme la fiche, `/` place le curseur dans la recherche.
+- Liens profonds : le hash vaut `#vue` ou `#vue/id` (`syncHash`) ; ne pas casser ce format.
 
-## Photos du trombinoscope
+## Images
 
-Le champ facultatif `photo` d'une personne accepte un chemin relatif (ex. `assets/people/nom.jpg`). Sans photo, la carte affiche les initiales. Si des images sont ajoutées, les placer dans `assets/people/` et les copier dans `dist/` au build (à implémenter dans `build.mjs` si besoin).
+- Source unique : `data/pictures.json`, clé `n:<id>` (nœud), `m:<slug du nom>` (musée), `p:<slug du nom>` (personne). Slug = nom sans accents, minuscules, tirets.
+- `npm run pictures` cherche sur fr.wikipedia.org l'article le plus proche du nom (ou du champ `wiki` s'il existe) et prend son image principale libre, puis récupère auteur, licence et vignette sur Commons. Les entrées trouvées portent `"match": "auto"`.
+- **Relire chaque nouvelle entrée** (titre d'article retenu dans `title`) : écarter les erreurs avec `{ "none": true, "why": "…" }`, et ajouter `"checked": "AAAA-MM-JJ"` aux images relues. La page signale « à vérifier » les images automatiques non relues.
+- Choix manuel : `{ "file": "Nom_sur_Commons.jpg", "pinned": true }` puis `npm run pictures -- --meta`. Le script ne remplace jamais une entrée `pinned` ou `none`.
+- Crédit obligatoire : le build refuse une image sans `artist` ni `license`. N'utilise que des fichiers de Commons sous licence libre ; pas de logo ou de photo copiés d'un site officiel.
+- Le champ `photo` d'une personne (chemin local) reste accepté, mais l'image de `pictures.json` est prioritaire.
+- Wikimedia limite les requêtes sans User-Agent identifiable : le script en envoie un et attend entre deux appels.
 
 ## Avant de rendre une modification
 
 1. `npm run build` passe sans erreur ni avertissement nouveau.
 2. La vue modifiée s'affiche à 390 px et à 1400 px, en clair et en sombre, sans erreur dans la console.
-3. Sur la carte mentale, toucher une branche la déplie et toucher un acteur dessine ses liens et ouvre la fiche ; sur les strates, cliquer une puce fait de même ; « Afficher sur la carte » d'un parcours numérote les étapes.
+3. `npm run smoke` passe : carte mentale (strate → élément → voisin → vue d'ensemble), strates, parcours, Images, lien profond.
 4. `docs/` est à jour si le modèle de données ou une vue a changé.
