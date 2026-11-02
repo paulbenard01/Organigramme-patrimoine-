@@ -114,4 +114,10 @@ const json = JSON.stringify(data)
 const html = template.replace(marker, () => json);
 fs.mkdirSync(path.join(root, "dist"), { recursive: true });
 fs.writeFileSync(path.join(root, "dist", "index.html"), html);
+
+// Application installable : manifeste, icônes, service worker (version = empreinte de la page)
+const { createHash } = await import("node:crypto");
+const version = createHash("sha256").update(html).digest("hex").slice(0, 12);
+fs.cpSync(path.join(root, "assets"), path.join(root, "dist"), { recursive: true });
+fs.writeFileSync(path.join(root, "dist", "sw.js"), fs.readFileSync(path.join(root, "src", "sw.js"), "utf8").replace("__BUILD_VERSION__", version));
 console.log(`✔ dist/index.html écrit (${(html.length / 1024).toFixed(0)} Ko)`);

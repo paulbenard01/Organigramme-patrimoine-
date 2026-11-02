@@ -7,7 +7,14 @@
 <meta name="description" content="Carte interactive des institutions, statuts, financements et textes du patrimoine en France.">
 <meta name="theme-color" content="#EEF1F4" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0E131A" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231D3E9A'/%3E%3Cpath d='M6 25h20M8 22V13M13 22V13M19 22V13M24 22V13M5 11 16 5l11 6z' stroke='%23fff' stroke-width='2' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Patrimoine">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Spectral:ital,wght@0,500;0,600;1,500&display=swap">
@@ -342,6 +349,10 @@ button.mono{border:0; padding:0; cursor:pointer; overflow:hidden}
 .fres .acts button, .fres .acts a{font-size:.74rem; padding:4px 8px}
 .finder .help{font-size:.8rem; color:var(--muted); margin:8px 0 0}
 .finder code{font:500 .76rem var(--f-mono); background:var(--surface-2); padding:1px 4px; border-radius:3px; overflow-wrap:anywhere}
+.install{display:flex; gap:10px; align-items:center; flex-wrap:wrap; background:var(--surface); border:1px solid var(--rule); border-radius:8px; padding:10px 12px; margin:0 0 14px; font-size:.86rem}
+.install img{width:36px; height:36px; border-radius:8px; flex:none}
+.install p{margin:0; flex:1 1 200px; min-width:0}
+.install .x{border:0; background:none; color:var(--muted); cursor:pointer; font-size:1.2rem; padding:2px 6px}
 footer{padding-block:28px calc(env(safe-area-inset-bottom,0px) + 40px); border-top:1px solid var(--rule); color:var(--muted); font-size:.84rem}
 footer p{max-width:75ch; margin:6px 0}
 #app-error{padding:40px 16px; font-family:var(--f-mono)}
@@ -379,6 +390,7 @@ footer p{max-width:75ch; margin:6px 0}
 </div>
 
 <main class="gut">
+  <div class="install" id="install" hidden></div>
   <p class="status" id="status" aria-live="polite"></p>
 
   <section class="view" id="v-mindmap" aria-label="Carte mentale" data-mode="tree">
@@ -1455,6 +1467,29 @@ const DATA = /*__APP_DATA__*/null;
     if (e.key === "Escape" && state.sel) closePanel();
     if (e.key === "/" && document.activeElement.tagName !== "INPUT") { e.preventDefault(); $("#q").focus(); }
   });
+
+  /* ── Application installable ──
+     Android/Chrome : bouton « Installer » (événement beforeinstallprompt).
+     iPhone/Safari : rappel « Partager → Sur l’écran d’accueil ». Masqué une fois installée ou refusé. */
+  (function () {
+    if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(() => {});
+    const box = $("#install"), KEY = "carte-patrimoine:install-masque";
+    const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+    let dismissed = false; try { dismissed = localStorage.getItem(KEY) === "1"; } catch (e) { /* stockage indisponible */ }
+    if (standalone || dismissed) return;
+    const show = (html) => { box.innerHTML = `<img src="icons/icon-192.png" alt="">${html}<button type="button" class="x" data-install="hide" aria-label="Masquer">×</button>`; box.hidden = false; };
+    let deferred = null;
+    addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); deferred = e;
+      show(`<p><strong>Installer la carte</strong> sur votre appareil : icône sur l’écran d’accueil, ouverture plein écran, consultation hors connexion.</p><button type="button" class="btn primary" data-install="go">Installer</button>`); });
+    const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+    if (ios && /^https?:$/.test(location.protocol)) show(`<p><strong>Installer sur l’iPhone :</strong> dans Safari, touchez <strong>Partager</strong> (carré avec une flèche), puis <strong>Sur l’écran d’accueil</strong>.</p>`);
+    addEventListener("appinstalled", () => { box.hidden = true; });
+    box.addEventListener("click", async (e) => {
+      const t = e.target.closest("[data-install]"); if (!t) return;
+      if (t.dataset.install === "go" && deferred) { deferred.prompt(); await deferred.userChoice.catch(() => {}); deferred = null; box.hidden = true; return; }
+      box.hidden = true; try { localStorage.setItem(KEY, "1"); } catch (err) { /* rien */ }
+    });
+  })();
 
   route();
   applyPath();

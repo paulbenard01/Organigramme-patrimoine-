@@ -8,6 +8,14 @@ Une carte interactive, en français, de l'écosystème du patrimoine en France :
 - Vues : Carte mentale · Strates · Musées · Qui est qui · Droit · Parcours · Glossaire · Images
 - Une seule page HTML autonome, mobile d'abord, thèmes clair et sombre
 - Liens partageables vers une fiche : `#mindmap/drac`, `#carte/mhclasse`…
+- **Installable sur téléphone** et consultable hors connexion une fois ouverte
+
+## Installer sur le téléphone
+
+- **Android (Chrome)** : ouvrez le site, touchez « Installer » dans le bandeau (ou menu ⋮ → « Installer l'application »).
+- **iPhone (Safari)** : touchez Partager (carré avec une flèche) → « Sur l'écran d'accueil ».
+
+L'app s'ouvre en plein écran depuis son icône. Hors connexion, tout fonctionne sauf les images Wikimedia et le chercheur d'images.
 
 ## La carte mentale
 
@@ -60,7 +68,8 @@ Ouvrez le dossier dans Claude Code : il lit `CLAUDE.md` (conventions, protocole 
 
 ```
 data/        contenu (JSON), dont pictures.json (images)
-src/         template.html (interface)
+src/         template.html (interface), sw.js (service worker hors connexion)
+assets/      manifeste et icônes de l'app installable (copiés dans dist/)
 scripts/     build.mjs (validation + build), find-pictures.mjs (images), smoke.py (test navigateur)
 dist/        page générée (non versionnée)
 docs/        SPEC, DATA_MODEL, SOURCES
