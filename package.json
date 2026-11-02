@@ -1,0 +1,15 @@
+{
+  "name": "carte-acteurs-patrimoine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Carte interactive des acteurs, statuts, financements et textes du patrimoine en France",
+  "scripts": {
+    "check": "node scripts/build.mjs --check",
+    "build": "node scripts/build.mjs",
+    "serve": "python3 -m http.server 8000 -d dist",
+    "pictures": "node scripts/find-pictures.mjs",
+    "smoke": "python3 scripts/smoke.py"
+  },
+  "engines": { "node": ">=18" }
+}

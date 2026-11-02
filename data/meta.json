@@ -1,0 +1,128 @@
+{
+  "title": "Carte des acteurs du patrimoine",
+  "verifiedOn": "2026-11-02",
+  "verifiedLabel": "2 novembre 2026",
+  "disclaimer": "Outil d’orientation, pas une source juridique : vérifiez toujours les textes en vigueur sur Légifrance et les organigrammes officiels.",
+  "keyRoles": [
+    {
+      "level": "International",
+      "roles": [
+        {
+          "title": "Directeur·rice général·e de l’UNESCO",
+          "node": "unesco",
+          "why": "Porte l’organisation qui gère les conventions de 1972 et 2003."
+        },
+        {
+          "title": "Ambassadeur·rice, délégué·e permanent·e de la France auprès de l’UNESCO",
+          "node": "delunesco",
+          "why": "Dépose les candidatures françaises."
+        }
+      ]
+    },
+    {
+      "level": "État (national)",
+      "roles": [
+        {
+          "title": "Ministre de la Culture",
+          "node": "mc",
+          "why": "Signe classements MH, appellations Musée de France, créations de SPR."
+        },
+        {
+          "title": "Directeur·rice général·e des patrimoines et de l’architecture",
+          "node": "dgpa",
+          "why": "Pilote toute l’administration patrimoniale."
+        },
+        {
+          "title": "Chefs de service (SMF, Service du patrimoine, SIAF, architecture)",
+          "node": "sp",
+          "why": "Vos interlocuteurs de doctrine au niveau national."
+        },
+        {
+          "title": "Président·e de la CNPA (un·e parlementaire)",
+          "node": "cnpa",
+          "why": "Préside l’instance qui examine les classements."
+        }
+      ]
+    },
+    {
+      "level": "Région",
+      "roles": [
+        {
+          "title": "Préfet·e de région",
+          "node": "prefreg",
+          "why": "Signe inscriptions MH, prescriptions archéologiques, labels ACR."
+        },
+        {
+          "title": "Directeur·rice régional·e des affaires culturelles (DRAC)",
+          "node": "drac",
+          "why": "Dirige les services de l’État en région."
+        },
+        {
+          "title": "Conservateur·rice régional·e des monuments historiques",
+          "node": "crmh",
+          "why": "Instruit protections et travaux sur MH."
+        },
+        {
+          "title": "Conservateur·rice régional·e de l’archéologie",
+          "node": "sra",
+          "why": "Prescrit et contrôle l’archéologie préventive."
+        },
+        {
+          "title": "Conseiller·ère musées",
+          "node": "conseillermusees",
+          "why": "Accompagne les musées de France de la région."
+        },
+        {
+          "title": "Président·e du conseil régional et vice-président·e à la culture",
+          "node": "region",
+          "why": "Inventaire général, cofinancements, fonds européens."
+        }
+      ]
+    },
+    {
+      "level": "Département",
+      "roles": [
+        {
+          "title": "Architecte des Bâtiments de France, chef·fe de l’UDAP",
+          "node": "abf",
+          "why": "Avis sur tous les travaux en espace protégé."
+        },
+        {
+          "title": "Conservateur·rice des antiquités et objets d’art (CAOA)",
+          "node": "caoa",
+          "why": "Suit les objets mobiliers protégés, notamment dans les églises."
+        },
+        {
+          "title": "Directeur·rice des archives départementales",
+          "node": "ad",
+          "why": "Conserve les archives publiques du département."
+        },
+        {
+          "title": "Président·e du conseil départemental",
+          "node": "dept",
+          "why": "Finance CAUE, archives, aides au patrimoine."
+        }
+      ]
+    },
+    {
+      "level": "Commune",
+      "roles": [
+        {
+          "title": "Maire et adjoint·e à la culture ou au patrimoine",
+          "node": "commune",
+          "why": "Propriétaire de la plupart des églises, délivre les permis, gère les SPR."
+        },
+        {
+          "title": "Animateur·rice de l’architecture et du patrimoine",
+          "node": "animateur",
+          "why": "Pilote la médiation dans les villes et pays d’art et d’histoire."
+        },
+        {
+          "title": "Directeur·rice du musée municipal",
+          "node": "musterr",
+          "why": "Responsable scientifique des collections."
+        }
+      ]
+    }
+  ]
+}

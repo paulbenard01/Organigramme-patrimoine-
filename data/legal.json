@@ -1,0 +1,335 @@
+[
+  {
+    "id": "socle",
+    "title": "Le socle : un code et ses voisins",
+    "summary": "Le droit du patrimoine est rassemblé depuis 2004 dans le Code du patrimoine, mais une affaire concrète mobilise presque toujours un autre code.",
+    "points": [
+      "Code du patrimoine : archives, bibliothèques, musées, archéologie, MH, SPR, qualité architecturale",
+      "Code de l’environnement : sites classés et inscrits, paysages",
+      "Code de l’urbanisme : PLU, permis, avis de l’ABF",
+      "CGPPP : domaine public et collections publiques",
+      "CGI : mécénat, Malraux, MH privés, dation",
+      "Code pénal : aggravation des peines pour les atteintes aux biens culturels"
+    ],
+    "texts": [
+      "codepat",
+      "codeenv",
+      "codeurb",
+      "cgppp",
+      "cgi",
+      "codepenal"
+    ],
+    "actors": [
+      "mc",
+      "dgpa",
+      "drac"
+    ]
+  },
+  {
+    "id": "domaine",
+    "title": "Domaine public : inaliénable, imprescriptible",
+    "summary": "Les collections publiques, les archives publiques et les objets protégés appartenant à une personne publique font partie du domaine public mobilier. Ils ne peuvent être ni vendus, ni perdus par le temps.",
+    "points": [
+      "Inaliénabilité : une collection publique ne se vend pas et ne se donne pas",
+      "Imprescriptibilité : l’État peut revendiquer un bien sorti illégalement, sans limite de temps",
+      "Les collections des musées de France appartenant à une personne publique sont inaliénables ; leur déclassement est très encadré",
+      "C’est pourquoi une restitution suppose une loi, ou une loi-cadre qui l’autorise"
+    ],
+    "texts": [
+      "cgppp",
+      "codepat",
+      "loi2002"
+    ],
+    "actors": [
+      "mdf",
+      "mnep",
+      "musterr",
+      "an",
+      "ad",
+      "domnat"
+    ]
+  },
+  {
+    "id": "servitudes",
+    "title": "Servitudes patrimoniales et urbanisme",
+    "summary": "Les protections d’immeubles (MH, abords, SPR, sites) sont des servitudes d’utilité publique : elles s’imposent aux propriétaires et sont annexées au PLU.",
+    "points": [
+      "Les travaux en espace protégé passent par une autorisation d’urbanisme soumise à l’avis de l’ABF",
+      "Avis conforme : le maire doit le suivre ; avis simple : il peut s’en écarter",
+      "Recours possible devant le préfet de région, après avis de la CRPA",
+      "Les plans de gestion (PSMV, PVAP) fixent des règles précises par immeuble ou par secteur"
+    ],
+    "texts": [
+      "codepat",
+      "codeurb",
+      "lcap",
+      "loi1913",
+      "loi1930"
+    ],
+    "actors": [
+      "abf",
+      "udap",
+      "commune",
+      "crpa",
+      "prefreg",
+      "abords",
+      "spr",
+      "siteclasse"
+    ]
+  },
+  {
+    "id": "travaux",
+    "title": "Travaux sur monuments protégés",
+    "summary": "Intervenir sur un MH classé exige une autorisation, des professionnels qualifiés et le contrôle scientifique et technique de l’État.",
+    "points": [
+      "Autorisation de travaux du préfet de région pour un immeuble classé",
+      "Maîtrise d’œuvre : ACMH pour les monuments de l’État, ACMH ou architecte du patrimoine pour les autres classés",
+      "Sur un MH inscrit : autorisation d’urbanisme avec l’accord du préfet de région",
+      "Les objets mobiliers classés ne peuvent être restaurés ni déplacés sans autorisation"
+    ],
+    "texts": [
+      "codepat",
+      "loi1913"
+    ],
+    "actors": [
+      "crmh",
+      "acmh",
+      "archpat",
+      "mhclasse",
+      "mhinscrit",
+      "objetmh",
+      "gmh"
+    ]
+  },
+  {
+    "id": "archeo",
+    "title": "Archéologie : découvertes et propriété",
+    "summary": "Le sous-sol est encadré : l’État peut prescrire des fouilles, toute découverte doit être déclarée et l’usage des détecteurs de métaux est réglementé.",
+    "points": [
+      "Prescription de diagnostic et de fouille par le préfet de région (SRA)",
+      "Découverte fortuite : déclaration obligatoire au maire, transmise à l’État",
+      "Détecteurs de métaux : autorisation préalable nécessaire pour rechercher des objets archéologiques",
+      "Depuis 2016, le mobilier archéologique découvert est présumé appartenir à l’État",
+      "Biens culturels maritimes : régime propre, géré par le DRASSM"
+    ],
+    "texts": [
+      "codepat",
+      "loi2001",
+      "lcap",
+      "lavalette"
+    ],
+    "actors": [
+      "sra",
+      "prefreg",
+      "inrap",
+      "opprive",
+      "servarcheo",
+      "drassm",
+      "archprev"
+    ]
+  },
+  {
+    "id": "musees",
+    "title": "Obligations des musées de France",
+    "summary": "L’appellation crée des droits (aides, prêts) et des obligations précises, contrôlées par l’État.",
+    "points": [
+      "Inventaire réglementaire de chaque bien et récolement tous les dix ans",
+      "Avis d’une commission scientifique avant toute acquisition",
+      "Restauration réservée aux restaurateurs habilités",
+      "Personnel scientifique qualifié et projet scientifique et culturel",
+      "Prêt à l’étranger d’une collection publique : autorisation de sortie temporaire"
+    ],
+    "texts": [
+      "loi2002",
+      "codepat"
+    ],
+    "actors": [
+      "mdf",
+      "smf",
+      "conseillermusees",
+      "comsci",
+      "restaurateur",
+      "regisseur",
+      "hcmf"
+    ]
+  },
+  {
+    "id": "circulation",
+    "title": "Circulation des biens culturels et trafic",
+    "summary": "L’État contrôle la sortie des œuvres, peut retenir les plus importantes et coopère contre le trafic illicite.",
+    "points": [
+      "Certificat d’exportation au-delà de seuils d’âge et de valeur ; licence européenne pour sortir de l’UE",
+      "Refus de certificat : le bien devient trésor national, l’État a un délai pour l’acquérir",
+      "Droit de préemption de l’État lors des ventes publiques",
+      "Importation : contrôle européen de la provenance",
+      "Vols : signalement à l’OCBC, base TREIMA"
+    ],
+    "texts": [
+      "codepat",
+      "conv1970",
+      "regue",
+      "codepenal"
+    ],
+    "actors": [
+      "smf",
+      "cctn",
+      "tresor",
+      "ocbc",
+      "fondspat"
+    ]
+  },
+  {
+    "id": "restitutions",
+    "title": "Restitutions",
+    "summary": "Parce que les collections publiques sont inaliénables, rendre un bien suppose une loi. La France est passée de lois au cas par cas à des lois-cadres.",
+    "points": [
+      "Lois d’espèce : restes de Saartjie Baartman (2002), têtes maories (2010), biens restitués au Bénin et au Sénégal (2020)",
+      "Loi-cadre du 22 juillet 2023 : biens spoliés dans le contexte des persécutions antisémites (1933-1945), après avis de la CIVS",
+      "Loi-cadre du 26 décembre 2023 : restes humains, à des fins funéraires",
+      "Loi-cadre sur les biens acquis en contexte colonial : examinée au Sénat (janvier 2026), adoptée par l’Assemblée nationale (avril 2026)"
+    ],
+    "texts": [
+      "loi2023spol",
+      "loi2023restes",
+      "loicolonial",
+      "cgppp"
+    ],
+    "actors": [
+      "civs",
+      "mnep",
+      "musterr",
+      "smf",
+      "mc"
+    ]
+  },
+  {
+    "id": "archives",
+    "title": "Archives publiques",
+    "summary": "Les archives publiques appartiennent au domaine public et sont en principe librement communicables, sauf délais protecteurs.",
+    "points": [
+      "Communication libre par principe ; délais de 25, 50, 75 ou 100 ans selon la nature des informations (secret des délibérations, défense, vie privée, état civil…)",
+      "Contrôle scientifique et technique de l’État sur tous les services publics d’archives",
+      "Des archives privées peuvent être classées archives historiques"
+    ],
+    "texts": [
+      "codepat",
+      "cgppp"
+    ],
+    "actors": [
+      "siaf",
+      "an",
+      "ad",
+      "shd",
+      "csa"
+    ]
+  },
+  {
+    "id": "cultes",
+    "title": "Édifices cultuels",
+    "summary": "Héritage de 1905 : la propriété publique et l’affectation au culte coexistent.",
+    "points": [
+      "Églises antérieures à 1905 : propriété des communes ; cathédrales : propriété de l’État",
+      "Affectation au culte gratuite et permanente ; l’affectataire en règle l’usage",
+      "La commune peut financer l’entretien et la conservation de ses édifices"
+    ],
+    "texts": [
+      "loi1905"
+    ],
+    "actors": [
+      "commune",
+      "affectataire",
+      "paris",
+      "minint",
+      "opr"
+    ]
+  },
+  {
+    "id": "immateriel",
+    "title": "Patrimoine immatériel",
+    "summary": "Le PCI est reconnu dans la définition légale du patrimoine depuis 2016, mais il n’existe pas de « protection » contraignante comme pour les MH : la logique est celle de la sauvegarde par les communautés.",
+    "points": [
+      "Inventaire national participatif, fondé sur le consentement des communautés",
+      "Mesures de sauvegarde : transmission, documentation, valorisation",
+      "Rapports périodiques de la France à l’UNESCO"
+    ],
+    "texts": [
+      "conv2003",
+      "lcap"
+    ],
+    "actors": [
+      "drvpci",
+      "cnpci",
+      "invpci",
+      "pciunesco",
+      "ethnopole"
+    ]
+  },
+  {
+    "id": "penal",
+    "title": "Sanctions pénales",
+    "summary": "Les atteintes au patrimoine sont plus sévèrement punies que les atteintes aux biens ordinaires.",
+    "points": [
+      "Destruction ou dégradation d’un bien culturel protégé : jusqu’à 7 ans d’emprisonnement et 100 000 € d’amende (Code pénal, art. 322-3-1)",
+      "Vol d’un bien culturel : mêmes peines maximales (art. 311-4-2)",
+      "Travaux sans autorisation sur un MH ou en espace protégé : infractions prévues par le Code du patrimoine et le Code de l’urbanisme"
+    ],
+    "texts": [
+      "codepenal",
+      "codepat",
+      "codeurb"
+    ],
+    "actors": [
+      "ocbc",
+      "abf",
+      "crmh"
+    ]
+  },
+  {
+    "id": "fiscal",
+    "title": "Fiscalité et mécénat",
+    "summary": "Une part importante du financement passe par l’impôt : réductions, déductions et paiement en œuvres.",
+    "points": [
+      "Mécénat : 60 % pour les entreprises, 66 % pour les particuliers, dans certaines limites",
+      "90 % pour une entreprise qui aide l’État à acquérir un trésor national",
+      "Malraux en SPR, déductions pour les MH privés, label Fondation du patrimoine",
+      "Dation en paiement d’œuvres d’art"
+    ],
+    "texts": [
+      "cgi"
+    ],
+    "actors": [
+      "mecenat",
+      "malraux",
+      "regimemh",
+      "dation",
+      "labelfdp",
+      "meco"
+    ]
+  },
+  {
+    "id": "international",
+    "title": "Engagements internationaux",
+    "summary": "La France a ratifié les grandes conventions de l’UNESCO et du Conseil de l’Europe, qui s’imposent à son droit interne.",
+    "points": [
+      "1954 : protection en cas de conflit armé",
+      "1970 : lutte contre le trafic illicite",
+      "1972 : patrimoine mondial",
+      "2003 : patrimoine immatériel",
+      "La Valette (1992) : archéologie préventive"
+    ],
+    "texts": [
+      "conv1954",
+      "conv1970",
+      "conv1972",
+      "conv2003",
+      "lavalette"
+    ],
+    "actors": [
+      "unesco",
+      "coe",
+      "mpm",
+      "drvpci",
+      "aliph"
+    ]
+  }
+]

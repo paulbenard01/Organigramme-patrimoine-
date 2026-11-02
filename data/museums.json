@@ -1,0 +1,323 @@
+[
+  {
+    "name": "Musée du Louvre",
+    "city": "Paris",
+    "family": "Musées nationaux (établissements publics)",
+    "status": "Établissement public administratif",
+    "owner": "mnep",
+    "dir": "Christophe Leribault",
+    "mdf": true,
+    "note": "Tarif différencié hors EEE depuis janvier 2026 ; plan « Louvre Nouvelle Renaissance ».",
+    "url": "https://www.louvre.fr"
+  },
+  {
+    "name": "Musées d’Orsay et de l’Orangerie",
+    "city": "Paris",
+    "family": "Musées nationaux (établissements publics)",
+    "status": "Établissement public administratif",
+    "owner": "mnep",
+    "dir": "Annick Lemoine",
+    "mdf": true,
+    "url": "https://www.musee-orsay.fr"
+  },
+  {
+    "name": "Musée du quai Branly – Jacques Chirac",
+    "city": "Paris",
+    "family": "Musées nationaux (établissements publics)",
+    "status": "Établissement public administratif",
+    "owner": "mnep",
+    "dir": "Emmanuel Kasarhérou",
+    "mdf": true,
+    "note": "Musée directement concerné par les restitutions coloniales.",
+    "url": "https://www.quaibranly.fr"
+  },
+  {
+    "name": "Centre Pompidou – Musée national d’art moderne",
+    "city": "Paris",
+    "family": "Musées nationaux (établissements publics)",
+    "status": "Établissement public",
+    "owner": "mnep",
+    "mdf": true,
+    "note": "Fermé pour travaux de rénovation ; programmation hors les murs.",
+    "url": "https://www.centrepompidou.fr"
+  },
+  {
+    "name": "Château de Versailles",
+    "city": "Versailles",
+    "family": "Musées nationaux (établissements publics)",
+    "status": "Établissement public administratif",
+    "owner": "versailles",
+    "mdf": true,
+    "note": "Présidence à vérifier après le départ de Christophe Leribault pour le Louvre (février 2026).",
+    "url": "https://www.chateauversailles.fr"
+  },
+  {
+    "name": "Château de Fontainebleau",
+    "city": "Fontainebleau",
+    "family": "Musées nationaux (établissements publics)",
+    "status": "Établissement public administratif",
+    "owner": "mnep",
+    "mdf": true
+  },
+  {
+    "name": "Mucem",
+    "city": "Marseille",
+    "family": "Musées nationaux (établissements publics)",
+    "status": "Établissement public administratif",
+    "owner": "mnep",
+    "mdf": true,
+    "note": "Musée des civilisations de l’Europe et de la Méditerranée."
+  },
+  {
+    "name": "Musée national des arts asiatiques – Guimet",
+    "city": "Paris",
+    "family": "Musées nationaux (établissements publics)",
+    "status": "Établissement public administratif",
+    "owner": "mnep",
+    "mdf": true
+  },
+  {
+    "name": "Musée Rodin",
+    "city": "Paris et Meudon",
+    "family": "Musées nationaux (établissements publics)",
+    "status": "Établissement public administratif",
+    "owner": "mnep",
+    "mdf": true,
+    "note": "Financé presque entièrement par ses ressources propres."
+  },
+  {
+    "name": "Musée national Picasso-Paris",
+    "city": "Paris",
+    "family": "Musées nationaux (établissements publics)",
+    "status": "Établissement public administratif",
+    "owner": "mnep",
+    "mdf": true
+  },
+  {
+    "name": "Musée de Cluny – musée national du Moyen Âge",
+    "city": "Paris",
+    "family": "Musées nationaux (services à compétence nationale)",
+    "status": "Service à compétence nationale",
+    "owner": "mnscn",
+    "mdf": true
+  },
+  {
+    "name": "Musée d’Archéologie nationale",
+    "city": "Saint-Germain-en-Laye",
+    "family": "Musées nationaux (services à compétence nationale)",
+    "status": "Service à compétence nationale",
+    "owner": "mnscn",
+    "mdf": true
+  },
+  {
+    "name": "Musée national de la Renaissance",
+    "city": "Écouen",
+    "family": "Musées nationaux (services à compétence nationale)",
+    "status": "Service à compétence nationale",
+    "owner": "mnscn",
+    "mdf": true
+  },
+  {
+    "name": "Musée national de Préhistoire",
+    "city": "Les Eyzies",
+    "family": "Musées nationaux (services à compétence nationale)",
+    "status": "Service à compétence nationale",
+    "owner": "mnscn",
+    "mdf": true
+  },
+  {
+    "name": "Musée national des châteaux de Malmaison et de Bois-Préau",
+    "city": "Rueil-Malmaison",
+    "family": "Musées nationaux (services à compétence nationale)",
+    "status": "Service à compétence nationale",
+    "owner": "mnscn",
+    "mdf": true
+  },
+  {
+    "name": "Musée national et domaine du château de Pau",
+    "city": "Pau",
+    "family": "Musées nationaux (services à compétence nationale)",
+    "status": "Service à compétence nationale",
+    "owner": "mnscn",
+    "mdf": true
+  },
+  {
+    "name": "Musée national de céramique",
+    "city": "Sèvres",
+    "family": "Manufactures nationales",
+    "status": "Établissement public (Manufactures nationales – Sèvres & Mobilier national)",
+    "owner": "mobilier",
+    "dir": "Hervé Lemoine (président de l’établissement)",
+    "mdf": true
+  },
+  {
+    "name": "Musée national Adrien Dubouché",
+    "city": "Limoges",
+    "family": "Manufactures nationales",
+    "status": "Établissement public (Manufactures nationales – Sèvres & Mobilier national)",
+    "owner": "mobilier",
+    "mdf": true
+  },
+  {
+    "name": "Musée de l’Armée",
+    "city": "Paris (Invalides)",
+    "family": "Ministère des Armées",
+    "status": "Établissement public administratif",
+    "owner": "museesarmees",
+    "mdf": true
+  },
+  {
+    "name": "Musée national de la Marine",
+    "city": "Paris (Chaillot) et ports",
+    "family": "Ministère des Armées",
+    "status": "Établissement public administratif",
+    "owner": "museesarmees",
+    "mdf": true
+  },
+  {
+    "name": "Musée de l’Air et de l’Espace",
+    "city": "Le Bourget",
+    "family": "Ministère des Armées",
+    "status": "Établissement public administratif",
+    "owner": "museesarmees",
+    "mdf": true
+  },
+  {
+    "name": "Muséum national d’histoire naturelle",
+    "city": "Paris",
+    "family": "Recherche & sciences",
+    "status": "Grand établissement",
+    "owner": "mnhn",
+    "mdf": true
+  },
+  {
+    "name": "Musée Carnavalet – Histoire de Paris",
+    "city": "Paris",
+    "family": "Ville de Paris (Paris Musées)",
+    "status": "Musée de la Ville de Paris",
+    "owner": "parismusees",
+    "mdf": true,
+    "url": "https://www.carnavalet.paris.fr"
+  },
+  {
+    "name": "Petit Palais",
+    "city": "Paris",
+    "family": "Ville de Paris (Paris Musées)",
+    "status": "Musée de la Ville de Paris",
+    "owner": "parismusees",
+    "mdf": true
+  },
+  {
+    "name": "Musée d’Art moderne de Paris",
+    "city": "Paris",
+    "family": "Ville de Paris (Paris Musées)",
+    "status": "Musée de la Ville de Paris",
+    "owner": "parismusees",
+    "mdf": true
+  },
+  {
+    "name": "Palais Galliera",
+    "city": "Paris",
+    "family": "Ville de Paris (Paris Musées)",
+    "status": "Musée de la Ville de Paris",
+    "owner": "parismusees",
+    "mdf": true
+  },
+  {
+    "name": "Musée Cernuschi",
+    "city": "Paris",
+    "family": "Ville de Paris (Paris Musées)",
+    "status": "Musée de la Ville de Paris",
+    "owner": "parismusees",
+    "mdf": true
+  },
+  {
+    "name": "Maisons de Victor Hugo",
+    "city": "Paris et Guernesey",
+    "family": "Ville de Paris (Paris Musées)",
+    "status": "Musée de la Ville de Paris",
+    "owner": "parismusees",
+    "mdf": true
+  },
+  {
+    "name": "Musée des Beaux-Arts de Lyon",
+    "city": "Lyon",
+    "family": "Musées territoriaux",
+    "status": "Musée municipal",
+    "owner": "musterr",
+    "mdf": true
+  },
+  {
+    "name": "Palais des Beaux-Arts de Lille",
+    "city": "Lille",
+    "family": "Musées territoriaux",
+    "status": "Musée municipal",
+    "owner": "musterr",
+    "mdf": true
+  },
+  {
+    "name": "Musée Fabre",
+    "city": "Montpellier",
+    "family": "Musées territoriaux",
+    "status": "Musée de la métropole",
+    "owner": "musterr",
+    "mdf": true
+  },
+  {
+    "name": "Musée d’arts de Nantes",
+    "city": "Nantes",
+    "family": "Musées territoriaux",
+    "status": "Musée municipal",
+    "owner": "musterr",
+    "mdf": true
+  },
+  {
+    "name": "MuMa – musée d’art moderne André Malraux",
+    "city": "Le Havre",
+    "family": "Musées territoriaux",
+    "status": "Musée municipal",
+    "owner": "musterr",
+    "mdf": true
+  },
+  {
+    "name": "La Piscine – musée d’art et d’industrie André Diligent",
+    "city": "Roubaix",
+    "family": "Musées territoriaux",
+    "status": "Musée municipal",
+    "owner": "musterr",
+    "mdf": true
+  },
+  {
+    "name": "Musée des Arts décoratifs",
+    "city": "Paris",
+    "family": "Associations & fondations",
+    "status": "Association (Les Arts décoratifs)",
+    "owner": "musterr",
+    "mdf": true,
+    "note": "Exemple de musée de France géré par une personne privée à but non lucratif."
+  },
+  {
+    "name": "Musée Condé (domaine de Chantilly)",
+    "city": "Chantilly",
+    "family": "Associations & fondations",
+    "status": "Propriété de l’Institut de France",
+    "owner": "institut",
+    "mdf": true
+  },
+  {
+    "name": "Musée Jacquemart-André",
+    "city": "Paris",
+    "family": "Associations & fondations",
+    "status": "Propriété de l’Institut de France",
+    "owner": "institut",
+    "mdf": true
+  },
+  {
+    "name": "Musée Marmottan Monet",
+    "city": "Paris",
+    "family": "Associations & fondations",
+    "status": "Propriété de l’Académie des beaux-arts",
+    "owner": "institut",
+    "mdf": true
+  }
+]

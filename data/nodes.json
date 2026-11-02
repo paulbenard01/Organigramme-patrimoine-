@@ -1,0 +1,2500 @@
+[
+  {
+    "id": "unesco",
+    "band": "intl",
+    "group": "UNESCO",
+    "acronym": "UNESCO",
+    "name": "Organisation des Nations unies pour l’éducation, la science et la culture",
+    "type": "Organisation intergouvernementale",
+    "desc": "Agence de l’ONU dont le siège est à Paris. Elle porte les grandes conventions patrimoniales et réunit les comités qui inscrivent biens et pratiques sur ses listes.",
+    "roles": [
+      "Conventions de 1954 (conflits armés), 1970 (trafic illicite), 1972 (patrimoine mondial), 2001 (subaquatique), 2003 (immatériel), 2005 (diversité des expressions culturelles)",
+      "Les États parties s’engagent ; les comités décident des inscriptions"
+    ],
+    "url": "https://www.unesco.org/fr"
+  },
+  {
+    "id": "cpm",
+    "band": "intl",
+    "group": "UNESCO",
+    "acronym": "Comité PM",
+    "name": "Comité du patrimoine mondial",
+    "type": "Organe de la Convention de 1972",
+    "desc": "Réunit 21 États parties élus. Il décide chaque année des inscriptions sur la Liste du patrimoine mondial et sur la Liste du patrimoine mondial en péril.",
+    "short": "Comité du patrimoine mondial",
+    "roles": [
+      "Examine les candidatures après évaluation par l’ICOMOS ou l’UICN",
+      "Suit l’état de conservation des biens inscrits"
+    ],
+    "url": "https://whc.unesco.org/fr/comite/"
+  },
+  {
+    "id": "igcpci",
+    "band": "intl",
+    "group": "UNESCO",
+    "acronym": "Comité PCI",
+    "name": "Comité intergouvernemental de sauvegarde du patrimoine culturel immatériel",
+    "type": "Organe de la Convention de 2003",
+    "desc": "Composé de 24 États parties élus. Il inscrit les éléments sur les listes du patrimoine culturel immatériel de l’humanité et examine les rapports périodiques des États.",
+    "short": "Comité intergouvernemental du PCI",
+    "roles": [
+      "Liste représentative, Liste de sauvegarde urgente, Registre des bonnes pratiques",
+      "S’appuie sur un Organe d’évaluation des candidatures"
+    ],
+    "url": "https://ich.unesco.org/fr/comite"
+  },
+  {
+    "id": "cnfu",
+    "band": "intl",
+    "group": "UNESCO",
+    "acronym": "CNFU",
+    "name": "Commission nationale française pour l’UNESCO",
+    "type": "Commission nationale",
+    "desc": "Fait le lien entre l’UNESCO, les ministères et la société civile française (experts, réseaux, ONG). Elle est consultée sur les programmes de l’UNESCO en France.",
+    "note": "Ne pas confondre avec la Délégation permanente, qui est la représentation diplomatique."
+  },
+  {
+    "id": "delunesco",
+    "band": "intl",
+    "group": "UNESCO",
+    "acronym": "Délégation UNESCO",
+    "name": "Délégation permanente de la France auprès de l’UNESCO",
+    "type": "Représentation diplomatique (MEAE)",
+    "desc": "Ambassade de la France auprès de l’UNESCO. Elle transmet officiellement les candidatures et représente la France dans les organes de l’organisation.",
+    "short": "Délégation permanente de la France"
+  },
+  {
+    "id": "icomos",
+    "band": "intl",
+    "group": "Réseaux internationaux",
+    "acronym": "ICOMOS",
+    "name": "Conseil international des monuments et des sites",
+    "type": "ONG internationale",
+    "desc": "Organisation d’experts du patrimoine bâti, dont le secrétariat est à Charenton-le-Pont. Organe consultatif du Comité du patrimoine mondial pour les biens culturels.",
+    "roles": [
+      "Évalue les candidatures culturelles au patrimoine mondial et visite les sites",
+      "Produit des chartes doctrinales (Venise 1964, Florence 1981…)"
+    ],
+    "note": "ICOMOS France est son comité national.",
+    "url": "https://www.icomos.org/fr"
+  },
+  {
+    "id": "uicn",
+    "band": "intl",
+    "group": "Réseaux internationaux",
+    "acronym": "UICN",
+    "name": "Union internationale pour la conservation de la nature",
+    "type": "ONG internationale",
+    "desc": "Organe consultatif du Comité du patrimoine mondial pour les biens naturels. Siège à Gland (Suisse).",
+    "roles": [
+      "Évalue les candidatures naturelles et mixtes"
+    ]
+  },
+  {
+    "id": "iccrom",
+    "band": "intl",
+    "group": "Réseaux internationaux",
+    "acronym": "ICCROM",
+    "name": "Centre international d’études pour la conservation et la restauration des biens culturels",
+    "type": "Organisation intergouvernementale",
+    "desc": "Basé à Rome, il forme les professionnels de la conservation et conseille le Comité du patrimoine mondial.",
+    "roles": [
+      "Formation et renforcement des capacités",
+      "Troisième organe consultatif de la Convention de 1972"
+    ]
+  },
+  {
+    "id": "icom",
+    "band": "intl",
+    "group": "Réseaux internationaux",
+    "acronym": "ICOM",
+    "name": "Conseil international des musées",
+    "type": "ONG internationale",
+    "desc": "Réseau mondial des professionnels des musées, siège à Paris. Il a adopté en 2022 la définition du musée en vigueur et publie un code de déontologie.",
+    "roles": [
+      "Listes rouges des biens culturels en danger (lutte contre le trafic)",
+      "Comités nationaux, dont ICOM France"
+    ],
+    "url": "https://icom.museum/fr/"
+  },
+  {
+    "id": "aliph",
+    "band": "intl",
+    "group": "Réseaux internationaux",
+    "acronym": "ALIPH",
+    "name": "Alliance internationale pour la protection du patrimoine dans les zones en conflit",
+    "type": "Fondation de droit suisse",
+    "desc": "Fondation créée en 2017 à Genève à l’initiative de la France et des Émirats arabes unis. Elle finance la protection et la réhabilitation du patrimoine menacé par les conflits."
+  },
+  {
+    "id": "coe",
+    "band": "intl",
+    "group": "Conseil de l’Europe & UE",
+    "acronym": "Conseil de l’Europe",
+    "name": "Conseil de l’Europe",
+    "type": "Organisation intergouvernementale",
+    "desc": "Organisation de 46 États basée à Strasbourg, distincte de l’Union européenne. Auteur des conventions européennes sur le patrimoine.",
+    "roles": [
+      "Convention de Grenade (1985, patrimoine architectural)",
+      "Convention de La Valette (1992, archéologie)",
+      "Convention de Faro (2005, valeur du patrimoine pour la société)",
+      "Programme des Itinéraires culturels (depuis 1987)"
+    ],
+    "note": "Ne pas confondre avec le Conseil européen ni avec le Conseil de l’UE."
+  },
+  {
+    "id": "ue",
+    "band": "intl",
+    "group": "Conseil de l’Europe & UE",
+    "acronym": "UE",
+    "name": "Union européenne (Commission européenne)",
+    "type": "Union européenne",
+    "desc": "L’UE n’a qu’une compétence d’appui en matière culturelle (art. 167 TFUE) mais finance des projets et encadre la circulation des biens culturels.",
+    "roles": [
+      "Programmes Europe créative, Horizon Europe, FEDER",
+      "Label du patrimoine européen",
+      "Règlements sur l’exportation et l’importation des biens culturels"
+    ]
+  },
+  {
+    "id": "europanostra",
+    "band": "intl",
+    "group": "Conseil de l’Europe & UE",
+    "acronym": "Europa Nostra",
+    "name": "Europa Nostra",
+    "type": "Fédération européenne (ONG)",
+    "desc": "Fédération européenne d’associations du patrimoine. Elle décerne avec la Commission européenne les Prix européens du patrimoine et publie la liste des 7 sites les plus menacés d’Europe."
+  },
+  {
+    "id": "mc",
+    "band": "etat",
+    "group": "Ministère de la Culture",
+    "acronym": "Ministère",
+    "name": "Ministère de la Culture",
+    "type": "Administration centrale",
+    "desc": "Définit et conduit la politique de l’État pour les patrimoines. Le ou la ministre signe les décisions les plus lourdes : classement MH, appellation Musée de France, création d’un SPR.",
+    "short": "Ministère de la Culture",
+    "roles": [
+      "Administration centrale : Secrétariat général et quatre directions générales (DGPA, DGCA, DGMIC, DGDCER)",
+      "Services déconcentrés : les DRAC",
+      "Tutelle de nombreux opérateurs (CMN, INRAP, musées nationaux…)"
+    ],
+    "url": "https://www.culture.gouv.fr"
+  },
+  {
+    "id": "igac",
+    "band": "etat",
+    "group": "Ministère de la Culture",
+    "acronym": "IGAC",
+    "name": "Inspection générale des affaires culturelles",
+    "type": "Inspection",
+    "desc": "Contrôle et évalue les services et établissements du ministère et produit des rapports sur les politiques culturelles.",
+    "note": "L’Inspection des patrimoines et de l’architecture, elle, dépend de la DGPA (DIRI)."
+  },
+  {
+    "id": "dgpa",
+    "band": "etat",
+    "group": "Ministère de la Culture",
+    "acronym": "DGPA",
+    "name": "Direction générale des patrimoines et de l’architecture",
+    "type": "Direction générale",
+    "desc": "Direction du ministère chargée de recenser, étudier, protéger, conserver et valoriser les patrimoines, et de la politique de l’architecture. Créée en 2010 (DGP), elle a pris ce nom en 2021.",
+    "roles": [
+      "Services : architecture, Archives de France (SIAF), musées de France (SMF), patrimoine",
+      "Délégation à l’inspection, à la recherche et à l’innovation (DIRI), Mission du patrimoine mondial",
+      "Tutelle de la plupart des opérateurs patrimoniaux"
+    ],
+    "law": "Arrêté du 25 août 2025 relatif à ses missions et à son organisation",
+    "note": "182 rue Saint-Honoré, Paris 1er."
+  },
+  {
+    "id": "dgca",
+    "band": "etat",
+    "group": "Ministère de la Culture",
+    "acronym": "DGCA",
+    "name": "Direction générale de la création artistique",
+    "type": "Direction générale",
+    "desc": "Politique des arts plastiques et du spectacle vivant. Côté patrimoine, elle suit l’art contemporain public (CNAP, FRAC) et la commande publique."
+  },
+  {
+    "id": "dgmic",
+    "band": "etat",
+    "group": "Ministère de la Culture",
+    "acronym": "DGMIC",
+    "name": "Direction générale des médias et des industries culturelles",
+    "type": "Direction générale",
+    "desc": "Inclut le Service du livre et de la lecture (SLL), compétent pour le patrimoine écrit : tutelle de la BnF, bibliothèques municipales classées, numérisation."
+  },
+  {
+    "id": "dgdcer",
+    "band": "etat",
+    "group": "Ministère de la Culture",
+    "acronym": "DGDCER",
+    "name": "Direction générale de la démocratie culturelle, des enseignements et de la recherche",
+    "type": "Direction générale",
+    "desc": "Créée le 1er septembre 2025, elle reprend les missions de l’ex-DG2TDC (éducation artistique et culturelle, territoires, publics) et pilote l’enseignement supérieur et la recherche Culture.",
+    "roles": [
+      "Tutelle des écoles nationales supérieures d’architecture et de paysage",
+      "Délégation aux territoires, service de la démocratie culturelle"
+    ],
+    "note": "Remplace la DG2TDC : les documents plus anciens utilisent ce sigle."
+  },
+  {
+    "id": "smf",
+    "band": "etat",
+    "group": "DGPA : services",
+    "acronym": "SMF",
+    "name": "Service des musées de France",
+    "type": "Service de la DGPA",
+    "desc": "Pilote la politique des musées : musées nationaux, réseau des musées de France, collections et circulation des biens culturels.",
+    "roles": [
+      "Sous-direction des collections : inventaire, circulation des biens culturels (certificats, trésors nationaux), acquisitions, restauration, conservation préventive, numérique",
+      "Sous-direction de la politique des musées : pilotage des musées nationaux, réseaux, expertise muséographique et technique",
+      "Instruit l’appellation « Musée de France »"
+    ],
+    "note": "Le service (SMF) n’est pas le réseau des « musées de France »."
+  },
+  {
+    "id": "sp",
+    "band": "etat",
+    "group": "DGPA : services",
+    "acronym": "Service du patrimoine",
+    "name": "Service du patrimoine",
+    "type": "Service de la DGPA",
+    "desc": "Regroupe les monuments historiques, les espaces protégés, l’archéologie et l’Inventaire général.",
+    "roles": [
+      "Sous-direction des monuments historiques et des sites patrimoniaux",
+      "Sous-direction de l’archéologie",
+      "Mission de l’inventaire général du patrimoine culturel"
+    ]
+  },
+  {
+    "id": "sdmhsp",
+    "band": "etat",
+    "group": "DGPA : services",
+    "acronym": "SDMHSP",
+    "name": "Sous-direction des monuments historiques et des sites patrimoniaux",
+    "type": "Sous-direction",
+    "desc": "Politique nationale de protection et de conservation des MH immeubles et objets, des SPR et des abords, et suivi des biens du patrimoine mondial.",
+    "short": "Sous-direction des MH et sites patrimoniaux",
+    "roles": [
+      "Bureaux : protection des MH, conservation des MH immeubles, conservation des MH mobiliers, sites patrimoniaux et patrimoine mondial, expertise et métiers",
+      "Prépare les dossiers examinés par la CNPA"
+    ]
+  },
+  {
+    "id": "sda",
+    "band": "etat",
+    "group": "DGPA : services",
+    "acronym": "SDA",
+    "name": "Sous-direction de l’archéologie",
+    "type": "Sous-direction",
+    "desc": "Politique nationale de l’archéologie préventive et programmée, agrément des opérateurs, gestion du patrimoine archéologique.",
+    "short": "Sous-direction de l’archéologie",
+    "roles": [
+      "Bureaux : opérations et opérateurs, patrimoine archéologique, ressources",
+      "Centre national de préhistoire (grottes ornées et art rupestre)",
+      "Tutelle du DRASSM"
+    ]
+  },
+  {
+    "id": "migpc",
+    "band": "etat",
+    "group": "DGPA : services",
+    "acronym": "Mission Inventaire",
+    "name": "Mission de l’inventaire général du patrimoine culturel",
+    "type": "Mission",
+    "desc": "Fixe les normes scientifiques de l’Inventaire général, conduit depuis 2004 par les Régions, et en assure le contrôle scientifique et technique.",
+    "short": "Mission de l’inventaire général"
+  },
+  {
+    "id": "siaf",
+    "band": "etat",
+    "group": "DGPA : services",
+    "acronym": "SIAF",
+    "name": "Service interministériel des Archives de France",
+    "type": "Service de la DGPA",
+    "desc": "Définit la politique archivistique de l’État pour l’ensemble des administrations et contrôle tous les services publics d’archives.",
+    "roles": [
+      "Collecte, conservation, archivage électronique",
+      "Contrôle scientifique et technique des archives départementales, communales, régionales",
+      "Tutelle des Archives nationales ; portail FranceArchives",
+      "Centre national du microfilm et de la numérisation"
+    ]
+  },
+  {
+    "id": "sarchi",
+    "band": "etat",
+    "group": "DGPA : services",
+    "acronym": "Service de l’architecture",
+    "name": "Service de l’architecture",
+    "type": "Service de la DGPA",
+    "desc": "Politique de qualité architecturale et paysagère, profession d’architecte et commande publique (loi de 1977).",
+    "roles": [
+      "Professions, maîtrise d’œuvre et commande architecturale",
+      "Qualité de l’architecture et du paysage",
+      "Promotion de l’architecture et réseaux, dont les CAUE"
+    ]
+  },
+  {
+    "id": "diri",
+    "band": "etat",
+    "group": "DGPA : services",
+    "acronym": "DIRI",
+    "name": "Délégation à l’inspection, à la recherche et à l’innovation",
+    "type": "Délégation de la DGPA",
+    "desc": "Service transversal créé lors de la réorganisation de 2020-2021, qui réunit inspection, recherche et innovation.",
+    "roles": [
+      "Inspection des patrimoines et de l’architecture",
+      "Département de la recherche, de la valorisation et du patrimoine culturel immatériel (DRVPCI)",
+      "Mission de la sécurité, de la sûreté et de l’audit (MISSA)"
+    ]
+  },
+  {
+    "id": "drvpci",
+    "band": "etat",
+    "group": "DGPA : services",
+    "acronym": "DRVPCI",
+    "name": "Département de la recherche, de la valorisation et du patrimoine culturel immatériel",
+    "type": "Département de la DIRI",
+    "desc": "Met en œuvre en France la Convention UNESCO de 2003 et pilote la recherche patrimoniale du ministère.",
+    "roles": [
+      "Inventaire national du PCI et accompagnement des communautés",
+      "Candidatures françaises aux listes de l’UNESCO et rapports périodiques",
+      "Label Ethnopôle, programmes de recherche, sciences du patrimoine"
+    ]
+  },
+  {
+    "id": "mpm",
+    "band": "etat",
+    "group": "DGPA : services",
+    "acronym": "Mission PM",
+    "name": "Mission du patrimoine mondial",
+    "type": "Mission rattachée à la DGPA",
+    "desc": "Coordonne pour la France l’application de la Convention de 1972 : Liste indicative, préparation des dossiers, suivi des biens inscrits.",
+    "short": "Mission du patrimoine mondial",
+    "roles": [
+      "Travaille avec le ministère chargé de l’environnement pour les biens naturels",
+      "Lien avec l’UNESCO, l’ICOMOS et les gestionnaires de biens"
+    ]
+  },
+  {
+    "id": "mte",
+    "band": "etat",
+    "group": "Autres ministères",
+    "acronym": "Min. Environnement",
+    "name": "Ministère chargé de l’environnement (Transition écologique)",
+    "type": "Administration centrale",
+    "desc": "Responsable des sites classés et inscrits (loi de 1930), du label Grand Site de France et, avec la Culture, des biens naturels du patrimoine mondial.",
+    "short": "Ministère de l’environnement",
+    "roles": [
+      "Services régionaux : DREAL (inspecteurs des sites)",
+      "Parcs naturels régionaux, Conservatoire du littoral"
+    ]
+  },
+  {
+    "id": "marmees",
+    "band": "etat",
+    "group": "Autres ministères",
+    "acronym": "Min. Armées",
+    "name": "Ministère des Armées et des Anciens combattants",
+    "type": "Administration centrale",
+    "desc": "Se présente comme le deuxième acteur culturel de l’État : archives, musées, bibliothèques, monuments et nécropoles.",
+    "short": "Ministère des Armées"
+  },
+  {
+    "id": "dmca",
+    "band": "etat",
+    "group": "Autres ministères",
+    "acronym": "DMCA",
+    "name": "Direction de la mémoire, de la culture et des archives",
+    "type": "Direction (ministère des Armées)",
+    "desc": "Créée en 2022 dans le prolongement de l’ancienne DPMA, elle conduit la politique mémorielle, culturelle et archivistique de la Défense.",
+    "roles": [
+      "Tutelle stratégique du musée de l’Armée, du musée national de la Marine et du musée de l’Air et de l’Espace",
+      "Le Service historique de la Défense lui est rattaché",
+      "Nécropoles nationales, portail Mémoire des hommes"
+    ],
+    "note": "Les textes plus anciens parlent de DPMA ou DMPA."
+  },
+  {
+    "id": "minint",
+    "band": "etat",
+    "group": "Autres ministères",
+    "acronym": "Min. Intérieur",
+    "name": "Ministère de l’Intérieur",
+    "type": "Administration centrale",
+    "desc": "Compétent pour les cultes (loi de 1905) via le Bureau central des cultes, et pour la lutte contre le trafic de biens culturels.",
+    "short": "Ministère de l’Intérieur"
+  },
+  {
+    "id": "ocbc",
+    "band": "etat",
+    "group": "Autres ministères",
+    "acronym": "OCBC",
+    "name": "Office central de lutte contre le trafic des biens culturels",
+    "type": "Office de police judiciaire",
+    "desc": "Service de police spécialisé dans les vols et trafics d’œuvres et d’objets d’art. Il gère la base TREIMA des biens volés.",
+    "roles": [
+      "À alerter en cas de vol d’un objet protégé ou d’une œuvre de collection publique"
+    ]
+  },
+  {
+    "id": "meae",
+    "band": "etat",
+    "group": "Autres ministères",
+    "acronym": "MEAE",
+    "name": "Ministère de l’Europe et des Affaires étrangères",
+    "type": "Administration centrale",
+    "desc": "Représente la France auprès de l’UNESCO et du Conseil de l’Europe ; conserve les Archives diplomatiques (La Courneuve, Nantes)."
+  },
+  {
+    "id": "meco",
+    "band": "etat",
+    "group": "Autres ministères",
+    "acronym": "Bercy",
+    "name": "Ministère de l’Économie et des Finances",
+    "type": "Administration centrale",
+    "desc": "Porte la fiscalité du patrimoine (mécénat, régime des MH, Malraux, dations) et le label Entreprise du patrimoine vivant.",
+    "short": "Ministère de l’Économie"
+  },
+  {
+    "id": "mesr",
+    "band": "etat",
+    "group": "Autres ministères",
+    "acronym": "MESR",
+    "name": "Ministère de l’Enseignement supérieur et de la Recherche",
+    "type": "Administration centrale",
+    "desc": "Co-tutelle d’opérateurs patrimoniaux de recherche (INRAP, INHA, MNHN) et tutelle des universités et de leurs collections.",
+    "short": "Ministère de l’Enseignement supérieur"
+  },
+  {
+    "id": "cnpa",
+    "band": "consult",
+    "group": "Patrimoine bâti & mobilier",
+    "acronym": "CNPA",
+    "name": "Commission nationale du patrimoine et de l’architecture",
+    "type": "Commission consultative nationale",
+    "desc": "Créée par la loi LCAP de 2016, placée auprès du ministre et présidée par un parlementaire. Elle a remplacé la Commission nationale des monuments historiques, celle des secteurs sauvegardés et le Conseil national des parcs et jardins.",
+    "roles": [
+      "7 sections : 1. SPR et abords ; 2. Protection des immeubles MH et domaines nationaux ; 3. Projets architecturaux et travaux ; 4. Objets mobiliers ; 5. Instruments de musique ; 6. Grottes ornées ; 7. Parcs et jardins",
+      "Avis sur les classements MH, la création des SPR, les domaines nationaux"
+    ],
+    "law": "Code du patrimoine, art. L.611-1"
+  },
+  {
+    "id": "crpa",
+    "band": "consult",
+    "group": "Patrimoine bâti & mobilier",
+    "acronym": "CRPA",
+    "name": "Commission régionale du patrimoine et de l’architecture",
+    "type": "Commission consultative régionale",
+    "desc": "Placée auprès du préfet de région, elle a remplacé en 2016 les commissions régionales du patrimoine et des sites (CRPS) et les commissions départementales des objets mobiliers (CDOM).",
+    "roles": [
+      "1re section : protection et valorisation du patrimoine immobilier (inscriptions MH, PVAP, PDA, label ACR)",
+      "2e section : projets et travaux sur immeubles, dont les recours contre les avis des ABF",
+      "3e section : protection des objets mobiliers et travaux"
+    ],
+    "law": "Code du patrimoine, art. L.611-2",
+    "note": "Anciens sigles : CRPS, COREPHAE, CDOM."
+  },
+  {
+    "id": "cssp",
+    "band": "consult",
+    "group": "Sites & paysages",
+    "acronym": "CSSPP",
+    "name": "Commission supérieure des sites, perspectives et paysages",
+    "type": "Commission consultative nationale",
+    "desc": "Placée auprès du ministre chargé de l’environnement, elle donne son avis sur les classements de sites et les projets qui les affectent.",
+    "short": "Commission supérieure des sites"
+  },
+  {
+    "id": "cdnps",
+    "band": "consult",
+    "group": "Sites & paysages",
+    "acronym": "CDNPS",
+    "name": "Commission départementale de la nature, des paysages et des sites",
+    "type": "Commission consultative départementale",
+    "desc": "Placée auprès du préfet de département. Sa formation « sites et paysages » se prononce sur les projets de classement ou d’inscription de sites et sur les travaux en site classé."
+  },
+  {
+    "id": "hcmf",
+    "band": "consult",
+    "group": "Musées & biens culturels",
+    "acronym": "HCMF",
+    "name": "Haut Conseil des musées de France",
+    "type": "Instance consultative nationale",
+    "desc": "Créé par la loi musées de 2002. Il rend un avis sur l’attribution et le retrait de l’appellation « Musée de France »."
+  },
+  {
+    "id": "comsci",
+    "band": "consult",
+    "group": "Musées & biens culturels",
+    "acronym": "Commissions scientifiques",
+    "name": "Commissions scientifiques des musées de France (nationale et régionales)",
+    "type": "Instances consultatives",
+    "desc": "Toute acquisition d’un musée de France, à titre onéreux ou gratuit, est soumise à l’avis d’une instance scientifique. Elles examinent aussi les projets de restauration.",
+    "short": "Commissions acquisitions & restauration",
+    "law": "Code du patrimoine, art. L.451-1"
+  },
+  {
+    "id": "cctn",
+    "band": "consult",
+    "group": "Musées & biens culturels",
+    "acronym": "CCTN",
+    "name": "Commission consultative des trésors nationaux",
+    "type": "Commission consultative",
+    "desc": "Donne son avis quand le ministre envisage de refuser le certificat d’exportation d’un bien culturel, qui devient alors « trésor national ».",
+    "short": "Commission des trésors nationaux"
+  },
+  {
+    "id": "ciad",
+    "band": "consult",
+    "group": "Musées & biens culturels",
+    "acronym": "Commission des dations",
+    "name": "Commission interministérielle d’agrément pour la conservation du patrimoine artistique national",
+    "type": "Commission interministérielle",
+    "desc": "Examine les propositions de dation en paiement : l’œuvre offerte doit présenter une haute valeur artistique ou historique pour être acceptée.",
+    "short": "Commission des dations"
+  },
+  {
+    "id": "civs",
+    "band": "consult",
+    "group": "Musées & biens culturels",
+    "acronym": "CIVS",
+    "name": "Commission pour l’indemnisation des victimes de spoliations",
+    "type": "Commission administrative (Premier ministre)",
+    "desc": "Compétente pour les spoliations intervenues du fait des législations antisémites pendant l’Occupation. Depuis la loi du 22 juillet 2023, elle rend un avis avant toute sortie des collections publiques d’un bien spolié.",
+    "short": "Commission des spoliations"
+  },
+  {
+    "id": "cnra",
+    "band": "consult",
+    "group": "Archéologie",
+    "acronym": "CNRA",
+    "name": "Conseil national de la recherche archéologique",
+    "type": "Instance consultative nationale",
+    "desc": "Conseille le ministre sur la politique de recherche archéologique et la programmation nationale."
+  },
+  {
+    "id": "ctra",
+    "band": "consult",
+    "group": "Archéologie",
+    "acronym": "CTRA",
+    "name": "Commission territoriale de la recherche archéologique",
+    "type": "Commission consultative interrégionale",
+    "desc": "Évalue scientifiquement les opérations archéologiques (projets de fouilles programmées, rapports) dans son ressort. Remplace depuis 2016 les CIRA.",
+    "note": "Ancien sigle : CIRA."
+  },
+  {
+    "id": "cnpci",
+    "band": "consult",
+    "group": "Immatériel & archives",
+    "acronym": "CNPCI",
+    "name": "Comité national du patrimoine culturel immatériel",
+    "type": "Comité consultatif",
+    "desc": "Valide les demandes d’inclusion à l’Inventaire national du PCI et formule un avis au ministre sur les candidatures aux listes de l’UNESCO.",
+    "note": "Prend la suite du Comité du patrimoine ethnologique et immatériel (CPEI) : les textes plus anciens utilisent ce sigle."
+  },
+  {
+    "id": "csa",
+    "band": "consult",
+    "group": "Immatériel & archives",
+    "acronym": "Conseil sup. des archives",
+    "name": "Conseil supérieur des archives",
+    "type": "Instance consultative",
+    "desc": "Conseille le ministre sur la politique des archives publiques et privées.",
+    "note": "Ne pas confondre avec l’ancien CSA de l’audiovisuel, devenu l’Arcom."
+  },
+  {
+    "id": "cmn",
+    "band": "op",
+    "group": "Monuments & domaines",
+    "acronym": "CMN",
+    "name": "Centre des monuments nationaux",
+    "type": "Établissement public administratif",
+    "desc": "Gère, ouvre au public et anime plus de 100 monuments appartenant à l’État : Arc de triomphe, abbaye du Mont-Saint-Michel, Sainte-Chapelle, Panthéon, villa Savoye…",
+    "roles": [
+      "Mutualisation des recettes entre grands et petits monuments",
+      "Éditions du patrimoine",
+      "Médiation et innovation numérique"
+    ],
+    "url": "https://www.monuments-nationaux.fr"
+  },
+  {
+    "id": "versailles",
+    "band": "op",
+    "group": "Monuments & domaines",
+    "acronym": "Versailles",
+    "name": "Établissement public du château, du musée et du domaine national de Versailles",
+    "type": "Établissement public administratif",
+    "desc": "Gère le château, le musée et le domaine de Versailles et de Trianon.",
+    "short": "Château de Versailles"
+  },
+  {
+    "id": "chambord",
+    "band": "op",
+    "group": "Monuments & domaines",
+    "acronym": "Chambord",
+    "name": "Domaine national de Chambord",
+    "type": "Établissement public industriel et commercial",
+    "desc": "Gère le château et son domaine forestier, l’un des domaines nationaux définis par la loi LCAP."
+  },
+  {
+    "id": "oppic",
+    "band": "op",
+    "group": "Monuments & domaines",
+    "acronym": "OPPIC",
+    "name": "Opérateur du patrimoine et des projets immobiliers de la culture",
+    "type": "Établissement public administratif",
+    "desc": "Maître d’ouvrage délégué du ministère pour les grands chantiers de restauration et de construction (monuments, musées, écoles)."
+  },
+  {
+    "id": "mnep",
+    "band": "op",
+    "group": "Musées",
+    "acronym": "Musées nationaux (EP)",
+    "name": "Musées nationaux constitués en établissements publics",
+    "type": "Établissements publics",
+    "desc": "Les grands musées nationaux sont autonomes : Louvre, Orsay-Orangerie, quai Branly–Jacques Chirac, Centre Pompidou, Mucem, Guimet, Rodin, Picasso-Paris, châteaux de Versailles et de Fontainebleau…",
+    "short": "Louvre, Orsay, Branly, Pompidou…",
+    "roles": [
+      "Conseil d’administration, budget propre, ressources propres",
+      "Pilotage par le SMF (contrats d’objectifs et de performance)"
+    ]
+  },
+  {
+    "id": "mnscn",
+    "band": "op",
+    "group": "Musées",
+    "acronym": "Musées nationaux (SCN)",
+    "name": "Musées nationaux en services à compétence nationale",
+    "type": "Services à compétence nationale",
+    "desc": "Musées gérés directement par le ministère, sans personnalité juridique propre : musée de Cluny, musée d’Archéologie nationale, musée national de la Renaissance (Écouen), musée national de Préhistoire (Les Eyzies), Malmaison, château de Pau, musées nationaux du XXe siècle des Alpes-Maritimes…",
+    "short": "Cluny, Archéologie nationale, Écouen…"
+  },
+  {
+    "id": "rmngp",
+    "band": "op",
+    "group": "Musées",
+    "acronym": "RMN-GP",
+    "name": "Réunion des musées nationaux – Grand Palais",
+    "type": "Établissement public industriel et commercial",
+    "desc": "Organise des expositions, édite et diffuse (boutiques, agence photographique) et gère le Grand Palais. Historiquement chargé des acquisitions des musées nationaux."
+  },
+  {
+    "id": "museesarmees",
+    "band": "op",
+    "group": "Musées",
+    "acronym": "Musées des Armées",
+    "name": "Musée de l’Armée, musée national de la Marine, musée de l’Air et de l’Espace",
+    "type": "Établissements publics (ministère des Armées)",
+    "desc": "Les trois grands musées sous tutelle du ministère des Armées ; une quinzaine d’autres musées sont rattachés aux armées et services.",
+    "short": "Armée, Marine, Air et Espace"
+  },
+  {
+    "id": "mobilier",
+    "band": "op",
+    "group": "Manufactures & art contemporain",
+    "acronym": "Mobilier national",
+    "name": "Manufactures nationales – Sèvres & Mobilier national",
+    "type": "Établissement public administratif",
+    "desc": "Établissement créé au 1er janvier 2025 en réunissant le Mobilier national et la Cité de la céramique Sèvres & Limoges.",
+    "short": "Manufactures nationales – Sèvres & Mobilier national",
+    "roles": [
+      "Ameublement des palais de la République et conservation des collections",
+      "Manufactures des Gobelins, de Beauvais, de la Savonnerie et de Sèvres ; ateliers d’Alençon et du Puy-en-Velay",
+      "Musée national de céramique (Sèvres) et musée national Adrien Dubouché (Limoges)"
+    ],
+    "url": "https://www.mobiliernational.culture.gouv.fr"
+  },
+  {
+    "id": "cnap",
+    "band": "op",
+    "group": "Manufactures & art contemporain",
+    "acronym": "CNAP",
+    "name": "Centre national des arts plastiques",
+    "type": "Établissement public administratif",
+    "desc": "Gère le Fonds national d’art contemporain (FNAC), collection publique de l’État constituée depuis la Révolution et largement mise en dépôt dans les institutions.",
+    "note": "FNAC désigne ici la collection, pas l’enseigne commerciale."
+  },
+  {
+    "id": "c2rmf",
+    "band": "op",
+    "group": "Recherche & documentation",
+    "acronym": "C2RMF",
+    "name": "Centre de recherche et de restauration des musées de France",
+    "type": "Service à compétence nationale",
+    "desc": "Laboratoire et atelier au service des musées de France : analyses scientifiques (accélérateur AGLAE), imagerie, restauration et conservation préventive.",
+    "url": "https://c2rmf.fr"
+  },
+  {
+    "id": "lrmh",
+    "band": "op",
+    "group": "Recherche & documentation",
+    "acronym": "LRMH",
+    "name": "Laboratoire de recherche des monuments historiques",
+    "type": "Service à compétence nationale",
+    "desc": "À Champs-sur-Marne, il étudie les matériaux des monuments (pierre, vitrail, peinture murale, bois, métal…) et conseille les chantiers."
+  },
+  {
+    "id": "mpp",
+    "band": "op",
+    "group": "Recherche & documentation",
+    "acronym": "MPP",
+    "name": "Médiathèque du patrimoine et de la photographie",
+    "type": "Service à compétence nationale",
+    "desc": "À Charenton-le-Pont, conserve les archives des monuments historiques et d’importants fonds photographiques ; alimente la base Mémoire.",
+    "note": "Ancien nom : Médiathèque de l’architecture et du patrimoine (MAP)."
+  },
+  {
+    "id": "inha",
+    "band": "op",
+    "group": "Recherche & documentation",
+    "acronym": "INHA",
+    "name": "Institut national d’histoire de l’art",
+    "type": "Établissement public (enseignement supérieur et recherche)",
+    "desc": "Programmes de recherche en histoire de l’art et du patrimoine et bibliothèque de référence (salle Labrouste, site Richelieu)."
+  },
+  {
+    "id": "mnhn",
+    "band": "op",
+    "group": "Recherche & documentation",
+    "acronym": "MNHN",
+    "name": "Muséum national d’histoire naturelle",
+    "type": "Grand établissement",
+    "desc": "Conserve les collections nationales d’histoire naturelle ; double tutelle Recherche et Environnement."
+  },
+  {
+    "id": "inrap",
+    "band": "op",
+    "group": "Archéologie",
+    "acronym": "INRAP",
+    "name": "Institut national de recherches archéologiques préventives",
+    "type": "Établissement public administratif",
+    "desc": "Créé en 2002, principal opérateur de l’archéologie préventive : il réalise les diagnostics (avec les services agréés des collectivités) et des fouilles, en concurrence avec d’autres opérateurs.",
+    "url": "https://www.inrap.fr"
+  },
+  {
+    "id": "drassm",
+    "band": "op",
+    "group": "Archéologie",
+    "acronym": "DRASSM",
+    "name": "Département des recherches archéologiques subaquatiques et sous-marines",
+    "type": "Service à compétence nationale",
+    "desc": "Basé à Marseille, il gère l’archéologie des biens culturels maritimes et dispose de navires de recherche."
+  },
+  {
+    "id": "an",
+    "band": "op",
+    "group": "Archives & bibliothèques",
+    "acronym": "AN",
+    "name": "Archives nationales",
+    "type": "Service à compétence nationale",
+    "desc": "Conservent les archives des administrations centrales de l’État, à Pierrefitte-sur-Seine et à Paris (hôtel de Soubise).",
+    "roles": [
+      "Les Archives nationales d’outre-mer (ANOM, Aix-en-Provence) et du monde du travail (ANMT, Roubaix) sont des services distincts"
+    ],
+    "url": "https://www.archives-nationales.culture.gouv.fr"
+  },
+  {
+    "id": "bnf",
+    "band": "op",
+    "group": "Archives & bibliothèques",
+    "acronym": "BnF",
+    "name": "Bibliothèque nationale de France",
+    "type": "Établissement public administratif",
+    "desc": "Collecte le dépôt légal, conserve les collections patrimoniales imprimées, manuscrites, graphiques et audiovisuelles ; diffuse Gallica.",
+    "url": "https://www.bnf.fr"
+  },
+  {
+    "id": "shd",
+    "band": "op",
+    "group": "Archives & bibliothèques",
+    "acronym": "SHD",
+    "name": "Service historique de la Défense",
+    "type": "Service (ministère des Armées)",
+    "desc": "Archives et bibliothèques de la Défense, siège au château de Vincennes ; rattaché à la DMCA."
+  },
+  {
+    "id": "inp",
+    "band": "op",
+    "group": "Formation",
+    "acronym": "INP",
+    "name": "Institut national du patrimoine",
+    "type": "Établissement public administratif",
+    "desc": "Recrute par concours et forme les conservateurs du patrimoine (État et territoriaux) ; forme les restaurateurs du patrimoine habilités à intervenir sur les collections des musées de France.",
+    "url": "https://inp.fr"
+  },
+  {
+    "id": "ecolelouvre",
+    "band": "op",
+    "group": "Formation",
+    "acronym": "École du Louvre",
+    "name": "École du Louvre",
+    "type": "Établissement public administratif",
+    "desc": "Enseignement de l’histoire de l’art, de l’archéologie et de la muséologie ; préparation aux concours du patrimoine."
+  },
+  {
+    "id": "citearchi",
+    "band": "op",
+    "group": "Formation",
+    "acronym": "Cité de l’architecture",
+    "name": "Cité de l’architecture et du patrimoine",
+    "type": "Établissement public industriel et commercial",
+    "desc": "Au Trocadéro : musée des Monuments français, centre d’archives d’architecture et École de Chaillot, qui forme les architectes du patrimoine.",
+    "short": "Cité de l’architecture et du patrimoine",
+    "url": "https://www.citedelarchitecture.fr"
+  },
+  {
+    "id": "ensa",
+    "band": "op",
+    "group": "Formation",
+    "acronym": "ENSA(P)",
+    "name": "Écoles nationales supérieures d’architecture et de paysage",
+    "type": "Établissements publics",
+    "desc": "21 écoles qui forment les architectes et paysagistes ; tutelle de la DGDCER depuis 2025."
+  },
+  {
+    "id": "prefreg",
+    "band": "deconc",
+    "group": "Préfets",
+    "acronym": "Préfet de région",
+    "name": "Préfet de région",
+    "type": "Représentant de l’État",
+    "desc": "Autorité hiérarchique de la DRAC. La plupart des décisions patrimoniales en région sont signées par le préfet de région.",
+    "roles": [
+      "Arrêtés d’inscription MH (immeubles et objets) et label ACR",
+      "Prescriptions d’archéologie préventive",
+      "Autorisations de travaux sur immeubles classés",
+      "Statue sur les recours contre les avis des ABF, après la CRPA",
+      "Délivre le label Entreprise du patrimoine vivant"
+    ]
+  },
+  {
+    "id": "prefdep",
+    "band": "deconc",
+    "group": "Préfets",
+    "acronym": "Préfet de département",
+    "name": "Préfet de département",
+    "type": "Représentant de l’État",
+    "desc": "Préside la CDNPS, attribue la dotation d’équipement des territoires ruraux (DETR) et nomme le conservateur des antiquités et objets d’art."
+  },
+  {
+    "id": "drac",
+    "band": "deconc",
+    "group": "DRAC",
+    "acronym": "DRAC",
+    "name": "Direction régionale des affaires culturelles",
+    "type": "Service déconcentré du ministère de la Culture",
+    "desc": "Le ministère de la Culture en région (13 DRAC en métropole, des DAC en outre-mer), sous l’autorité du préfet de région. Premier interlocuteur des collectivités et des propriétaires.",
+    "roles": [
+      "Pôle patrimoines : CRMH, SRA, conseillers musées, ethnologie, architecture, UDAP",
+      "Instruit les protections, finance et contrôle les travaux",
+      "Contrôle scientifique et technique des musées de France et des MH"
+    ],
+    "note": "DAC = direction des affaires culturelles (outre-mer)."
+  },
+  {
+    "id": "crmh",
+    "band": "deconc",
+    "group": "DRAC",
+    "acronym": "CRMH",
+    "name": "Conservation régionale des monuments historiques",
+    "type": "Service de la DRAC",
+    "desc": "Recense et prépare les dossiers de protection, contrôle les travaux sur MH et attribue les subventions de l’État.",
+    "roles": [
+      "Dossiers pour la CRPA et la CNPA",
+      "Contrôle scientifique et technique des chantiers",
+      "Suivi des objets mobiliers protégés avec les CAOA"
+    ],
+    "note": "Désigne aussi le conservateur régional qui dirige le service."
+  },
+  {
+    "id": "sra",
+    "band": "deconc",
+    "group": "DRAC",
+    "acronym": "SRA",
+    "name": "Service régional de l’archéologie",
+    "type": "Service de la DRAC",
+    "desc": "Instruit pour le préfet de région les prescriptions d’archéologie préventive, autorise les fouilles programmées et tient la carte archéologique.",
+    "roles": [
+      "Zones de présomption de prescription archéologique",
+      "Contrôle scientifique des opérations",
+      "Gestion du mobilier archéologique (centres de conservation et d’étude)"
+    ]
+  },
+  {
+    "id": "udap",
+    "band": "deconc",
+    "group": "DRAC",
+    "acronym": "UDAP",
+    "name": "Unité départementale de l’architecture et du patrimoine",
+    "type": "Service de la DRAC (un par département)",
+    "desc": "Service où travaillent les architectes des Bâtiments de France. Il veille à la qualité des projets dans les espaces protégés et conserve les monuments de l’État.",
+    "note": "Anciens sigles : SDAP puis STAP."
+  },
+  {
+    "id": "abf",
+    "band": "deconc",
+    "group": "DRAC",
+    "acronym": "ABF",
+    "name": "Architecte des Bâtiments de France",
+    "type": "Corps de l’État",
+    "desc": "Architecte et urbaniste de l’État (environ 200 agents) qui rend des avis sur les travaux en abords de MH, en SPR et en site inscrit. Son accord (avis conforme) s’impose au maire dans la plupart des cas.",
+    "roles": [
+      "Avis conforme : abords en covisibilité ou en PDA, SPR",
+      "Avis simple : abords hors covisibilité, sites inscrits (sauf démolition)",
+      "Conseil aux élus et aux particuliers ; conservation des cathédrales de l’État"
+    ],
+    "note": "Une proposition de loi sénatoriale adoptée en première lecture en mars 2025 vise à réformer l’exercice de ses missions (publication des avis, médiation). « ABF » désigne aussi l’Association des bibliothécaires de France."
+  },
+  {
+    "id": "caoa",
+    "band": "deconc",
+    "group": "DRAC",
+    "acronym": "CAOA",
+    "name": "Conservateur des antiquités et objets d’art",
+    "type": "Mission départementale",
+    "desc": "Un par département, nommé par le préfet et souvent agent du département. Interlocuteur des propriétaires d’objets mobiliers, notamment dans les églises.",
+    "roles": [
+      "Récolement des objets protégés",
+      "Préparation des dossiers de protection pour la CRPA",
+      "Signalement des vols et dégradations"
+    ]
+  },
+  {
+    "id": "conseillermusees",
+    "band": "deconc",
+    "group": "DRAC",
+    "acronym": "Conseiller musées",
+    "name": "Conseiller pour les musées (DRAC)",
+    "type": "Fonction en DRAC",
+    "desc": "Accompagne les musées de France de la région : projet scientifique et culturel, inventaire et récolement décennal, acquisitions et restaurations aidées."
+  },
+  {
+    "id": "conseillerethno",
+    "band": "deconc",
+    "group": "DRAC",
+    "acronym": "Conseiller ethnologie",
+    "name": "Conseiller pour l’ethnologie et le PCI (DRAC)",
+    "type": "Fonction en DRAC",
+    "desc": "Relais régional de la politique du patrimoine ethnologique et immatériel ; toutes les DRAC n’en disposent pas."
+  },
+  {
+    "id": "dreal",
+    "band": "deconc",
+    "group": "Environnement",
+    "acronym": "DREAL",
+    "name": "Direction régionale de l’environnement, de l’aménagement et du logement",
+    "type": "Service déconcentré (Environnement)",
+    "desc": "Ses inspecteurs des sites instruisent les classements et les travaux en site classé ; elle accompagne les Opérations Grand Site."
+  },
+  {
+    "id": "region",
+    "band": "coll",
+    "group": "Région",
+    "acronym": "Région",
+    "name": "Conseil régional",
+    "type": "Collectivité territoriale",
+    "desc": "Conduit l’Inventaire général du patrimoine culturel depuis la loi du 13 août 2004 et cofinance la restauration, les acquisitions des musées et les projets culturels.",
+    "roles": [
+      "Service régional de l’Inventaire",
+      "Cofinance FIP, FRAM, FRAR avec l’État",
+      "Autorité de gestion des fonds européens FEDER",
+      "Labels propres dans certaines régions"
+    ]
+  },
+  {
+    "id": "inventaire",
+    "band": "coll",
+    "group": "Région",
+    "acronym": "Inventaire",
+    "name": "Inventaire général du patrimoine culturel (service régional)",
+    "type": "Service de la Région",
+    "desc": "Recense, étudie et fait connaître le patrimoine, protégé ou non, à travers des dossiers d’inventaire versés dans les bases nationales.",
+    "short": "Inventaire général (Région)",
+    "note": "Créé en 1964 à l’initiative d’André Malraux et André Chastel. Il documente, il ne protège pas."
+  },
+  {
+    "id": "dept",
+    "band": "coll",
+    "group": "Département",
+    "acronym": "Département",
+    "name": "Conseil départemental",
+    "type": "Collectivité territoriale",
+    "desc": "Gère obligatoirement les archives départementales et soutient souvent le patrimoine non protégé, les objets mobiliers et les musées départementaux.",
+    "roles": [
+      "Archives départementales",
+      "Finance les CAUE (taxe d’aménagement)",
+      "Services archéologiques, conservations départementales, souvent les CAOA"
+    ]
+  },
+  {
+    "id": "ad",
+    "band": "coll",
+    "group": "Département",
+    "acronym": "AD",
+    "name": "Archives départementales",
+    "type": "Service du Département",
+    "desc": "Conservent les archives de l’État dans le département, les archives notariales, l’état civil ancien et les archives du Département ; reçoivent en dépôt des archives communales.",
+    "note": "Sous contrôle scientifique et technique du SIAF."
+  },
+  {
+    "id": "caue",
+    "band": "coll",
+    "group": "Département",
+    "acronym": "CAUE",
+    "name": "Conseil d’architecture, d’urbanisme et de l’environnement",
+    "type": "Association départementale (loi de 1977)",
+    "desc": "Conseil gratuit aux particuliers et aux élus sur la qualité architecturale, urbaine et paysagère, en amont des projets."
+  },
+  {
+    "id": "commune",
+    "band": "coll",
+    "group": "Commune & intercommunalité",
+    "acronym": "Commune / EPCI",
+    "name": "Commune et intercommunalité (EPCI)",
+    "type": "Collectivité territoriale",
+    "desc": "Propriétaire de la plupart des églises antérieures à 1905 et de nombreux MH. Le maire délivre les autorisations d’urbanisme, sur avis de l’ABF en espace protégé.",
+    "short": "Commune & intercommunalité",
+    "roles": [
+      "PLU ou PLUi ; gestion des SPR (PVAP)",
+      "Musées municipaux, archives communales, services d’archéologie",
+      "Convention Ville ou Pays d’art et d’histoire"
+    ]
+  },
+  {
+    "id": "musterr",
+    "band": "coll",
+    "group": "Commune & intercommunalité",
+    "acronym": "Musées territoriaux",
+    "name": "Musées des collectivités",
+    "type": "Services ou établissements des collectivités",
+    "desc": "La grande majorité des quelque 1 200 musées de France appartient à des communes, départements ou régions.",
+    "short": "Musées municipaux & départementaux"
+  },
+  {
+    "id": "servarcheo",
+    "band": "coll",
+    "group": "Commune & intercommunalité",
+    "acronym": "Services archéo.",
+    "name": "Services archéologiques des collectivités",
+    "type": "Services agréés",
+    "desc": "Services municipaux, intercommunaux ou départementaux habilités à réaliser diagnostics et fouilles préventives sur leur territoire.",
+    "short": "Services archéologiques territoriaux"
+  },
+  {
+    "id": "epcc",
+    "band": "coll",
+    "group": "Commune & intercommunalité",
+    "acronym": "EPCC",
+    "name": "Établissement public de coopération culturelle",
+    "type": "Établissement public local",
+    "desc": "Statut qui permet à plusieurs collectivités, avec ou sans l’État, de gérer ensemble un musée, un site ou une école d’art."
+  },
+  {
+    "id": "paris",
+    "band": "coll",
+    "group": "Paris",
+    "acronym": "Ville de Paris",
+    "name": "Ville de Paris (Direction des affaires culturelles)",
+    "type": "Collectivité à statut particulier",
+    "desc": "Propriétaire de nombreux monuments et de la plupart des églises parisiennes antérieures à 1905.",
+    "short": "Ville de Paris – DAC",
+    "roles": [
+      "COARC : conservation des œuvres d’art religieuses et civiles",
+      "DHAAP : histoire de l’architecture et archéologie de Paris",
+      "Archives de Paris, Commission du Vieux Paris"
+    ]
+  },
+  {
+    "id": "parismusees",
+    "band": "coll",
+    "group": "Paris",
+    "acronym": "Paris Musées",
+    "name": "Paris Musées",
+    "type": "Établissement public de la Ville de Paris",
+    "desc": "Gère les 14 musées de la Ville : Carnavalet, Petit Palais, musée d’Art moderne, Cernuschi, Palais Galliera, maisons de Victor Hugo, Catacombes…",
+    "url": "https://www.parismusees.paris.fr"
+  },
+  {
+    "id": "mhclasse",
+    "band": "statut",
+    "group": "Monuments & objets",
+    "acronym": "MH classé",
+    "name": "Monument historique classé",
+    "type": "Protection (servitude d’utilité publique)",
+    "desc": "Le plus haut niveau de protection, pour un immeuble dont la conservation présente un intérêt public du point de vue de l’histoire ou de l’art.",
+    "roles": [
+      "Arrêté du ministre après avis de la CNPA ; sans accord du propriétaire, décret en Conseil d’État",
+      "Travaux soumis à l’autorisation du préfet de région, sous contrôle scientifique et technique",
+      "Maîtrise d’œuvre : ACMH pour les monuments de l’État, ACMH ou architecte du patrimoine sinon",
+      "Crée des abords protégés"
+    ],
+    "law": "Code du patrimoine, art. L.621-1 et suivants (loi du 31 déc. 1913)",
+    "examples": {
+      "count": "14 863 immeubles classés (2023)",
+      "items": [
+        "Cathédrale Notre-Dame de Paris",
+        "Pont du Gard",
+        "Abbaye du Mont-Saint-Michel",
+        "Arc de triomphe de l’Étoile",
+        "Villa Savoye (Poissy)"
+      ],
+      "registry": {
+        "label": "Base Mérimée (POP)",
+        "url": "https://pop.culture.gouv.fr"
+      }
+    }
+  },
+  {
+    "id": "mhinscrit",
+    "band": "statut",
+    "group": "Monuments & objets",
+    "acronym": "MH inscrit",
+    "name": "Monument historique inscrit",
+    "type": "Protection (servitude d’utilité publique)",
+    "desc": "Protection pour un immeuble d’un intérêt suffisant pour en rendre désirable la préservation.",
+    "roles": [
+      "Arrêté du préfet de région après avis de la CRPA",
+      "Travaux soumis à autorisation d’urbanisme avec l’accord du préfet de région ; entretien libre",
+      "Peut ensuite être proposé au classement"
+    ],
+    "law": "Code du patrimoine, art. L.621-25",
+    "examples": {
+      "count": "31 096 immeubles inscrits (2023) ; 45 959 MH au total",
+      "items": [
+        "Nombreuses églises rurales, châteaux privés, halles, lavoirs",
+        "Édifices du XXe siècle, gares, usines"
+      ],
+      "registry": {
+        "label": "Base Mérimée (POP)",
+        "url": "https://pop.culture.gouv.fr"
+      }
+    }
+  },
+  {
+    "id": "objetmh",
+    "band": "statut",
+    "group": "Monuments & objets",
+    "acronym": "Objet MH",
+    "name": "Objet mobilier classé ou inscrit",
+    "type": "Protection mobilière",
+    "desc": "Meubles, œuvres, orgues, cloches, objets de culte… peuvent être protégés comme les immeubles.",
+    "short": "Objet mobilier protégé",
+    "roles": [
+      "Classement par le ministre (CNPA, 4e section), inscription par le préfet de région (CRPA, 3e section)",
+      "Récolement par les CAOA ; déplacement et restauration encadrés"
+    ],
+    "law": "Code du patrimoine, art. L.622-1 et suivants",
+    "examples": {
+      "count": "Plus de 280 000 objets protégés (fin 2022), dont près de 125 000 classés",
+      "items": [
+        "Retables, statues et orfèvrerie d’églises",
+        "Orgues et cloches",
+        "Ensembles historiques mobiliers"
+      ],
+      "registry": {
+        "label": "Base Palissy (POP)",
+        "url": "https://pop.culture.gouv.fr"
+      }
+    }
+  },
+  {
+    "id": "domnat",
+    "band": "statut",
+    "group": "Monuments & objets",
+    "acronym": "Domaine national",
+    "name": "Domaine national",
+    "type": "Statut (loi LCAP)",
+    "desc": "Ensemble immobilier ayant un lien exceptionnel avec l’histoire de la Nation, propriété de l’État et inaliénable. Liste fixée par décret après avis de la CNPA ; l’usage commercial de leur image est soumis à autorisation.",
+    "law": "Code du patrimoine, art. L.621-34 et suivants",
+    "examples": {
+      "items": [
+        "Domaine national de Chambord",
+        "Domaine du Louvre et des Tuileries"
+      ]
+    }
+  },
+  {
+    "id": "abords",
+    "band": "statut",
+    "group": "Espaces protégés",
+    "acronym": "Abords",
+    "name": "Abords de monuments historiques (PDA ou rayon de 500 m)",
+    "type": "Servitude d’utilité publique",
+    "desc": "Autour d’un MH, les travaux sont soumis à l’avis de l’ABF : dans un périmètre délimité des abords (PDA), ou à défaut dans un rayon de 500 m en covisibilité.",
+    "short": "Abords de MH (PDA, 500 m)",
+    "law": "Code du patrimoine, art. L.621-30 et suivants",
+    "note": "PDA = périmètre délimité des abords, fixé par le préfet de région après enquête publique.",
+    "examples": {
+      "registry": {
+        "label": "Atlas des patrimoines",
+        "url": "https://atlas.patrimoines.culture.fr"
+      }
+    }
+  },
+  {
+    "id": "spr",
+    "band": "statut",
+    "group": "Espaces protégés",
+    "acronym": "SPR",
+    "name": "Site patrimonial remarquable",
+    "type": "Servitude d’utilité publique",
+    "desc": "Ville, village ou quartier dont la conservation présente un intérêt public. Créé par la loi LCAP de 2016, il remplace secteurs sauvegardés, ZPPAUP et AVAP.",
+    "roles": [
+      "Classé par décision du ministre après avis de la CNPA et enquête publique, sur proposition ou avec l’accord de la commune ou de l’EPCI",
+      "Géré par un PSMV (avec l’État) ou un PVAP (collectivité)",
+      "Travaux soumis à l’accord de l’ABF ; ouvre droit au dispositif Malraux"
+    ],
+    "law": "Code du patrimoine, art. L.631-1 et suivants",
+    "examples": {
+      "count": "Environ 970 SPR",
+      "items": [
+        "Le Marais (Paris)",
+        "Lyon (site historique)",
+        "Sarlat",
+        "Bordeaux"
+      ],
+      "registry": {
+        "label": "Atlas des patrimoines",
+        "url": "https://atlas.patrimoines.culture.fr"
+      }
+    }
+  },
+  {
+    "id": "psmv",
+    "band": "statut",
+    "group": "Espaces protégés",
+    "acronym": "PSMV / PVAP",
+    "name": "Plan de sauvegarde et de mise en valeur / Plan de valorisation de l’architecture et du patrimoine",
+    "type": "Documents de gestion d’un SPR",
+    "desc": "Le PSMV est un document d’urbanisme détaillé, élaboré avec l’État, qui tient lieu de PLU sur son périmètre. Le PVAP, élaboré par la collectivité, est une servitude annexée au PLU.",
+    "short": "Plans de gestion des SPR"
+  },
+  {
+    "id": "siteclasse",
+    "band": "statut",
+    "group": "Espaces protégés",
+    "acronym": "Site classé / inscrit",
+    "name": "Site classé ou inscrit (loi de 1930)",
+    "type": "Protection (Code de l’environnement)",
+    "desc": "Monuments naturels et sites au caractère artistique, historique, scientifique, légendaire ou pittoresque.",
+    "short": "Site classé / inscrit",
+    "roles": [
+      "Classement par arrêté ministériel ou décret en Conseil d’État, après avis de la CDNPS et de la commission supérieure",
+      "Site classé : travaux soumis à autorisation spéciale (ministre ou préfet)",
+      "Site inscrit : déclaration préalable, avis de l’ABF"
+    ],
+    "law": "Code de l’environnement, art. L.341-1 et suivants",
+    "examples": {
+      "items": [
+        "Pointe du Raz",
+        "Gorges du Verdon",
+        "Massif des Calanques",
+        "Champ de Mars (Paris)"
+      ]
+    }
+  },
+  {
+    "id": "grandsite",
+    "band": "statut",
+    "group": "Espaces protégés",
+    "acronym": "Grand Site de France",
+    "name": "Label Grand Site de France",
+    "type": "Label de l’État (Environnement)",
+    "desc": "Attribué par le ministre chargé de l’environnement au gestionnaire d’un site classé très fréquenté, pour une durée limitée et renouvelable.",
+    "url": "https://www.grandsitedefrance.com",
+    "examples": {
+      "items": [
+        "Pont du Gard",
+        "Pointe du Raz en Cap Sizun",
+        "Sainte-Victoire",
+        "Baie de Somme",
+        "Bibracte – Mont Beuvray"
+      ],
+      "registry": {
+        "label": "Réseau des Grands Sites de France",
+        "url": "https://www.grandsitedefrance.com"
+      }
+    }
+  },
+  {
+    "id": "mdf",
+    "band": "statut",
+    "group": "Musées & biens culturels",
+    "acronym": "Musée de France",
+    "name": "Appellation « Musée de France »",
+    "type": "Appellation (loi de 2002)",
+    "desc": "Attribuée par le ministre de la Culture après avis du HCMF, à la demande de la personne publique ou de la personne privée à but non lucratif propriétaire des collections.",
+    "short": "Appellation Musée de France",
+    "roles": [
+      "Collections inaliénables et imprescriptibles (personnes publiques)",
+      "Inventaire réglementaire et récolement décennal",
+      "Personnel scientifique, projet scientifique et culturel",
+      "Accès aux aides de l’État (FRAM, FRAR, subventions)"
+    ],
+    "law": "Code du patrimoine, art. L.441-1 et suivants",
+    "examples": {
+      "count": "Environ 1 200 musées de France",
+      "items": [
+        "Musée Carnavalet (Paris)",
+        "Musée des Beaux-Arts de Lyon",
+        "Palais des Beaux-Arts de Lille",
+        "Musée Fabre (Montpellier)",
+        "Musée des Arts décoratifs (association)"
+      ],
+      "registry": {
+        "label": "Base Muséofile",
+        "url": "https://pop.culture.gouv.fr"
+      }
+    }
+  },
+  {
+    "id": "tresor",
+    "band": "statut",
+    "group": "Musées & biens culturels",
+    "acronym": "Trésor national",
+    "name": "Trésor national et circulation des biens culturels",
+    "type": "Statut des biens culturels",
+    "desc": "Les collections publiques et celles des musées de France sont des trésors nationaux. Un bien privé peut le devenir quand le ministre refuse son certificat d’exportation, ce qui ouvre un délai pour l’acquérir.",
+    "roles": [
+      "Certificat d’exportation délivré par le ministère (SMF) au-delà de seuils d’âge et de valeur",
+      "Refus après avis de la CCTN ; mécénat d’entreprise renforcé pour l’acquisition",
+      "Sortie temporaire d’un trésor national : autorisation du ministre (AST)"
+    ],
+    "law": "Code du patrimoine, art. L.111-1 et suivants"
+  },
+  {
+    "id": "vpah",
+    "band": "statut",
+    "group": "Labels",
+    "acronym": "VPAH",
+    "name": "Label Ville ou Pays d’art et d’histoire",
+    "type": "Label de l’État (convention)",
+    "desc": "Attribué par le ministère de la Culture à des collectivités qui s’engagent par convention à valoriser leur patrimoine et leur architecture.",
+    "short": "Ville / Pays d’art et d’histoire",
+    "roles": [
+      "Recrutement d’un animateur de l’architecture et du patrimoine",
+      "Création d’un CIAP (centre d’interprétation de l’architecture et du patrimoine)",
+      "Médiation pour les habitants et le jeune public"
+    ],
+    "examples": {
+      "count": "203 territoires (2024) : 123 villes et 80 pays",
+      "items": [
+        "Ville d’art et d’histoire : Bordeaux, Nantes, Lyon, Rouen",
+        "Pays d’art et d’histoire : Pays de Grasse, Pays du Vignoble nantais"
+      ]
+    }
+  },
+  {
+    "id": "acr",
+    "band": "statut",
+    "group": "Labels",
+    "acronym": "ACR",
+    "name": "Label Architecture contemporaine remarquable",
+    "type": "Label de l’État",
+    "desc": "Signale les immeubles de moins de 100 ans, non protégés MH, d’intérêt architectural. Attribué par le préfet de région après avis de la CRPA ; il a remplacé en 2016 le label Patrimoine du XXe siècle.",
+    "short": "Architecture contemporaine remarquable"
+  },
+  {
+    "id": "jardin",
+    "band": "statut",
+    "group": "Labels",
+    "acronym": "Jardin remarquable",
+    "name": "Label Jardin remarquable",
+    "type": "Label de l’État",
+    "desc": "Attribué pour cinq ans par le ministère (via la DRAC) à des jardins ouverts au public d’un intérêt particulier, protégés ou non.",
+    "examples": {
+      "count": "476 jardins labellisés (janvier 2024)"
+    }
+  },
+  {
+    "id": "illustres",
+    "band": "statut",
+    "group": "Labels",
+    "acronym": "Maisons des Illustres",
+    "name": "Label Maisons des Illustres",
+    "type": "Label de l’État",
+    "desc": "Créé en 2011, il signale pour cinq ans des maisons ouvertes au public où ont vécu des personnalités marquantes.",
+    "examples": {
+      "count": "258 maisons (2023)",
+      "items": [
+        "Maison de Victor Hugo (Paris)",
+        "Maison de George Sand (Nohant)",
+        "Maison de Claude Monet (Giverny)"
+      ]
+    }
+  },
+  {
+    "id": "ccr",
+    "band": "statut",
+    "group": "Labels",
+    "acronym": "CCR",
+    "name": "Label Centre culturel de rencontre",
+    "type": "Label de l’État",
+    "desc": "Monuments réhabilités et animés par un projet culturel (résidences, création, recherche), réunis dans le réseau ACCR."
+  },
+  {
+    "id": "pir",
+    "band": "statut",
+    "group": "Labels",
+    "acronym": "Labels régionaux",
+    "name": "Labels patrimoniaux régionaux (ex. Patrimoine d’intérêt régional)",
+    "type": "Label d’une Région",
+    "desc": "Certaines Régions ont créé leurs propres labels pour le patrimoine non protégé, comme le label « Patrimoine d’intérêt régional » en Île-de-France.",
+    "short": "Labels des Régions"
+  },
+  {
+    "id": "labelfdp",
+    "band": "statut",
+    "group": "Labels",
+    "acronym": "Label FdP",
+    "name": "Label de la Fondation du patrimoine",
+    "type": "Label privé à effet fiscal",
+    "desc": "Accordé à des propriétaires privés d’édifices non protégés visibles de la voie publique ; permet de déduire une partie des travaux de restauration de l’impôt sur le revenu, sur avis favorable de l’ABF.",
+    "short": "Label Fondation du patrimoine"
+  },
+  {
+    "id": "invpci",
+    "band": "statut",
+    "group": "Immatériel & savoir-faire",
+    "acronym": "Inventaire PCI",
+    "name": "Inventaire national du patrimoine culturel immatériel",
+    "type": "Inventaire (Convention 2003)",
+    "desc": "Lancé en 2008, il recense des pratiques vivantes à partir des communautés qui les portent. L’inclusion est un préalable à toute candidature UNESCO.",
+    "short": "Inventaire national du PCI",
+    "examples": {
+      "count": "Environ 560 pratiques incluses",
+      "registry": {
+        "label": "Inventaire national (ministère)",
+        "url": "https://www.culture.gouv.fr/Thematiques/Patrimoine-culturel-immateriel/L-inventaire-national"
+      }
+    }
+  },
+  {
+    "id": "ethnopole",
+    "band": "statut",
+    "group": "Immatériel & savoir-faire",
+    "acronym": "Ethnopôle",
+    "name": "Label Ethnopôle",
+    "type": "Label du ministère de la Culture",
+    "desc": "Distingue des pôles de recherche, de ressources et d’action en ethnologie, dont la Maison des Cultures du Monde (Vitré), désignée Centre français du PCI."
+  },
+  {
+    "id": "maitreart",
+    "band": "statut",
+    "group": "Immatériel & savoir-faire",
+    "acronym": "Maître d’art",
+    "name": "Titre de Maître d’art",
+    "type": "Distinction du ministère de la Culture",
+    "desc": "Créé en 1994, il distingue un professionnel des métiers d’art détenteur d’un savoir-faire rare, qui s’engage à le transmettre à un élève."
+  },
+  {
+    "id": "epv",
+    "band": "statut",
+    "group": "Immatériel & savoir-faire",
+    "acronym": "EPV",
+    "name": "Label Entreprise du patrimoine vivant",
+    "type": "Label de l’État (Économie)",
+    "desc": "Distingue des entreprises artisanales et industrielles aux savoir-faire rares. Délivré par le préfet de région pour cinq ans.",
+    "short": "Entreprise du patrimoine vivant"
+  },
+  {
+    "id": "pm",
+    "band": "statut",
+    "group": "International",
+    "acronym": "Patrimoine mondial",
+    "name": "Liste du patrimoine mondial",
+    "type": "Inscription UNESCO (Convention 1972)",
+    "desc": "Biens culturels, naturels ou mixtes de valeur universelle exceptionnelle (VUE). Chaque État présente des candidatures issues de sa Liste indicative.",
+    "roles": [
+      "Dossier : justification de la VUE, délimitation, zone tampon, plan de gestion",
+      "Évaluation ICOMOS / UICN, décision du Comité",
+      "Suivi : rapports périodiques et état de conservation"
+    ],
+    "url": "https://whc.unesco.org/fr/list/",
+    "examples": {
+      "count": "56 biens français (47 culturels, 7 naturels, 2 mixtes)",
+      "items": [
+        "Mont-Saint-Michel et sa baie (1979)",
+        "Palais et parc de Versailles (1979)",
+        "Pont du Gard (1985)",
+        "Canal du Midi (1996)",
+        "Le Havre, la ville reconstruite par Auguste Perret (2005)",
+        "Grotte ornée Chauvet-Pont-d’Arc (2014)",
+        "Phare de Cordouan (2021)",
+        "Mégalithes de Carnac et des rives du Morbihan (2025)",
+        "Forteresses royales capétiennes du Languedoc (2026)",
+        "Plages du Débarquement, Normandie, 1944 (2026)"
+      ],
+      "registry": {
+        "label": "Liste du ministère de la Culture",
+        "url": "https://www.culture.gouv.fr/fr/thematiques/monuments-sites/monuments-historiques-sites-patrimoniaux/les-biens-francais-inscrits-sur-la-liste-du-patrimoine-mondial-de-l-unesco"
+      }
+    }
+  },
+  {
+    "id": "pciunesco",
+    "band": "statut",
+    "group": "International",
+    "acronym": "Listes PCI",
+    "name": "Listes du patrimoine culturel immatériel de l’humanité",
+    "type": "Inscription UNESCO (Convention 2003)",
+    "desc": "Liste représentative, Liste de sauvegarde urgente et Registre des bonnes pratiques. La France ne peut présenter qu’un dossier national tous les deux ans ; les dossiers multinationaux échappent à ce quota.",
+    "short": "Listes UNESCO du PCI",
+    "url": "https://ich.unesco.org/fr/listes",
+    "examples": {
+      "items": [
+        "Maloya (2009)",
+        "Tapisserie d’Aubusson (2009)",
+        "Repas gastronomique des Français (2010)",
+        "Compagnonnage (2010)",
+        "Équitation de tradition française (2011)",
+        "Fest-noz (2012)",
+        "Gwoka (2014)",
+        "Savoir-faire liés au parfum en Pays de Grasse (2018)",
+        "Yole de Martinique (2020)",
+        "Savoir-faire artisanaux et culture de la baguette de pain (2022)"
+      ],
+      "registry": {
+        "label": "Base de l’UNESCO (France)",
+        "url": "https://ich.unesco.org/fr/etat/france-FR"
+      }
+    }
+  },
+  {
+    "id": "lpe",
+    "band": "statut",
+    "group": "International",
+    "acronym": "LPE",
+    "name": "Label du patrimoine européen",
+    "type": "Label de l’Union européenne",
+    "desc": "Distingue des sites symboliques de l’histoire et des valeurs européennes. Présélection nationale par l’État, sélection par un jury européen."
+  },
+  {
+    "id": "itineraire",
+    "band": "statut",
+    "group": "International",
+    "acronym": "Itinéraire culturel",
+    "name": "Itinéraire culturel du Conseil de l’Europe",
+    "type": "Certification du Conseil de l’Europe",
+    "desc": "Réseaux transnationaux autour d’un thème (chemins de Compostelle, route des abbayes cisterciennes…), évalués par l’Institut européen des itinéraires culturels."
+  },
+  {
+    "id": "archprev",
+    "band": "statut",
+    "group": "Procédures",
+    "acronym": "Archéo. préventive",
+    "name": "Prescription d’archéologie préventive",
+    "type": "Procédure",
+    "desc": "Avant certains travaux, l’État peut imposer un diagnostic puis une fouille pour étudier les vestiges menacés.",
+    "short": "Diagnostic & fouille préventive",
+    "roles": [
+      "Prescription du préfet de région (SRA)",
+      "Diagnostic par l’INRAP ou un service de collectivité",
+      "Fouille payée par l’aménageur, qui choisit un opérateur agréé",
+      "Le mobilier découvert est présumé appartenir à l’État (depuis 2016)"
+    ],
+    "law": "Code du patrimoine, livre V"
+  },
+  {
+    "id": "p175",
+    "band": "fin",
+    "group": "Crédits publics",
+    "acronym": "P175",
+    "name": "Programme 175 « Patrimoines »",
+    "type": "Budget de l’État (mission Culture)",
+    "desc": "Ligne budgétaire de l’État pour les monuments historiques, les musées, les archives, l’archéologie et les opérateurs patrimoniaux, votée chaque année en loi de finances.",
+    "short": "Programme 175 « Patrimoines »"
+  },
+  {
+    "id": "subvmh",
+    "band": "fin",
+    "group": "Crédits publics",
+    "acronym": "Subventions MH",
+    "name": "Subventions de l’État aux travaux sur MH",
+    "type": "Aide de l’État",
+    "desc": "Versées par la DRAC aux propriétaires (communes, privés) pour l’entretien et la restauration des monuments classés ou inscrits ; le taux varie selon la protection et les ressources du propriétaire.",
+    "short": "Subventions de travaux MH"
+  },
+  {
+    "id": "detr",
+    "band": "fin",
+    "group": "Crédits publics",
+    "acronym": "DETR / DSIL",
+    "name": "Dotations d’investissement aux collectivités (DETR, DSIL)",
+    "type": "Dotations de l’État",
+    "desc": "Enveloppes attribuées par les préfets aux communes et intercommunalités, souvent mobilisées pour restaurer le patrimoine communal.",
+    "short": "Dotations DETR / DSIL"
+  },
+  {
+    "id": "feder",
+    "band": "fin",
+    "group": "Crédits publics",
+    "acronym": "Fonds européens",
+    "name": "Fonds européens (FEDER, Europe créative, Horizon Europe)",
+    "type": "Financements européens",
+    "desc": "Le FEDER, géré par les Régions, finance des projets territoriaux ; Europe créative et Horizon Europe soutiennent coopération culturelle et recherche."
+  },
+  {
+    "id": "fip",
+    "band": "fin",
+    "group": "Fonds dédiés",
+    "acronym": "FIP",
+    "name": "Fonds incitatif et partenarial pour les monuments historiques",
+    "type": "Fonds de l’État",
+    "desc": "Créé en 2018 pour les monuments historiques des communes à faibles ressources ; l’aide de l’État est conditionnée à un cofinancement de la Région.",
+    "short": "Fonds incitatif et partenarial (MH)"
+  },
+  {
+    "id": "fram",
+    "band": "fin",
+    "group": "Fonds dédiés",
+    "acronym": "FRAM",
+    "name": "Fonds régional d’acquisition des musées",
+    "type": "Fonds État-Région",
+    "desc": "Fonds abondé par l’État et la Région qui aide les musées de France territoriaux à acquérir des œuvres, après avis de la commission scientifique."
+  },
+  {
+    "id": "frar",
+    "band": "fin",
+    "group": "Fonds dédiés",
+    "acronym": "FRAR",
+    "name": "Fonds régional d’aide à la restauration",
+    "type": "Fonds État-Région",
+    "desc": "Aide à la restauration des collections des musées de France territoriaux."
+  },
+  {
+    "id": "fondspat",
+    "band": "fin",
+    "group": "Fonds dédiés",
+    "acronym": "Fonds du patrimoine",
+    "name": "Fonds du patrimoine",
+    "type": "Crédits de l’État",
+    "desc": "Crédits centraux qui aident les collections publiques à acquérir des trésors nationaux et des œuvres d’intérêt majeur."
+  },
+  {
+    "id": "garantie",
+    "band": "fin",
+    "group": "Fonds dédiés",
+    "acronym": "Garantie de l’État",
+    "name": "Garantie de l’État pour les expositions",
+    "type": "Dispositif d’assurance",
+    "desc": "L’État peut accorder sa garantie, sous conditions, aux œuvres prêtées pour des expositions temporaires d’institutions publiques, notamment des musées de France, à la place d’une assurance commerciale."
+  },
+  {
+    "id": "rap",
+    "band": "fin",
+    "group": "Fonds dédiés",
+    "acronym": "RAP",
+    "name": "Redevance d’archéologie préventive",
+    "type": "Redevance",
+    "desc": "Due par les aménageurs pour certains travaux affectant le sous-sol ; elle finance les diagnostics et, via le Fonds national pour l’archéologie préventive (FNAP), une partie des fouilles.",
+    "note": "FNAP = Fonds national pour l’archéologie préventive."
+  },
+  {
+    "id": "loto",
+    "band": "fin",
+    "group": "Fonds dédiés",
+    "acronym": "Loto du patrimoine",
+    "name": "Mission Patrimoine et Loto du patrimoine",
+    "type": "Dispositif public-privé",
+    "desc": "Lancée en 2018 avec Stéphane Bern : des jeux FDJ dont une part des prélèvements de l’État est reversée à la Fondation du patrimoine.",
+    "short": "Mission Patrimoine (Loto)",
+    "roles": [
+      "Sélection par un comité réunissant la Fondation du patrimoine, FDJ United et le ministère de la Culture",
+      "Près de la moitié des sites 2026 ne sont pas protégés MH"
+    ],
+    "examples": {
+      "count": "9e édition en 2026 : 118 sites (18 emblématiques, 100 départementaux) ; plus de 1 080 projets depuis 2018",
+      "items": [
+        "Fort Boyard (site emblématique 2026)",
+        "Ancienne synagogue de Phalsbourg (2026)",
+        "Livrée de la Thurroye, Villeneuve-lès-Avignon (2026)"
+      ]
+    }
+  },
+  {
+    "id": "mecenat",
+    "band": "fin",
+    "group": "Fiscalité & mécénat",
+    "acronym": "Mécénat",
+    "name": "Mécénat (loi Aillagon de 2003)",
+    "type": "Dispositif fiscal",
+    "desc": "Les dons aux organismes d’intérêt général ouvrent droit à une réduction d’impôt : 60 % pour les entreprises (taux réduit au-delà d’un plafond) et 66 % pour les particuliers, dans certaines limites.",
+    "short": "Mécénat (loi Aillagon)",
+    "law": "Code général des impôts, art. 238 bis et 200"
+  },
+  {
+    "id": "malraux",
+    "band": "fin",
+    "group": "Fiscalité & mécénat",
+    "acronym": "Malraux",
+    "name": "Dispositif Malraux",
+    "type": "Réduction d’impôt",
+    "desc": "Réduction d’impôt pour la restauration complète d’immeubles situés en SPR, avec un taux qui dépend du document de gestion du site.",
+    "law": "Code général des impôts, art. 199 tervicies"
+  },
+  {
+    "id": "regimemh",
+    "band": "fin",
+    "group": "Fiscalité & mécénat",
+    "acronym": "Régime fiscal MH",
+    "name": "Régime fiscal des monuments historiques privés",
+    "type": "Dispositif fiscal",
+    "desc": "Les propriétaires privés de MH peuvent déduire tout ou partie de leurs charges et travaux de leur revenu ; une exonération de droits de succession existe sous convention d’ouverture au public.",
+    "short": "Fiscalité des MH privés",
+    "law": "Code général des impôts, art. 156 et 795 A"
+  },
+  {
+    "id": "dation",
+    "band": "fin",
+    "group": "Fiscalité & mécénat",
+    "acronym": "Dation",
+    "name": "Dation en paiement",
+    "type": "Dispositif fiscal (loi de 1968)",
+    "desc": "Permet de régler certains impôts, notamment des droits de succession, en remettant à l’État des œuvres d’art ou des biens de haute valeur ; ils rejoignent les collections publiques.",
+    "law": "Code général des impôts, art. 1716 bis"
+  },
+  {
+    "id": "tarifdiff",
+    "band": "fin",
+    "group": "Recettes",
+    "acronym": "Tarif hors EEE",
+    "name": "Tarification différenciée pour les visiteurs hors EEE",
+    "type": "Politique tarifaire",
+    "desc": "Depuis le 14 janvier 2026, le Louvre, Versailles, Chambord, la Sainte-Chapelle (CMN) et les visites de l’Opéra Garnier appliquent un tarif plus élevé aux visiteurs résidant hors de l’Espace économique européen. Le ministère en attendait 20 à 30 millions d’euros par an.",
+    "short": "Tarification différenciée (hors EEE)",
+    "note": "Une extension à d’autres sites est discutée pour 2027."
+  },
+  {
+    "id": "ressources",
+    "band": "fin",
+    "group": "Recettes",
+    "acronym": "Ressources propres",
+    "name": "Ressources propres des établissements",
+    "type": "Recettes",
+    "desc": "Billetterie, mécénat, locations d’espaces, boutiques, concessions, ingénierie culturelle : une part croissante du budget des grands établissements."
+  },
+  {
+    "id": "fdp",
+    "band": "assoc",
+    "group": "Fondations & mécénat",
+    "acronym": "Fondation du patrimoine",
+    "name": "Fondation du patrimoine",
+    "type": "Fondation privée reconnue d’utilité publique",
+    "desc": "Créée par la loi du 2 juillet 1996 pour sauvegarder le patrimoine de proximité, surtout non protégé.",
+    "roles": [
+      "Souscriptions publiques : collecte de dons défiscalisés pour un projet",
+      "Label fiscal pour les propriétaires privés",
+      "Opère la Mission Patrimoine (Loto du patrimoine)",
+      "Délégations régionales et départementales bénévoles"
+    ],
+    "url": "https://www.fondation-patrimoine.org"
+  },
+  {
+    "id": "fmh",
+    "band": "assoc",
+    "group": "Fondations & mécénat",
+    "acronym": "Fondation pour les MH",
+    "name": "Fondation pour les monuments historiques",
+    "type": "Fondation reconnue d’utilité publique",
+    "desc": "Abrite des fonds et collecte des dons au profit de monuments historiques, notamment privés."
+  },
+  {
+    "id": "institut",
+    "band": "assoc",
+    "group": "Fondations & mécénat",
+    "acronym": "Institut de France",
+    "name": "Institut de France",
+    "type": "Établissement public à statut particulier",
+    "desc": "Réunit les cinq académies, abrite de nombreuses fondations et possède des domaines et musées légués, comme le domaine de Chantilly (musée Condé) ou le musée Jacquemart-André."
+  },
+  {
+    "id": "fondent",
+    "band": "assoc",
+    "group": "Fondations & mécénat",
+    "acronym": "Fondations d’entreprise",
+    "name": "Fondations d’entreprise et grands mécènes",
+    "type": "Mécènes privés",
+    "desc": "Fondations qui financent restaurations, acquisitions ou métiers d’art (par exemple Fondation Crédit Agricole Pays de France, Fondation Bettencourt Schueller), souvent en partenariat avec la Fondation du patrimoine."
+  },
+  {
+    "id": "admical",
+    "band": "assoc",
+    "group": "Fondations & mécénat",
+    "acronym": "Admical",
+    "name": "Admical",
+    "type": "Association",
+    "desc": "Réseau de référence du mécénat d’entreprise en France ; informe sur le cadre juridique et fiscal."
+  },
+  {
+    "id": "g8",
+    "band": "assoc",
+    "group": "G8 Patrimoine",
+    "acronym": "G8 Patrimoine",
+    "name": "Groupe national d’information et de concertation sur le patrimoine",
+    "type": "Instance de concertation",
+    "desc": "Réunit le ministère et les associations nationales de sauvegarde reconnues d’utilité publique. Malgré son nom, il compte aujourd’hui 7 associations après une fusion.",
+    "short": "G8 Patrimoine"
+  },
+  {
+    "id": "demeure",
+    "band": "assoc",
+    "group": "G8 Patrimoine",
+    "acronym": "Demeure Historique",
+    "name": "La Demeure Historique",
+    "type": "Association reconnue d’utilité publique",
+    "desc": "Association des propriétaires et gestionnaires de monuments historiques privés."
+  },
+  {
+    "id": "vmf",
+    "band": "assoc",
+    "group": "G8 Patrimoine",
+    "acronym": "VMF",
+    "name": "Vieilles Maisons Françaises",
+    "type": "Association reconnue d’utilité publique",
+    "desc": "Sauvegarde et valorisation du patrimoine bâti et paysager, protégé ou non ; délégations départementales, prix et actions pédagogiques."
+  },
+  {
+    "id": "mpf",
+    "band": "assoc",
+    "group": "G8 Patrimoine",
+    "acronym": "Maisons paysannes",
+    "name": "Maisons paysannes de France",
+    "type": "Association reconnue d’utilité publique",
+    "desc": "Défend l’architecture rurale et diffuse les techniques de restauration du bâti ancien.",
+    "url": "https://www.maisons-paysannes.org"
+  },
+  {
+    "id": "rempart",
+    "band": "assoc",
+    "group": "G8 Patrimoine",
+    "acronym": "REMPART",
+    "name": "Union REMPART",
+    "type": "Union d’associations reconnue d’utilité publique",
+    "desc": "Organise depuis 1966 des chantiers de bénévoles de restauration du patrimoine."
+  },
+  {
+    "id": "sitesmon",
+    "band": "assoc",
+    "group": "G8 Patrimoine",
+    "acronym": "Sites & Monuments",
+    "name": "Sites & Monuments (ex-SPPEF)",
+    "type": "Association reconnue d’utilité publique",
+    "desc": "Fondée en 1901 comme Société pour la protection des paysages et de l’esthétique de la France ; veille et recours en justice contre les atteintes au patrimoine."
+  },
+  {
+    "id": "patenv",
+    "band": "assoc",
+    "group": "G8 Patrimoine",
+    "acronym": "Patrimoine-Environnement",
+    "name": "Patrimoine-Environnement (LUR-FNASSEM)",
+    "type": "Fédération reconnue d’utilité publique",
+    "desc": "Fédère des associations locales de sauvegarde ; issue en 2013 de la fusion de la FNASSEM et de la Ligue urbaine et rurale."
+  },
+  {
+    "id": "cpjf",
+    "band": "assoc",
+    "group": "G8 Patrimoine",
+    "acronym": "Parcs et Jardins",
+    "name": "Comité des Parcs et Jardins de France",
+    "type": "Association",
+    "desc": "Représente les propriétaires et gestionnaires de parcs et jardins.",
+    "url": "https://www.parcsetjardins.fr"
+  },
+  {
+    "id": "sitescites",
+    "band": "assoc",
+    "group": "Réseaux de collectivités",
+    "acronym": "Sites & Cités",
+    "name": "Sites & Cités remarquables de France",
+    "type": "Association de collectivités",
+    "desc": "Réseau des villes et territoires dotés d’un SPR ou du label Ville ou Pays d’art et d’histoire ; partenaire du ministère."
+  },
+  {
+    "id": "rgsf",
+    "band": "assoc",
+    "group": "Réseaux de collectivités",
+    "acronym": "RGSF",
+    "name": "Réseau des Grands Sites de France",
+    "type": "Association",
+    "desc": "Rassemble les gestionnaires de Grands Sites de France et de sites en démarche de label."
+  },
+  {
+    "id": "abfpm",
+    "band": "assoc",
+    "group": "Réseaux de collectivités",
+    "acronym": "ABFPM",
+    "name": "Association des biens français du patrimoine mondial",
+    "type": "Association",
+    "desc": "Réseau des gestionnaires et collectivités des biens français inscrits ; siège à la CNPA."
+  },
+  {
+    "id": "pbvf",
+    "band": "assoc",
+    "group": "Réseaux de collectivités",
+    "acronym": "Plus Beaux Villages",
+    "name": "Les Plus Beaux Villages de France",
+    "type": "Association (label privé)",
+    "desc": "Délivre son propre label, distinct des labels de l’État, à de petites communes rurales."
+  },
+  {
+    "id": "pcc",
+    "band": "assoc",
+    "group": "Réseaux de collectivités",
+    "acronym": "Petites Cités de Caractère",
+    "name": "Petites Cités de Caractère de France",
+    "type": "Association (label privé)",
+    "desc": "Label associatif pour de petites villes au patrimoine remarquable."
+  },
+  {
+    "id": "affectataire",
+    "band": "assoc",
+    "group": "Autres acteurs",
+    "acronym": "Affectataire",
+    "name": "Affectataire cultuel (curé, diocèse)",
+    "type": "Acteur cultuel (loi de 1905)",
+    "desc": "Les églises antérieures à 1905 appartiennent aux communes ou à l’État mais restent affectées au culte : l’affectataire en règle l’usage et doit être associé aux projets.",
+    "short": "Affectataire cultuel"
+  },
+  {
+    "id": "opr",
+    "band": "assoc",
+    "group": "Autres acteurs",
+    "acronym": "OPR",
+    "name": "Observatoire du patrimoine religieux",
+    "type": "Association",
+    "desc": "Veille et sensibilisation sur les édifices religieux de toutes confessions."
+  },
+  {
+    "id": "ffsam",
+    "band": "assoc",
+    "group": "Autres acteurs",
+    "acronym": "FFSAM",
+    "name": "Fédération française des sociétés d’amis de musées",
+    "type": "Fédération",
+    "desc": "Fédère les sociétés d’amis qui soutiennent les musées (dons, acquisitions, bénévolat)."
+  },
+  {
+    "id": "fems",
+    "band": "assoc",
+    "group": "Autres acteurs",
+    "acronym": "FEMS",
+    "name": "Fédération des écomusées et des musées de société",
+    "type": "Fédération",
+    "desc": "Réseau des écomusées et musées d’histoire, d’ethnographie et de société."
+  },
+  {
+    "id": "opprive",
+    "band": "assoc",
+    "group": "Acteurs privés",
+    "acronym": "Opérateurs archéo.",
+    "name": "Opérateurs privés d’archéologie préventive",
+    "type": "Entreprises agréées",
+    "desc": "Sociétés agréées par l’État pour réaliser des fouilles préventives, en concurrence avec l’INRAP et les services de collectivités.",
+    "short": "Opérateurs agréés (fouilles)"
+  },
+  {
+    "id": "fdj",
+    "band": "assoc",
+    "group": "Acteurs privés",
+    "acronym": "FDJ United",
+    "name": "FDJ United (ex-Française des Jeux)",
+    "type": "Entreprise",
+    "desc": "Opérateur des jeux de la Mission Patrimoine (tickets à gratter et tirages Loto dédiés)."
+  },
+  {
+    "id": "conservateur",
+    "band": "metier",
+    "group": "Corps & professions",
+    "acronym": "Conservateur",
+    "name": "Conservateur du patrimoine",
+    "type": "Corps d’État et cadre d’emplois territorial",
+    "desc": "Recrutés par concours à l’INP, ils dirigent la conservation, l’étude et la valorisation des patrimoines.",
+    "roles": [
+      "Cinq spécialités : archéologie ; archives ; monuments historiques et inventaire ; musées ; patrimoine scientifique, technique et naturel",
+      "Responsables scientifiques des musées de France"
+    ],
+    "note": "Les conservateurs des bibliothèques forment un corps distinct."
+  },
+  {
+    "id": "acmh",
+    "band": "metier",
+    "group": "Corps & professions",
+    "acronym": "ACMH",
+    "name": "Architecte en chef des monuments historiques",
+    "type": "Architecte recruté par concours de l’État",
+    "desc": "Architecte libéral, chargé d’une circonscription, qui assure la maîtrise d’œuvre des travaux sur les MH classés appartenant à l’État."
+  },
+  {
+    "id": "archpat",
+    "band": "metier",
+    "group": "Corps & professions",
+    "acronym": "Architecte du patrimoine",
+    "name": "Architecte du patrimoine",
+    "type": "Architecte diplômé (DSA)",
+    "desc": "Titulaire du diplôme de spécialisation « Architecture et patrimoine » de l’École de Chaillot ; peut assurer la maîtrise d’œuvre sur les MH classés qui n’appartiennent pas à l’État."
+  },
+  {
+    "id": "restaurateur",
+    "band": "metier",
+    "group": "Corps & professions",
+    "acronym": "Restaurateur",
+    "name": "Restaurateur du patrimoine",
+    "type": "Profession habilitée",
+    "desc": "Seuls des restaurateurs aux qualifications reconnues peuvent restaurer les collections des musées de France : diplômés de l’INP, du master de conservation-restauration de Paris 1 Panthéon-Sorbonne, de l’ESAD TALM-Tours ou de l’ESA d’Avignon, notamment.",
+    "law": "Code du patrimoine, art. L.452-1"
+  },
+  {
+    "id": "regisseur",
+    "band": "metier",
+    "group": "Corps & professions",
+    "acronym": "Régisseur",
+    "name": "Régisseur d’œuvres (collections, expositions)",
+    "type": "Métier (sans corps dédié)",
+    "desc": "Organise les mouvements d’œuvres : constats d’état, emballage, transport, convoiement, assurance ou garantie de l’État, prêts, récolement et gestion des réserves.",
+    "note": "Recruté selon les filières : chargé d’études documentaires, technicien, attaché ou assistant de conservation, contractuel."
+  },
+  {
+    "id": "animateur",
+    "band": "metier",
+    "group": "Corps & professions",
+    "acronym": "Animateur AP",
+    "name": "Animateur de l’architecture et du patrimoine",
+    "type": "Fonction (label VPAH)",
+    "desc": "Professionnel recruté par les villes et pays d’art et d’histoire pour concevoir et coordonner la médiation."
+  },
+  {
+    "id": "afroa",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "AFROA",
+    "name": "Association française des régisseurs d’œuvres d’art",
+    "type": "Association professionnelle",
+    "desc": "Réseau professionnel des régisseurs : rencontres, formation, partage de pratiques."
+  },
+  {
+    "id": "ffcr",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "FFCR",
+    "name": "Fédération française des conservateurs-restaurateurs",
+    "type": "Fédération professionnelle",
+    "desc": "Représente les conservateurs-restaurateurs diplômés et promeut leur déontologie."
+  },
+  {
+    "id": "anabf",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "ANABF",
+    "name": "Association nationale des architectes des Bâtiments de France",
+    "type": "Association professionnelle",
+    "desc": "Porte la voix des ABF dans les débats sur leurs missions."
+  },
+  {
+    "id": "aaf",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "AAF",
+    "name": "Association des archivistes français",
+    "type": "Association professionnelle",
+    "desc": "Principal réseau des archivistes ; formation continue et publications."
+  },
+  {
+    "id": "abfbib",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "ABF (bibliothèques)",
+    "name": "Association des bibliothécaires de France",
+    "type": "Association professionnelle",
+    "desc": "Association des professionnels des bibliothèques.",
+    "short": "Association des bibliothécaires de France",
+    "note": "Même sigle que les architectes des Bâtiments de France."
+  },
+  {
+    "id": "icomfr",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "ICOM France",
+    "name": "Comité national français de l’ICOM",
+    "type": "Comité national",
+    "desc": "Relais français de l’ICOM pour les professionnels des musées."
+  },
+  {
+    "id": "icomosfr",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "ICOMOS France",
+    "name": "Comité national français de l’ICOMOS",
+    "type": "Comité national",
+    "desc": "Relais français de l’ICOMOS ; expertise sur le patrimoine bâti et le patrimoine mondial."
+  },
+  {
+    "id": "ordre",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "Ordre des architectes",
+    "name": "Ordre des architectes (CNOA et conseils régionaux)",
+    "type": "Ordre professionnel",
+    "desc": "Inscription obligatoire pour porter le titre et exercer la profession d’architecte (loi de 1977)."
+  },
+  {
+    "id": "gmh",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "GMH",
+    "name": "Groupement des entreprises de restauration de monuments historiques",
+    "type": "Syndicat professionnel",
+    "desc": "Réunit les entreprises qualifiées (taille de pierre, charpente, couverture…) qui interviennent sur les MH."
+  },
+  {
+    "id": "isf",
+    "band": "metier",
+    "group": "Formation & transmission",
+    "acronym": "ISF",
+    "name": "Institut pour les savoir-faire français (ex-INMA)",
+    "type": "Association d’intérêt général",
+    "desc": "Promeut les métiers d’art et les savoir-faire ; coordonne les Journées européennes des métiers d’art et accompagne le dispositif des Maîtres d’art.",
+    "short": "Institut pour les savoir-faire français",
+    "note": "Ancien nom : Institut national des métiers d’art (INMA)."
+  },
+  {
+    "id": "cnfpt",
+    "band": "metier",
+    "group": "Formation & transmission",
+    "acronym": "CNFPT",
+    "name": "Centre national de la fonction publique territoriale",
+    "type": "Établissement public",
+    "desc": "Forme les agents des collectivités et organise, avec l’INP, la formation des conservateurs territoriaux."
+  },
+  {
+    "id": "codepat",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "Code du patrimoine",
+    "name": "Code du patrimoine",
+    "type": "Code (2004)",
+    "desc": "Rassemble depuis 2004 l’essentiel du droit du patrimoine : livre I dispositions communes, II archives, III bibliothèques, IV musées, V archéologie, VI monuments historiques, SPR et qualité architecturale, VII outre-mer.",
+    "url": "https://www.legifrance.gouv.fr"
+  },
+  {
+    "id": "codeenv",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "Code de l’environnement",
+    "name": "Code de l’environnement",
+    "type": "Code",
+    "desc": "Régit les sites classés et inscrits (art. L.341-1 et suivants), les paysages et les parcs naturels."
+  },
+  {
+    "id": "codeurb",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "Code de l’urbanisme",
+    "name": "Code de l’urbanisme",
+    "type": "Code",
+    "desc": "PLU, permis de construire et déclarations préalables : c’est par lui que passent les avis de l’ABF et que s’appliquent les servitudes patrimoniales."
+  },
+  {
+    "id": "cgppp",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "CGPPP",
+    "name": "Code général de la propriété des personnes publiques",
+    "type": "Code",
+    "desc": "Définit le domaine public, dont le domaine public mobilier (art. L.2112-1) : collections publiques, archives publiques, objets protégés appartenant à une personne publique. Principe : inaliénabilité et imprescriptibilité."
+  },
+  {
+    "id": "cgi",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "CGI",
+    "name": "Code général des impôts",
+    "type": "Code",
+    "desc": "Fiscalité du patrimoine : mécénat (art. 238 bis, 200), Malraux (199 tervicies), MH privés (156, 795 A), dation (1716 bis), trésors nationaux (238 bis-0 A)."
+  },
+  {
+    "id": "codepenal",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "Code pénal",
+    "name": "Code pénal",
+    "type": "Code",
+    "desc": "Aggrave les peines pour la destruction ou la dégradation d’un bien culturel protégé (art. 322-3-1) et pour le vol d’un bien culturel (art. 311-4-2) : jusqu’à 7 ans d’emprisonnement et 100 000 € d’amende."
+  },
+  {
+    "id": "loi1905",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi de 1905",
+    "name": "Loi du 9 décembre 1905 de séparation des Églises et de l’État",
+    "type": "Loi",
+    "desc": "Les édifices de culte antérieurs à 1905 sont devenus propriété publique (communes, État pour les cathédrales) et restent affectés au culte."
+  },
+  {
+    "id": "loi1913",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi de 1913",
+    "name": "Loi du 31 décembre 1913 sur les monuments historiques",
+    "type": "Loi",
+    "desc": "Fondement du classement et de l’inscription des monuments historiques, aujourd’hui codifiée au livre VI du Code du patrimoine."
+  },
+  {
+    "id": "loi1930",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi de 1930",
+    "name": "Loi du 2 mai 1930 sur les sites",
+    "type": "Loi",
+    "desc": "Protection des monuments naturels et des sites, codifiée dans le Code de l’environnement."
+  },
+  {
+    "id": "loi1962",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi Malraux",
+    "name": "Loi du 4 août 1962 (dite loi Malraux)",
+    "type": "Loi",
+    "desc": "Crée les secteurs sauvegardés, ancêtres des SPR, et le régime fiscal qui porte encore son nom."
+  },
+  {
+    "id": "loi1977",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi de 1977",
+    "name": "Loi du 3 janvier 1977 sur l’architecture",
+    "type": "Loi",
+    "desc": "Déclare l’architecture d’intérêt public, organise la profession et crée les CAUE."
+  },
+  {
+    "id": "loi2001",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi de 2001",
+    "name": "Loi du 17 janvier 2001 sur l’archéologie préventive",
+    "type": "Loi",
+    "desc": "Organise l’archéologie préventive, crée la redevance et l’INRAP ; réformée en 2003 pour ouvrir les fouilles à la concurrence."
+  },
+  {
+    "id": "loi2002",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi musées 2002",
+    "name": "Loi du 4 janvier 2002 relative aux musées de France",
+    "type": "Loi",
+    "desc": "Crée l’appellation « Musée de France », le HCMF, les obligations d’inventaire et de récolement et l’habilitation des restaurateurs."
+  },
+  {
+    "id": "loi2004",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi LRL 2004",
+    "name": "Loi du 13 août 2004 relative aux libertés et responsabilités locales",
+    "type": "Loi",
+    "desc": "Transfère l’Inventaire général aux Régions et permet le transfert de certains monuments de l’État aux collectivités."
+  },
+  {
+    "id": "lcap",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "LCAP",
+    "name": "Loi du 7 juillet 2016 relative à la liberté de la création, à l’architecture et au patrimoine",
+    "type": "Loi",
+    "desc": "Crée les SPR, la CNPA et les CRPA, les PDA, le label ACR et les domaines nationaux ; intègre le PCI dans la définition du patrimoine (art. L.1) ; présume propriété de l’État le mobilier archéologique découvert."
+  },
+  {
+    "id": "loi2023spol",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi spoliations 2023",
+    "name": "Loi du 22 juillet 2023 sur la restitution des biens culturels spoliés (1933-1945)",
+    "type": "Loi-cadre",
+    "desc": "Permet de sortir des collections publiques, par décret en Conseil d’État après avis de la CIVS, les biens spoliés dans le contexte des persécutions antisémites, sans loi spécifique pour chaque cas.",
+    "short": "Loi-cadre sur les biens spoliés"
+  },
+  {
+    "id": "loi2023restes",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi restes humains 2023",
+    "name": "Loi du 26 décembre 2023 relative à la restitution de restes humains appartenant aux collections publiques",
+    "type": "Loi-cadre",
+    "desc": "Organise la restitution à un État étranger de restes humains conservés dans les collections publiques, à des fins funéraires, après avis d’un comité scientifique.",
+    "short": "Loi-cadre sur les restes humains"
+  },
+  {
+    "id": "loicolonial",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi-cadre biens coloniaux",
+    "name": "Loi-cadre sur la restitution de biens culturels acquis en contexte colonial",
+    "type": "Projet de loi-cadre (2025-2026)",
+    "desc": "Présenté en 2025 pour sortir du système des lois au cas par cas (Bénin et Sénégal en 2020). Examiné au Sénat en janvier 2026 puis adopté par l’Assemblée nationale en avril 2026.",
+    "short": "Restitutions coloniales",
+    "note": "Vérifier sur Légifrance la date de promulgation et les décrets d’application."
+  },
+  {
+    "id": "conv1954",
+    "band": "textes",
+    "group": "Conventions internationales",
+    "acronym": "Convention 1954",
+    "name": "Convention de La Haye pour la protection des biens culturels en cas de conflit armé",
+    "type": "Convention UNESCO",
+    "desc": "Oblige les États à sauvegarder et respecter les biens culturels en temps de guerre ; deux protocoles (1954, 1999)."
+  },
+  {
+    "id": "conv1970",
+    "band": "textes",
+    "group": "Conventions internationales",
+    "acronym": "Convention 1970",
+    "name": "Convention UNESCO concernant les mesures à prendre pour interdire et empêcher l’importation, l’exportation et le transfert de propriété illicites des biens culturels",
+    "type": "Convention UNESCO",
+    "desc": "Socle international de la lutte contre le trafic : contrôles à l’exportation, coopération pour la restitution des biens volés."
+  },
+  {
+    "id": "conv1972",
+    "band": "textes",
+    "group": "Conventions internationales",
+    "acronym": "Convention 1972",
+    "name": "Convention UNESCO concernant la protection du patrimoine mondial, culturel et naturel",
+    "type": "Convention UNESCO",
+    "desc": "Ratifiée par la France en 1975. Crée le Comité et la Liste du patrimoine mondial."
+  },
+  {
+    "id": "conv2003",
+    "band": "textes",
+    "group": "Conventions internationales",
+    "acronym": "Convention 2003",
+    "name": "Convention UNESCO pour la sauvegarde du patrimoine culturel immatériel",
+    "type": "Convention UNESCO",
+    "desc": "Ratifiée par la France en 2006 ; impose des inventaires nationaux et des rapports périodiques."
+  },
+  {
+    "id": "lavalette",
+    "band": "textes",
+    "group": "Conventions internationales",
+    "acronym": "La Valette",
+    "name": "Convention européenne pour la protection du patrimoine archéologique (La Valette, 1992)",
+    "type": "Convention du Conseil de l’Europe",
+    "desc": "Pose le principe d’une archéologie préventive intégrée à l’aménagement, financée par l’aménageur."
+  },
+  {
+    "id": "regue",
+    "band": "textes",
+    "group": "Conventions internationales",
+    "acronym": "Règlements UE",
+    "name": "Règlements européens sur la circulation des biens culturels",
+    "type": "Droit de l’Union",
+    "desc": "Licence d’exportation hors de l’UE pour les biens culturels (règlement n° 116/2009) et contrôle de l’importation (règlement 2019/880)."
+  },
+  {
+    "id": "pop",
+    "band": "outils",
+    "group": "Bases & portails",
+    "acronym": "POP",
+    "name": "Plateforme ouverte du patrimoine",
+    "type": "Base de données (ministère)",
+    "desc": "Point d’accès unique aux bases du ministère : Mérimée (immeubles), Palissy (objets mobiliers), Joconde (collections des musées de France), Mémoire (photographies), Muséofile (musées)…",
+    "url": "https://pop.culture.gouv.fr"
+  },
+  {
+    "id": "atlas",
+    "band": "outils",
+    "group": "Bases & portails",
+    "acronym": "Atlas des patrimoines",
+    "name": "Atlas des patrimoines",
+    "type": "Cartographie (ministère)",
+    "desc": "Carte en ligne des protections : MH, abords et PDA, SPR, sites, zones archéologiques. Pratique pour savoir si une adresse est en espace protégé.",
+    "url": "https://atlas.patrimoines.culture.fr"
+  },
+  {
+    "id": "francearchives",
+    "band": "outils",
+    "group": "Bases & portails",
+    "acronym": "FranceArchives",
+    "name": "FranceArchives",
+    "type": "Portail national des archives",
+    "desc": "Moteur de recherche commun aux inventaires des services d’archives français.",
+    "url": "https://francearchives.gouv.fr"
+  },
+  {
+    "id": "gallica",
+    "band": "outils",
+    "group": "Bases & portails",
+    "acronym": "Gallica",
+    "name": "Gallica",
+    "type": "Bibliothèque numérique",
+    "desc": "Bibliothèque numérique de la BnF et de ses partenaires.",
+    "url": "https://gallica.bnf.fr"
+  },
+  {
+    "id": "mdh",
+    "band": "outils",
+    "group": "Bases & portails",
+    "acronym": "Mémoire des hommes",
+    "name": "Mémoire des hommes",
+    "type": "Portail (ministère des Armées)",
+    "desc": "Archives numérisées et bases nominatives des conflits.",
+    "url": "https://www.memoiredeshommes.sga.defense.gouv.fr"
+  },
+  {
+    "id": "immateriel",
+    "band": "outils",
+    "group": "Bases & portails",
+    "acronym": "Vivre le PCI",
+    "name": "Agenda national et site « Vivre le patrimoine culturel immatériel »",
+    "type": "Portail (ministère)",
+    "desc": "Lancé en 2025 pour faire connaître les pratiques de l’Inventaire national et leurs événements.",
+    "url": "https://immateriel.culture.gouv.fr"
+  },
+  {
+    "id": "jep",
+    "band": "outils",
+    "group": "Événements",
+    "acronym": "JEP",
+    "name": "Journées européennes du patrimoine",
+    "type": "Événement national",
+    "desc": "Le troisième week-end de septembre, coordonnées par le ministère de la Culture dans un cadre européen.",
+    "url": "https://journeesdupatrimoine.culture.gouv.fr"
+  },
+  {
+    "id": "rdvj",
+    "band": "outils",
+    "group": "Événements",
+    "acronym": "Rendez-vous aux jardins",
+    "name": "Rendez-vous aux jardins",
+    "type": "Événement national",
+    "desc": "Week-end d’ouverture des parcs et jardins, début juin."
+  },
+  {
+    "id": "nuit",
+    "band": "outils",
+    "group": "Événements",
+    "acronym": "Nuit des musées",
+    "name": "Nuit européenne des musées",
+    "type": "Événement national",
+    "desc": "Ouverture nocturne gratuite des musées, au printemps."
+  },
+  {
+    "id": "jema",
+    "band": "outils",
+    "group": "Événements",
+    "acronym": "JEMA",
+    "name": "Journées européennes des métiers d’art",
+    "type": "Événement",
+    "desc": "Ateliers et savoir-faire ouverts au public, coordonnées par l’Institut pour les savoir-faire français."
+  },
+  {
+    "id": "jpp",
+    "band": "outils",
+    "group": "Événements",
+    "acronym": "JPPM",
+    "name": "Journées du patrimoine de pays et des moulins",
+    "type": "Événement",
+    "desc": "Week-end consacré au patrimoine rural et de proximité, porté par des associations dont Patrimoine-Environnement."
+  }
+]

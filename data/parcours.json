@@ -1,0 +1,322 @@
+[
+  {
+    "id": "mh",
+    "title": "Protéger un bâtiment au titre des MH",
+    "intro": "De la demande à l’arrêté : le circuit d’une protection d’immeuble.",
+    "steps": [
+      {
+        "node": "commune",
+        "text": "Le propriétaire (commune, particulier), une association ou la DRAC elle-même signale un édifice d’intérêt."
+      },
+      {
+        "node": "crmh",
+        "text": "La conservation régionale des MH instruit le dossier (histoire, intérêt, état, documentation) et recueille l’avis du propriétaire."
+      },
+      {
+        "node": "crpa",
+        "text": "La CRPA (1re section) examine le dossier et rend un avis."
+      },
+      {
+        "node": "prefreg",
+        "text": "Le préfet de région prend l’arrêté d’inscription."
+      },
+      {
+        "node": "mhinscrit",
+        "text": "L’immeuble est inscrit : travaux sous contrôle, abords protégés autour de lui."
+      },
+      {
+        "node": "cnpa",
+        "text": "Si l’intérêt est national, un classement peut être proposé : la CNPA (2e section) donne son avis."
+      },
+      {
+        "node": "mc",
+        "text": "Le ministre signe l’arrêté de classement ; sans accord du propriétaire, il faut un décret en Conseil d’État."
+      },
+      {
+        "node": "mhclasse",
+        "text": "L’immeuble est classé : autorisation de travaux, maîtrise d’œuvre qualifiée, subventions possibles."
+      },
+      {
+        "node": "pop",
+        "text": "La protection apparaît dans la base Mérimée et sur l’Atlas des patrimoines."
+      }
+    ]
+  },
+  {
+    "id": "abords",
+    "title": "Faire des travaux près d’un monument",
+    "intro": "Permis et déclarations en abords, en SPR ou en site : le rôle de l’ABF.",
+    "steps": [
+      {
+        "node": "atlas",
+        "text": "Vérifier sur l’Atlas des patrimoines si l’adresse est en abords, en PDA, en SPR ou en site."
+      },
+      {
+        "node": "caue",
+        "text": "Avant de déposer, le CAUE ou l’UDAP peuvent conseiller gratuitement sur le projet."
+      },
+      {
+        "node": "commune",
+        "text": "La demande d’autorisation d’urbanisme (permis, déclaration préalable) est déposée en mairie."
+      },
+      {
+        "node": "udap",
+        "text": "La mairie transmet le dossier à l’UDAP du département."
+      },
+      {
+        "node": "abf",
+        "text": "L’ABF donne son accord, avec ou sans prescriptions, ou le refuse. En covisibilité, en PDA ou en SPR, cet avis lie le maire."
+      },
+      {
+        "node": "commune",
+        "text": "Le maire délivre ou refuse l’autorisation en conséquence."
+      },
+      {
+        "node": "crpa",
+        "text": "En cas de désaccord, le maire ou le demandeur peut former un recours : la CRPA (2e section) est consultée."
+      },
+      {
+        "node": "prefreg",
+        "text": "Le préfet de région tranche et peut substituer sa décision à l’avis de l’ABF."
+      }
+    ]
+  },
+  {
+    "id": "mdf",
+    "title": "Obtenir l’appellation Musée de France",
+    "intro": "Les étapes et les obligations qui suivent.",
+    "steps": [
+      {
+        "node": "musterr",
+        "text": "La collectivité ou l’association propriétaire des collections décide de demander l’appellation."
+      },
+      {
+        "node": "conseillermusees",
+        "text": "Le conseiller musées de la DRAC accompagne le dossier : projet scientifique et culturel, inventaire, personnel scientifique, conservation et accueil."
+      },
+      {
+        "node": "smf",
+        "text": "Le Service des musées de France instruit la demande."
+      },
+      {
+        "node": "hcmf",
+        "text": "Le Haut Conseil des musées de France rend son avis."
+      },
+      {
+        "node": "mc",
+        "text": "Le ministre attribue l’appellation par arrêté."
+      },
+      {
+        "node": "mdf",
+        "text": "Obligations : inventaire, récolement tous les dix ans, collections inaliénables pour les personnes publiques, contrôle scientifique et technique de l’État."
+      },
+      {
+        "node": "comsci",
+        "text": "Chaque acquisition passe ensuite devant une commission scientifique."
+      },
+      {
+        "node": "fram",
+        "text": "Les achats peuvent être aidés par le FRAM (État et Région), les restaurations par le FRAR."
+      }
+    ]
+  },
+  {
+    "id": "archeo",
+    "title": "Archéologie préventive : du permis à la fouille",
+    "intro": "Qui décide, qui fouille, qui paie.",
+    "steps": [
+      {
+        "node": "commune",
+        "text": "Un aménageur dépose un permis ou un projet d’aménagement (lotissement, ZAC, route…)."
+      },
+      {
+        "node": "sra",
+        "text": "Le SRA examine le dossier, notamment s’il se trouve en zone de présomption de prescription archéologique."
+      },
+      {
+        "node": "prefreg",
+        "text": "Le préfet de région prescrit un diagnostic, ou laisse le projet se faire."
+      },
+      {
+        "node": "inrap",
+        "text": "Le diagnostic est réalisé par l’INRAP ou par un service archéologique de collectivité agréé."
+      },
+      {
+        "node": "rap",
+        "text": "Il est financé par la redevance d’archéologie préventive, une taxe acquittée par les aménageurs."
+      },
+      {
+        "node": "prefreg",
+        "text": "Au vu du rapport, le préfet prescrit une fouille, une modification du projet, ou libère le terrain."
+      },
+      {
+        "node": "opprive",
+        "text": "L’aménageur choisit et paie l’opérateur de fouille : INRAP, service de collectivité ou opérateur privé agréé."
+      },
+      {
+        "node": "ctra",
+        "text": "Les rapports de fouille sont évalués par la CTRA."
+      },
+      {
+        "node": "sra",
+        "text": "Le mobilier mis au jour, présumé propriété de l’État depuis 2016, rejoint un centre de conservation et d’étude."
+      }
+    ]
+  },
+  {
+    "id": "pci",
+    "title": "Du PCI à l’Inventaire national, puis à l’UNESCO",
+    "intro": "Le parcours d’une pratique vivante.",
+    "steps": [
+      {
+        "node": "ethnopole",
+        "text": "Les porteurs de la pratique (associations, communautés) rédigent une fiche d’inventaire, souvent avec un chercheur ou un ethnopôle."
+      },
+      {
+        "node": "drvpci",
+        "text": "Le DRVPCI reçoit la demande, accompagne la fiche et vérifie le consentement des communautés."
+      },
+      {
+        "node": "cnpci",
+        "text": "Le Comité national du PCI valide l’inclusion."
+      },
+      {
+        "node": "invpci",
+        "text": "La pratique entre à l’Inventaire national, condition préalable à toute candidature."
+      },
+      {
+        "node": "cnpci",
+        "text": "Pour une candidature UNESCO, le comité donne un avis au ministre, qui arbitre (un dossier national tous les deux ans)."
+      },
+      {
+        "node": "delunesco",
+        "text": "Le dossier est transmis à l’UNESCO par la voie diplomatique."
+      },
+      {
+        "node": "igcpci",
+        "text": "Après évaluation, le Comité intergouvernemental décide de l’inscription lors de sa session annuelle."
+      },
+      {
+        "node": "pciunesco",
+        "text": "L’élément est inscrit ; la France rend compte de sa sauvegarde dans ses rapports périodiques."
+      }
+    ]
+  },
+  {
+    "id": "pm",
+    "title": "Inscrire un bien au patrimoine mondial",
+    "intro": "Un processus long, piloté par l’État.",
+    "steps": [
+      {
+        "node": "commune",
+        "text": "Des collectivités et gestionnaires portent un projet et réunissent les acteurs locaux."
+      },
+      {
+        "node": "mpm",
+        "text": "Le bien doit d’abord figurer sur la Liste indicative de la France, suivie par la Mission du patrimoine mondial avec le ministère chargé de l’environnement."
+      },
+      {
+        "node": "mpm",
+        "text": "L’État choisit les candidatures ; le dossier justifie la valeur universelle exceptionnelle et fixe un plan de gestion et une zone tampon."
+      },
+      {
+        "node": "delunesco",
+        "text": "Le dossier est déposé au Centre du patrimoine mondial (date limite : 1er février)."
+      },
+      {
+        "node": "icomos",
+        "text": "L’ICOMOS (biens culturels) ou l’UICN (biens naturels) évalue le dossier et visite le site."
+      },
+      {
+        "node": "cpm",
+        "text": "Le Comité du patrimoine mondial décide lors de sa session annuelle, environ dix-huit mois après le dépôt."
+      },
+      {
+        "node": "pm",
+        "text": "Le bien est inscrit ; il fait l’objet d’un suivi régulier et son gestionnaire rejoint l’ABFPM."
+      }
+    ]
+  },
+  {
+    "id": "eglise",
+    "title": "Financer la restauration d’une église communale",
+    "intro": "Le cas le plus fréquent en France : un patrimoine communal, affecté au culte.",
+    "steps": [
+      {
+        "node": "loi1905",
+        "text": "Depuis 1905, l’église appartient à la commune, qui en est maître d’ouvrage ; elle reste affectée au culte."
+      },
+      {
+        "node": "affectataire",
+        "text": "L’affectataire est associé au projet pour tout ce qui touche à l’usage cultuel."
+      },
+      {
+        "node": "archpat",
+        "text": "La commune choisit un maître d’œuvre ; si l’église est classée, un ACMH ou un architecte du patrimoine."
+      },
+      {
+        "node": "subvmh",
+        "text": "Si l’église est protégée MH, la DRAC peut subventionner les travaux et en assure le contrôle."
+      },
+      {
+        "node": "fip",
+        "text": "Petite commune à faibles ressources : le FIP peut compléter, avec la Région."
+      },
+      {
+        "node": "dept",
+        "text": "Département et Région ont leurs propres programmes d’aide, souvent ouverts au patrimoine non protégé."
+      },
+      {
+        "node": "detr",
+        "text": "La préfecture peut attribuer des dotations d’investissement (DETR, DSIL)."
+      },
+      {
+        "node": "fdp",
+        "text": "Une souscription avec la Fondation du patrimoine collecte des dons défiscalisés ; la Fondation peut abonder."
+      },
+      {
+        "node": "loto",
+        "text": "Pour un édifice en péril, une candidature à la Mission Patrimoine est possible."
+      },
+      {
+        "node": "mecenat",
+        "text": "Les entreprises locales peuvent compléter par du mécénat."
+      }
+    ]
+  },
+  {
+    "id": "pret",
+    "title": "Prêter une œuvre pour une exposition",
+    "intro": "Le circuit vu depuis la régie.",
+    "steps": [
+      {
+        "node": "regisseur",
+        "text": "La demande de prêt arrive : régisseur et conservateur vérifient l’état de l’œuvre et les conditions de l’emprunteur (rapport de sécurité et de conservation)."
+      },
+      {
+        "node": "conservateur",
+        "text": "Le conservateur donne son avis scientifique ; l’autorité propriétaire (collectivité, État) accorde le prêt."
+      },
+      {
+        "node": "smf",
+        "text": "Si l’œuvre quitte le territoire, la collection étant trésor national, une autorisation de sortie temporaire est demandée au ministère."
+      },
+      {
+        "node": "garantie",
+        "text": "L’emprunteur assure l’œuvre ou, pour certaines expositions, obtient la garantie de l’État."
+      },
+      {
+        "node": "restaurateur",
+        "text": "Si nécessaire, un restaurateur habilité intervient avant le départ."
+      },
+      {
+        "node": "regisseur",
+        "text": "Constat d’état, emballage, transport spécialisé et convoiement jusqu’au retour."
+      },
+      {
+        "node": "ocbc",
+        "text": "En cas de vol, plainte et signalement immédiat à l’OCBC."
+      }
+    ]
+  }
+]

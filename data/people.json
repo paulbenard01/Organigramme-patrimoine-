@@ -1,0 +1,196 @@
+[
+  {
+    "name": "Khaled El-Enany",
+    "role": "Directeur général de l’UNESCO",
+    "node": "unesco",
+    "level": "International",
+    "since": "depuis le 15 novembre 2025",
+    "source": "https://telquel.ma/instant-t/2025/11/06/unesco-legyptien-khaled-el-enany-succedera-a-audrey-azoulay-le-15-novembre_1959759/"
+  },
+  {
+    "name": "Emmanuel Macron",
+    "role": "Président de la République",
+    "node": null,
+    "level": "Gouvernement",
+    "since": "mandat jusqu’en 2027",
+    "note": "Nomme par décret les présidents des grands établissements publics."
+  },
+  {
+    "name": "Catherine Pégard",
+    "role": "Ministre de la Culture",
+    "node": "mc",
+    "level": "Gouvernement",
+    "since": "depuis février 2026",
+    "source": "https://www.culture.gouv.fr/nous-connaitre/organisation-du-ministere/catherine-pegard-ministre-de-la-culture"
+  },
+  {
+    "name": "Delphine Christophe",
+    "role": "Directrice générale des patrimoines et de l’architecture",
+    "node": "dgpa",
+    "level": "Ministère de la Culture",
+    "source": "https://www.culture.gouv.fr/de/mc/content/download/342754/file/Organigramme_DGPA_octobre_2026.pdf?version=20"
+  },
+  {
+    "name": "Hélène Fernandez",
+    "role": "Directrice adjointe, chargée de l’architecture",
+    "node": "sarchi",
+    "level": "Ministère de la Culture",
+    "source": "https://www.culture.gouv.fr/de/mc/content/download/342754/file/Organigramme_DGPA_octobre_2026.pdf?version=20"
+  },
+  {
+    "name": "Christelle Creff",
+    "role": "Cheffe du Service des musées de France",
+    "node": "smf",
+    "level": "Ministère de la Culture",
+    "source": "https://www.culture.gouv.fr/de/mc/content/download/342754/file/Organigramme_DGPA_octobre_2026.pdf?version=20"
+  },
+  {
+    "name": "Virginie Thévenin",
+    "role": "Cheffe du Service du patrimoine",
+    "node": "sp",
+    "level": "Ministère de la Culture",
+    "source": "https://www.culture.gouv.fr/de/mc/content/download/342754/file/Organigramme_DGPA_octobre_2026.pdf?version=20"
+  },
+  {
+    "name": "Bruno Ricard",
+    "role": "Chef du Service interministériel des Archives de France",
+    "node": "siaf",
+    "level": "Ministère de la Culture",
+    "source": "https://www.culture.gouv.fr/de/mc/content/download/342754/file/Organigramme_DGPA_octobre_2026.pdf?version=20"
+  },
+  {
+    "name": "Isabelle Chave",
+    "role": "Sous-directrice des monuments historiques et des sites patrimoniaux",
+    "node": "sdmhsp",
+    "level": "Ministère de la Culture",
+    "source": "https://www.culture.gouv.fr/de/mc/content/download/342754/file/Organigramme_DGPA_octobre_2026.pdf?version=20"
+  },
+  {
+    "name": "Godefroy Lissandre",
+    "role": "Sous-directeur de l’archéologie",
+    "node": "sda",
+    "level": "Ministère de la Culture",
+    "source": "https://www.culture.gouv.fr/de/mc/content/download/342754/file/Organigramme_DGPA_octobre_2026.pdf?version=20"
+  },
+  {
+    "name": "Alain Beschi",
+    "role": "Chef de la Mission de l’inventaire général",
+    "node": "migpc",
+    "level": "Ministère de la Culture",
+    "source": "https://www.culture.gouv.fr/de/mc/content/download/342754/file/Organigramme_DGPA_octobre_2026.pdf?version=20"
+  },
+  {
+    "name": "Pascal Mignerey",
+    "role": "Chef de la DIRI",
+    "node": "diri",
+    "level": "Ministère de la Culture",
+    "source": "https://www.culture.gouv.fr/de/mc/content/download/342754/file/Organigramme_DGPA_octobre_2026.pdf?version=20"
+  },
+  {
+    "name": "Pascal Liévaux",
+    "role": "Chef du DRVPCI, adjoint au chef de la DIRI",
+    "node": "drvpci",
+    "level": "Ministère de la Culture",
+    "source": "https://www.culture.gouv.fr/de/mc/content/download/342754/file/Organigramme_DGPA_octobre_2026.pdf?version=20"
+  },
+  {
+    "name": "Bruno Favel",
+    "role": "Chef de la Mission du patrimoine mondial",
+    "node": "mpm",
+    "level": "Ministère de la Culture",
+    "source": "https://www.culture.gouv.fr/de/mc/content/download/342754/file/Organigramme_DGPA_octobre_2026.pdf?version=20"
+  },
+  {
+    "name": "Isabelle Chardonnier",
+    "role": "Directrice générale de la démocratie culturelle, des enseignements et de la recherche",
+    "node": "dgdcer",
+    "level": "Ministère de la Culture",
+    "since": "nommée en juin 2026",
+    "source": "https://www.culture.gouv.fr/presse/communiques-de-presse/nomination-d-isabelle-chardonnier-en-tant-que-directrice-generale-de-la-democratie-culturelle-des-enseignements-et-de-la-recherche"
+  },
+  {
+    "name": "Albéric de Montgolfier",
+    "role": "Président de la CNPA",
+    "node": "cnpa",
+    "level": "Commissions",
+    "since": "nommé en novembre 2022 (mandat de 5 ans)",
+    "note": "La présidence revient à un parlementaire : à vérifier après le renouvellement sénatorial de 2026.",
+    "source": "https://www.culture.gouv.fr/Sites-thematiques/Monuments-historiques/Acteurs/Les-commissions/La-Commission-nationale-du-patrimoine-et-de-l-architecture"
+  },
+  {
+    "name": "Christophe Leribault",
+    "role": "Président-directeur du musée du Louvre",
+    "node": "mnep",
+    "level": "Opérateurs & musées nationaux",
+    "since": "depuis février 2026",
+    "source": "https://acteurspublics.fr/nomination/christophe-leribault-va-prendre-la-presidence-du-musee-du-louvre/"
+  },
+  {
+    "name": "Annick Lemoine",
+    "role": "Présidente des musées d’Orsay et de l’Orangerie",
+    "node": "mnep",
+    "level": "Opérateurs & musées nationaux",
+    "source": "https://www.culture.gouv.fr/presse/communiques-de-presse/nomination-de-mme-annick-lemoine-a-la-presidence-de-l-etablissement-public-des-musees-d-orsay-et-de-l-orangerie-valery-giscard-d-estaing"
+  },
+  {
+    "name": "Emmanuel Kasarhérou",
+    "role": "Président du musée du quai Branly – Jacques Chirac",
+    "node": "mnep",
+    "level": "Opérateurs & musées nationaux",
+    "since": "reconduit pour un troisième mandat",
+    "source": "https://www.culture.gouv.fr/presse/communiques-de-presse/renouvellement-de-m.-emmanuel-kasarherou-a-la-presidence-de-l-etablissement-public-du-musee-du-quai-branly-jacques-chirac"
+  },
+  {
+    "name": "Marie Lavandier",
+    "role": "Présidente du Centre des monuments nationaux",
+    "node": "cmn",
+    "level": "Opérateurs & musées nationaux",
+    "source": "https://www.culture.gouv.fr/presse/communiques-de-presse/Nomination-de-Marie-Lavandier-a-la-presidence-du-Centre-des-monuments-nationaux-CMN"
+  },
+  {
+    "name": "Kevin Riffault",
+    "role": "Directeur général du Centre des monuments nationaux",
+    "node": "cmn",
+    "level": "Opérateurs & musées nationaux",
+    "source": "https://acteurspublics.fr/nomination/kevin-riffault-nouveau-directeur-general-du-centre-des-monuments-nationaux/"
+  },
+  {
+    "name": "Gilles Pécout",
+    "role": "Président de la Bibliothèque nationale de France",
+    "node": "bnf",
+    "level": "Opérateurs & musées nationaux",
+    "since": "depuis 2024",
+    "source": "https://www.bnf.fr/sites/default/files/2024-03/CP_Nomination_Gilles_Pecout_presidence_BnF.pdf"
+  },
+  {
+    "name": "Hervé Lemoine",
+    "role": "Président des Manufactures nationales – Sèvres & Mobilier national",
+    "node": "mobilier",
+    "level": "Opérateurs & musées nationaux",
+    "since": "nommé en avril 2025",
+    "source": "https://www.culture.gouv.fr/switchToLanguage/416452/fre-FR"
+  },
+  {
+    "name": "Emmanuel Grégoire",
+    "role": "Maire de Paris",
+    "node": "paris",
+    "level": "Collectivités",
+    "since": "élu en mars 2026",
+    "source": "https://www.publicsenat.fr/actualites/politique/municipales-2026-a-paris-emmanuel-gregoire-elu-largement-face-a-rachida-dati-selon-nos-estimations"
+  },
+  {
+    "name": "Florian Sitbon",
+    "role": "Adjoint au maire de Paris chargé de la culture, président de Paris Musées",
+    "node": "parismusees",
+    "level": "Collectivités",
+    "since": "élu président de Paris Musées en juin 2026",
+    "source": "https://parismusees.paris.fr/sites/default/files/medias/fichiers/2026-06/CP%20Election%20Pr%C3%A9sident%20PM_V10.pdf"
+  },
+  {
+    "name": "Stéphane Bern",
+    "role": "Chargé de la Mission Patrimoine (Loto du patrimoine)",
+    "node": "loto",
+    "level": "Société civile",
+    "source": "https://www.culture.gouv.fr/actualites/loto-du-patrimoine-2026-100-sites-100-histoires-a-preserver"
+  }
+]
