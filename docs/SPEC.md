@@ -61,6 +61,9 @@ Tous les sigles des nœuds + termes hors nœuds (anciens sigles, notions juridiq
 - « Utiliser » garde une image dans le navigateur (mention « choix local ») ; « Copier » donne la ligne JSON à ajouter à `data/pictures.json`.
 - Les images apparaissent aussi dans la fiche, la vue « liens », les musées et le trombinoscope.
 
+## Application installable
+Manifeste (`assets/manifest.webmanifest`), icônes, service worker (`src/sw.js`). Bandeau « Installer » sur Android/Chrome, rappel « Partager → Sur l'écran d'accueil » sur iPhone ; masquable, absent une fois installée. Hors connexion : la page et ses données, d3 et les polices sont servies depuis le cache ; les images Wikimedia et le chercheur demandent une connexion.
+
 ## Recherche
 Un champ unique, filtre la vue courante (insensible aux accents). Sur la carte, `Entrée` ouvre le premier résultat. `/` place le curseur dans le champ.
 

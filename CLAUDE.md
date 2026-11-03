@@ -15,6 +15,8 @@ data/*.json          ← SOURCE DE VÉRITÉ (on modifie ici) ; pictures.json = i
 src/template.html    ← interface : HTML + CSS + JS, sans dépendance
 scripts/build.mjs    ← valide les données puis les insère dans le template
 scripts/find-pictures.mjs ← cherche les images sur Wikipédia/Commons → data/pictures.json
+src/sw.js            ← service worker (hors connexion) ; build.mjs y écrit la version
+assets/              ← manifest.webmanifest + icônes (icon.svg est la source des PNG), copiés dans dist/
 dist/index.html      ← GÉNÉRÉ, autonome (ne jamais éditer à la main, non versionné)
 docs/                ← SPEC, modèle de données, sources
 ```
@@ -76,6 +78,7 @@ Les organigrammes, les nominations, les chiffres et les réformes changent souve
   - Les tailles des pastilles sont mesurées (`tw`, canvas) : si tu changes une police dans le CSS `.mm-*`, change aussi `F` dans `MM`.
 - Les liens de la carte sont tracés en SVG à partir de la position réelle des puces (`draw()`), recalculés au redimensionnement : ne pas casser `#links`, `.map` ni les attributs `data-node`.
 - Accessibilité : toutes les puces sont des `<button>`, focus visible, `Échap` ferme la fiche, `/` place le curseur dans la recherche.
+- App installable : chemins **relatifs** partout (le site est servi sous `/Organigramme-patrimoine-/`). Le service worker n'est enregistré qu'en http(s), pas en `file://`. Si tu changes le logo, régénère les PNG d'`assets/icons/` depuis `icon.svg` (192, 512, maskable 512 plein cadre, apple-touch-icon 180).
 - Liens profonds : le hash vaut `#vue` ou `#vue/id` (`syncHash`) ; ne pas casser ce format.
 
 ## Images
