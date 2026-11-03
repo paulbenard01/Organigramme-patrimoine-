@@ -351,5 +351,66 @@
       "tresor",
       "mecenat"
     ]
+  },
+  {
+    "term": "CVV",
+    "name": "Conseil des ventes volontaires",
+    "def": "Ancien régulateur des ventes aux enchères, remplacé en 2022 par le Conseil des maisons de vente.",
+    "see": [
+      "cmv"
+    ]
+  },
+  {
+    "term": "ICG",
+    "name": "Import of Cultural Goods (système européen)",
+    "def": "Plateforme européenne obligatoire depuis le 28 juin 2025 pour les licences d’importation et les déclarations de l’importateur de biens culturels.",
+    "see": [
+      "regue",
+      "dgddi"
+    ]
+  },
+  {
+    "term": "ORSEC",
+    "name": "Organisation de la réponse de sécurité civile",
+    "def": "Dispositif de gestion des crises organisé par le préfet ; le PSBC en est la déclinaison pour les biens culturels.",
+    "see": [
+      "psbc",
+      "dgscgc"
+    ]
+  },
+  {
+    "term": "PU, PSO, PSU",
+    "name": "Plan d’urgence, plan de sauvegarde des œuvres, plan de sauvegarde d’urgence",
+    "def": "Anciennes appellations, remplacées en juillet 2023 par le terme unique de PSBC.",
+    "see": [
+      "psbc"
+    ]
+  },
+  {
+    "term": "Labex Patrima",
+    "name": "Laboratoire d’excellence Patrima",
+    "def": "Programme d’excellence en sciences du patrimoine financé par les investissements d’avenir, dont est issue la Fondation des sciences du patrimoine.",
+    "see": [
+      "fsp",
+      "france2030"
+    ]
+  },
+  {
+    "term": "ECCCH",
+    "name": "European Collaborative Cloud for Cultural Heritage",
+    "def": "Cloud collaboratif européen du patrimoine culturel, financé par Horizon Europe (projet ECHOES coordonné par le CNRS).",
+    "see": [
+      "horizon",
+      "cnrs"
+    ]
+  },
+  {
+    "term": "PIA",
+    "name": "Programmes d’investissements d’avenir",
+    "def": "Prédécesseurs de France 2030 (depuis 2010), pilotés par le SGPI.",
+    "see": [
+      "france2030",
+      "sgpi"
+    ]
   }
 ]

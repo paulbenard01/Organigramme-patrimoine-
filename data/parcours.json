@@ -318,5 +318,98 @@
         "text": "En cas de vol, plainte et signalement immédiat à l’OCBC."
       }
     ]
+  },
+  {
+    "id": "export",
+    "title": "Faire sortir une œuvre de France",
+    "intro": "Pour vendre ou prêter à l’étranger un bien culturel ancien et de valeur, il faut l’accord de l’État ; un refus en fait un trésor national que l’État peut acheter.",
+    "steps": [
+      {
+        "node": "tresor",
+        "text": "Au-delà de seuils d’âge et de valeur, le propriétaire demande un certificat d’exportation au ministère de la Culture."
+      },
+      {
+        "node": "smf",
+        "text": "Le Service des musées de France (ou le service compétent pour les archives et les livres) instruit la demande."
+      },
+      {
+        "node": "cctn",
+        "text": "Si le ministre envisage un refus, la Commission consultative des trésors nationaux donne son avis."
+      },
+      {
+        "node": "tresor",
+        "text": "En cas de refus, le bien devient trésor national : l’État dispose d’un délai pour faire une offre d’achat."
+      },
+      {
+        "node": "fondspat",
+        "text": "L’acquisition est financée par le Fonds du patrimoine, souvent complété par le mécénat d’entreprise."
+      },
+      {
+        "node": "regue",
+        "text": "Si le certificat est accordé et le bien quitte l’Union européenne, il faut en plus une licence d’exportation européenne."
+      },
+      {
+        "node": "dgddi",
+        "text": "La douane contrôle les documents à la sortie ; sans eux, l’exportation est une infraction douanière."
+      }
+    ]
+  },
+  {
+    "id": "preemption",
+    "title": "Acheter en vente aux enchères pour un musée",
+    "intro": "Le droit de préemption permet à l’État de se substituer au dernier enchérisseur pour enrichir une collection publique.",
+    "steps": [
+      {
+        "node": "ovv",
+        "text": "Une maison de vente annonce une vente publique ; le musée repère une œuvre qui manque à sa collection."
+      },
+      {
+        "node": "musterr",
+        "text": "Le musée (national ou territorial, musée de France) demande au ministère d’exercer le droit de préemption pour son compte."
+      },
+      {
+        "node": "preemption",
+        "text": "À la chute du marteau, le représentant de l’État déclare préempter, sous réserve de confirmation."
+      },
+      {
+        "node": "mc",
+        "text": "Le ministre confirme dans les quinze jours ; à défaut, le dernier enchérisseur reste acheteur."
+      },
+      {
+        "node": "mdf",
+        "text": "L’œuvre entre dans les collections du musée de France et devient inaliénable."
+      }
+    ]
+  },
+  {
+    "id": "psbc",
+    "title": "Préparer un plan de sauvegarde des biens culturels",
+    "intro": "Le PSBC dit aux pompiers quelles œuvres sauver d’abord et comment, en cas d’incendie, d’inondation ou d’autre sinistre.",
+    "steps": [
+      {
+        "node": "hfds",
+        "text": "Le ministère fixe la doctrine : un PSBC pour chaque établissement patrimonial (musée, archives, bibliothèque, monument)."
+      },
+      {
+        "node": "c2rmf",
+        "text": "L’équipe s’appuie sur le manuel méthodologique du C2RMF et, si possible, sur un atelier d’écriture organisé avec la DRAC."
+      },
+      {
+        "node": "regisseur",
+        "text": "Les régisseurs et conservateurs choisissent les œuvres prioritaires, les localisent sur plans et rédigent des fiches d’évacuation."
+      },
+      {
+        "node": "sdis",
+        "text": "La stratégie d’évacuation est vérifiée avec les pompiers (SDIS, ou BSPP à Paris et en petite couronne)."
+      },
+      {
+        "node": "bbf",
+        "text": "Formations et exercices réguliers, par exemple avec Bouclier bleu France, pour que le plan reste à jour."
+      },
+      {
+        "node": "rnd",
+        "text": "Référence commune : l’incendie de Notre-Dame en 2019 a accéléré la généralisation des PSBC, notamment dans les cathédrales."
+      }
+    ]
   }
 ]

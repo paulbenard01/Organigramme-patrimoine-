@@ -353,6 +353,20 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "checked": "2026-11-02"
   },
+  "n:alr": {
+    "file": "ARL_op_TEFAF_2015.JPG",
+    "title": "Art Loss Register",
+    "match": "auto",
+    "q": "Art Loss Register",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/ARL_op_TEFAF_2015.JPG/500px-ARL_op_TEFAF_2015.JPG",
+    "w": 400,
+    "h": 266,
+    "commons": "https://commons.wikimedia.org/wiki/File:ARL_op_TEFAF_2015.JPG",
+    "artist": "Wasily",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-11-03"
+  },
   "n:an": {
     "file": "Site-de-Pierrefitte-sur-Seine_(Architecte_Massimiliano_Fuksas)._Archives_nationales_(France).jpg",
     "title": "Archives nationales de France",
@@ -412,6 +426,20 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "checked": "2026-11-02"
+  },
+  "n:chartes": {
+    "file": "Ecole_des_Chartes,_entree.jpg",
+    "title": "École nationale des chartes",
+    "match": "auto",
+    "q": "École nationale des chartes – PSL",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ecole_des_Chartes%2C_entree.jpg/500px-Ecole_des_Chartes%2C_entree.jpg",
+    "w": 400,
+    "h": 567,
+    "commons": "https://commons.wikimedia.org/wiki/File:Ecole_des_Chartes,_entree.jpg",
+    "artist": "Hadonos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-11-03"
   },
   "n:citearchi": {
     "file": "Cite_de_l'architecture_et_du_patrimoine.jpg",
@@ -473,6 +501,20 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "checked": "2026-11-02"
   },
+  "n:commissaire": {
+    "file": "Crosby_Garrett_Helmet_on_auction_at_Christies.jpg",
+    "title": "Commissaire-priseur",
+    "match": "auto",
+    "q": "Commissaire-priseur de ventes volontaires et commissaire de justice",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Crosby_Garrett_Helmet_on_auction_at_Christies.jpg/500px-Crosby_Garrett_Helmet_on_auction_at_Christies.jpg",
+    "w": 400,
+    "h": 266,
+    "commons": "https://commons.wikimedia.org/wiki/File:Crosby_Garrett_Helmet_on_auction_at_Christies.jpg",
+    "artist": "Portable Antiquities Scheme from London, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "checked": "2026-11-03"
+  },
   "n:conv1972": {
     "file": "Adoption_of_the_World_Heritage_Convention_in_1972_at_UNESCO.jpg",
     "title": "Convention pour la protection du patrimoine mondial, culturel et naturel",
@@ -515,9 +557,37 @@
     "licenseUrl": "",
     "checked": "2026-11-02"
   },
+  "n:cyu": {
+    "file": "CY-Cergy-Paris-Université-Chênes.jpg",
+    "title": "CY Cergy Paris Université",
+    "match": "auto",
+    "q": "CY Cergy Paris Université",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/CY-Cergy-Paris-Universit%C3%A9-Ch%C3%AAnes.jpg/500px-CY-Cergy-Paris-Universit%C3%A9-Ch%C3%AAnes.jpg",
+    "w": 400,
+    "h": 300,
+    "commons": "https://commons.wikimedia.org/wiki/File:CY-Cergy-Paris-Universit%C3%A9-Ch%C3%AAnes.jpg",
+    "artist": "CY Cergy Paris Université",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-11-03"
+  },
   "n:dept": {
     "none": true,
     "why": "image trouvée automatiquement mais sans rapport ou trompeuse (relu le 2026-11-02)"
+  },
+  "n:dgddi": {
+    "file": "Logo_des_Douanes_Françaises.svg",
+    "title": "Direction générale des Douanes et Droits indirects",
+    "match": "auto",
+    "q": "Direction générale des douanes et droits indirects",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Logo_des_Douanes_Fran%C3%A7aises.svg/500px-Logo_des_Douanes_Fran%C3%A7aises.svg.png",
+    "w": 400,
+    "h": 491,
+    "commons": "https://commons.wikimedia.org/wiki/File:Logo_des_Douanes_Fran%C3%A7aises.svg",
+    "artist": "Futurhit12",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "checked": "2026-11-03"
   },
   "n:dgpa": {
     "none": true,
@@ -587,6 +657,20 @@
     "none": true,
     "why": "image trouvée automatiquement mais sans rapport ou trompeuse (relu le 2026-11-02)"
   },
+  "n:france2030": {
+    "file": "Logo_France_2030.svg",
+    "title": "France 2030",
+    "match": "auto",
+    "q": "Plan d’investissement France 2030",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Logo_France_2030.svg/500px-Logo_France_2030.svg.png",
+    "w": 400,
+    "h": 400,
+    "commons": "https://commons.wikimedia.org/wiki/File:Logo_France_2030.svg",
+    "artist": "Unknown author Unknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "checked": "2026-11-03"
+  },
   "n:grandsite": {
     "file": "Logo_-_Grand_Site_de_France.svg",
     "title": "Label Grand Site de France",
@@ -600,6 +684,20 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "checked": "2026-11-02"
+  },
+  "n:humanum": {
+    "file": "Logo-petit-hn-rvb.jpg",
+    "title": "Huma-Num",
+    "match": "auto",
+    "q": "Infrastructure de recherche Huma-Num",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo-petit-hn-rvb.jpg",
+    "w": 400,
+    "h": 296,
+    "commons": "https://commons.wikimedia.org/wiki/File:Logo-petit-hn-rvb.jpg",
+    "artist": "Ph. Correia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-11-03"
   },
   "n:iccrom": {
     "file": "ICCROM-etats_membres.svg",
@@ -985,6 +1083,20 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "checked": "2026-11-02"
   },
+  "n:paris1": {
+    "file": "Chapelle_Sainte-Ursule_de_la_Sorbonne,_Paris_001.jpg",
+    "title": "Université Paris-I-Panthéon-Sorbonne",
+    "match": "auto",
+    "q": "Université Paris 1 Panthéon-Sorbonne",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Chapelle_Sainte-Ursule_de_la_Sorbonne%2C_Paris_001.jpg/500px-Chapelle_Sainte-Ursule_de_la_Sorbonne%2C_Paris_001.jpg",
+    "w": 400,
+    "h": 587,
+    "commons": "https://commons.wikimedia.org/wiki/File:Chapelle_Sainte-Ursule_de_la_Sorbonne,_Paris_001.jpg",
+    "artist": "Moonik",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "checked": "2026-11-03"
+  },
   "n:parismusees": {
     "none": true,
     "why": "image trouvée automatiquement mais sans rapport ou trompeuse (relu le 2026-11-02)"
@@ -1095,6 +1207,48 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "checked": "2026-11-02"
   },
+  "n:safr": {
+    "file": "Sauvegarde_de_l'Art_français.jpg",
+    "title": "Fondation pour la sauvegarde de l'art français",
+    "match": "auto",
+    "q": "Fondation pour la sauvegarde de l’art français",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sauvegarde_de_l%27Art_fran%C3%A7ais.jpg/500px-Sauvegarde_de_l%27Art_fran%C3%A7ais.jpg",
+    "w": 400,
+    "h": 400,
+    "commons": "https://commons.wikimedia.org/wiki/File:Sauvegarde_de_l%27Art_fran%C3%A7ais.jpg",
+    "artist": "Atelier Marge Design",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-11-03"
+  },
+  "n:sdis": {
+    "file": "SDIS_45_Vue_Site.jpg",
+    "title": "Service départemental d'incendie et de secours",
+    "match": "auto",
+    "q": "Service départemental d’incendie et de secours",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/SDIS_45_Vue_Site.jpg/500px-SDIS_45_Vue_Site.jpg",
+    "w": 400,
+    "h": 165,
+    "commons": "https://commons.wikimedia.org/wiki/File:SDIS_45_Vue_Site.jpg",
+    "artist": "SDIS45",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "checked": "2026-11-03"
+  },
+  "n:sgdsn": {
+    "file": "Premier_Ministre_SGDSN.png",
+    "title": "Secrétariat général de la Défense et de la Sécurité nationale",
+    "match": "auto",
+    "q": "Secrétariat général de la défense et de la sécurité nationale",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Premier_Ministre_SGDSN.png/500px-Premier_Ministre_SGDSN.png",
+    "w": 400,
+    "h": 139,
+    "commons": "https://commons.wikimedia.org/wiki/File:Premier_Ministre_SGDSN.png",
+    "artist": "Justine1993",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "checked": "2026-11-03"
+  },
   "n:siteclasse": {
     "file": "Logo_site_naturel_negatif.svg",
     "title": "Site classé ou inscrit en France",
@@ -1136,6 +1290,20 @@
     "license": "Public domain",
     "licenseUrl": "",
     "checked": "2026-11-02"
+  },
+  "n:unidroit": {
+    "file": "E3090d02d88f0ad51df861fea11557c5_logounidroitw.jpg",
+    "title": "Convention d'UNIDROIT sur les biens culturels volés ou illicitement exportés",
+    "match": "auto",
+    "q": "Convention d’UNIDROIT sur les biens culturels volés ou illicitement exportés (Rome, 24 juin 1995)",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e9/E3090d02d88f0ad51df861fea11557c5_logounidroitw.jpg",
+    "w": 400,
+    "h": 243,
+    "commons": "https://commons.wikimedia.org/wiki/File:E3090d02d88f0ad51df861fea11557c5_logounidroitw.jpg",
+    "artist": "UNIDROIT",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "checked": "2026-11-03"
   },
   "n:vmf": {
     "file": "Oletta-logo_VMF.jpg",

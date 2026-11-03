@@ -162,20 +162,33 @@
       "Refus de certificat : le bien devient trésor national, l’État a un délai pour l’acquérir",
       "Droit de préemption de l’État lors des ventes publiques",
       "Importation : contrôle européen de la provenance",
-      "Vols : signalement à l’OCBC, base TREIMA"
+      "Vols : signalement à l’OCBC, base TREIMA",
+      "Ventes aux enchères régulées par le Conseil des maisons de vente ; préemption possible par l’État",
+      "Importation : licence ou déclaration via le système européen ICG depuis le 28 juin 2025",
+      "Convention UNIDROIT de 1995 : signée par la France, non ratifiée"
     ],
     "texts": [
       "codepat",
       "conv1970",
       "regue",
-      "codepenal"
+      "codepenal",
+      "codecom",
+      "codedouanes",
+      "loi2022marche",
+      "unidroit"
     ],
     "actors": [
       "smf",
       "cctn",
       "tresor",
       "ocbc",
-      "fondspat"
+      "fondspat",
+      "cmv",
+      "dgddi",
+      "ovv",
+      "preemption",
+      "treima",
+      "interpolbase"
     ]
   },
   {
@@ -262,6 +275,35 @@
       "invpci",
       "pciunesco",
       "ethnopole"
+    ]
+  },
+  {
+    "id": "securite",
+    "title": "Sécurité des collections et gestion des crises",
+    "summary": "Les établissements patrimoniaux doivent prévenir les sinistres et préparer le sauvetage des œuvres avec les secours.",
+    "points": [
+      "Règles incendie des établissements recevant du public, contrôlées par les commissions de sécurité",
+      "Plan de sauvegarde des biens culturels (PSBC), intégré au dispositif ORSEC départemental",
+      "Pompiers : SDIS, BSPP à Paris et en petite couronne ; doctrine de la sécurité civile",
+      "Conflits armés : convention de La Haye de 1954 et réseau du Bouclier bleu",
+      "Après un sinistre majeur : loi spéciale possible (Notre-Dame, 2019)"
+    ],
+    "texts": [
+      "csi",
+      "erp",
+      "cgct",
+      "conv1954",
+      "loind2019"
+    ],
+    "actors": [
+      "psbc",
+      "hfds",
+      "dgscgc",
+      "sdis",
+      "bspp",
+      "bbf",
+      "c2rmf",
+      "rnd"
     ]
   },
   {
