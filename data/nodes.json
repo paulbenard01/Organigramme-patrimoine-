@@ -240,6 +240,17 @@
     "note": "Remplace la DG2TDC : les documents plus anciens utilisent ce sigle."
   },
   {
+    "id": "dglflf",
+    "band": "etat",
+    "group": "Ministère de la Culture",
+    "acronym": "DGLFLF",
+    "name": "Délégation générale à la langue française et aux langues de France",
+    "short": "Langue française et langues régionales",
+    "type": "Service du ministère de la Culture",
+    "desc": "Veille à l’emploi du français et soutient les langues de France (langues régionales, langues d’outre-mer, langue des signes) ; les pratiques linguistiques relèvent aussi du patrimoine culturel immatériel.",
+    "law": "Loi n° 94-665 du 4 août 1994 relative à l’emploi de la langue française"
+  },
+  {
     "id": "smf",
     "band": "etat",
     "group": "DGPA : services",
@@ -469,6 +480,113 @@
     "short": "Ministère de l’Enseignement supérieur"
   },
   {
+    "id": "cmv",
+    "band": "etat",
+    "group": "Marché de l’art & douanes",
+    "acronym": "CMV",
+    "name": "Conseil des maisons de vente",
+    "short": "Régulateur des ventes aux enchères",
+    "type": "Autorité de régulation",
+    "desc": "Régule les opérateurs de ventes volontaires (maisons de vente aux enchères) : enregistrement, obligations professionnelles, sanctions disciplinaires. Il a remplacé le Conseil des ventes volontaires en 2022.",
+    "roles": [
+      "Commission des sanctions de trois membres nommés pour quatre ans par le ministre de la Justice",
+      "Informe la Chambre nationale des commissaires de justice de ses décisions",
+      "Recueil des obligations déontologiques des maisons de vente"
+    ],
+    "law": "Code de commerce, art. L.321-18 et suivants (loi n° 2022-267 du 28 février 2022)",
+    "note": "Ancien nom : Conseil des ventes volontaires (CVV). Président nommé par arrêté du 15 mars 2024 (à revérifier à chaque mandat)."
+  },
+  {
+    "id": "dgddi",
+    "band": "etat",
+    "group": "Marché de l’art & douanes",
+    "acronym": "Douanes",
+    "name": "Direction générale des douanes et droits indirects",
+    "short": "Douane (DGDDI)",
+    "type": "Administration centrale (ministère chargé des Comptes publics)",
+    "desc": "Contrôle aux frontières la sortie et l’entrée des biens culturels : vérifie certificats et licences d’exportation, licences et déclarations d’importation, et saisit les biens en infraction.",
+    "roles": [
+      "Sortie : certificat d’exportation (ministère de la Culture) et licence européenne hors de l’UE",
+      "Entrée : licence d’importation ou déclaration de l’importateur via le système européen ICG, obligatoire depuis le 28 juin 2025",
+      "Travaille avec l’OCBC contre le trafic illicite"
+    ],
+    "law": "Code des douanes, art. 38 ; règlements (CE) n° 116/2009 et (UE) 2019/880",
+    "url": "https://www.douane.gouv.fr"
+  },
+  {
+    "id": "hfds",
+    "band": "etat",
+    "group": "Sécurité & secours",
+    "acronym": "HFDS Culture",
+    "name": "Haut fonctionnaire de défense et de sécurité du ministère de la Culture",
+    "short": "Sécurité-sûreté du ministère",
+    "type": "Fonction ministérielle",
+    "desc": "Pilote pour le ministère la sécurité et la sûreté des biens et des personnes : doctrine, plans de sauvegarde des biens culturels, gestion de crise, lien avec le réseau interministériel de défense.",
+    "roles": [
+      "Diffuse la doctrine des plans de sauvegarde des biens culturels (PSBC)",
+      "Relais du ministère auprès du SGDSN"
+    ]
+  },
+  {
+    "id": "dgscgc",
+    "band": "etat",
+    "group": "Sécurité & secours",
+    "acronym": "DGSCGC",
+    "name": "Direction générale de la sécurité civile et de la gestion des crises",
+    "short": "Sécurité civile (ministère de l’Intérieur)",
+    "type": "Administration centrale (ministère de l’Intérieur)",
+    "desc": "Fixe la doctrine des secours et des plans ORSEC, dans lesquels s’inscrit la protection du patrimoine culturel ; a co-rédigé avec le ministère de la Culture la circulaire de 2024 sur les PSBC des bibliothèques.",
+    "law": "Code de la sécurité intérieure, livre VII"
+  },
+  {
+    "id": "bspp",
+    "band": "etat",
+    "group": "Sécurité & secours",
+    "acronym": "BSPP",
+    "name": "Brigade de sapeurs-pompiers de Paris",
+    "short": "Pompiers de Paris et petite couronne",
+    "type": "Unité militaire (ministère des Armées), placée sous l’autorité du préfet de police",
+    "desc": "Assure les secours à Paris et dans les trois départements de la petite couronne. Elle a combattu l’incendie de Notre-Dame en 2019 et contribue à la méthode des plans de sauvegarde des biens culturels.",
+    "law": "Code de la sécurité intérieure ; Code général des collectivités territoriales, art. L.2512-17"
+  },
+  {
+    "id": "anct",
+    "band": "etat",
+    "group": "Organismes interministériels",
+    "acronym": "ANCT",
+    "name": "Agence nationale de la cohésion des territoires",
+    "short": "Programmes de revitalisation",
+    "type": "Établissement public de l’État",
+    "desc": "Pilote les programmes de revitalisation des centres-villes et des bourgs (Action cœur de ville, Petites villes de demain, Villages d’avenir), qui financent souvent la réhabilitation du bâti ancien et la mise en valeur du patrimoine.",
+    "roles": [
+      "Interlocuteur local : le préfet de département, délégué territorial de l’agence",
+      "Travaille avec la Banque des Territoires et l’Anah"
+    ],
+    "law": "Code général des collectivités territoriales, art. L.1231-1 et suivants (loi n° 2019-753 du 22 juillet 2019)",
+    "url": "https://agence-cohesion-territoires.gouv.fr"
+  },
+  {
+    "id": "sgpi",
+    "band": "etat",
+    "group": "Organismes interministériels",
+    "acronym": "SGPI",
+    "name": "Secrétariat général pour l’investissement",
+    "short": "Pilote de France 2030",
+    "type": "Service du Premier ministre",
+    "desc": "Pilote le plan d’investissement France 2030, héritier des Programmes d’investissements d’avenir (PIA) qui ont financé les laboratoires d’excellence, dont le Labex Patrima en sciences du patrimoine."
+  },
+  {
+    "id": "sgdsn",
+    "band": "etat",
+    "group": "Organismes interministériels",
+    "acronym": "SGDSN",
+    "name": "Secrétariat général de la défense et de la sécurité nationale",
+    "short": "Coordination de la sécurité nationale",
+    "type": "Service du Premier ministre",
+    "desc": "Coordonne la préparation de l’État aux crises et anime le réseau des hauts fonctionnaires de défense et de sécurité des ministères, dont celui de la Culture.",
+    "url": "https://www.sgdsn.gouv.fr"
+  },
+  {
     "id": "cnpa",
     "band": "consult",
     "group": "Patrimoine bâti & mobilier",
@@ -650,6 +768,23 @@
     "desc": "Maître d’ouvrage délégué du ministère pour les grands chantiers de restauration et de construction (monuments, musées, écoles)."
   },
   {
+    "id": "rnd",
+    "band": "op",
+    "group": "Monuments & domaines",
+    "acronym": "Rebâtir Notre-Dame",
+    "name": "Établissement public chargé de la conservation et de la restauration de la cathédrale Notre-Dame de Paris",
+    "short": "Établissement public Rebâtir Notre-Dame de Paris",
+    "type": "Établissement public administratif",
+    "desc": "Créé après l’incendie du 15 avril 2019 pour conduire la restauration de la cathédrale, rouverte le 7 décembre 2024. Il poursuit les travaux extérieurs (grande rose et façade nord annoncées en juillet 2026).",
+    "roles": [
+      "Cas de référence pour la sécurité incendie et les plans de sauvegarde des biens culturels",
+      "Souscription nationale : dons collectés notamment par la Fondation du patrimoine"
+    ],
+    "law": "Loi n° 2019-803 du 29 juillet 2019",
+    "note": "Son rapport d’activité 2023-2024 prévoit une activité jusqu’en 2028 (à revérifier).",
+    "url": "https://www.rebatirnotredamedeparis.fr"
+  },
+  {
     "id": "mnep",
     "band": "op",
     "group": "Musées",
@@ -817,6 +952,30 @@
     "desc": "Archives et bibliothèques de la Défense, siège au château de Vincennes ; rattaché à la DMCA."
   },
   {
+    "id": "cnc",
+    "band": "op",
+    "group": "Archives & bibliothèques",
+    "acronym": "CNC",
+    "name": "Centre national du cinéma et de l’image animée",
+    "short": "Patrimoine cinématographique",
+    "type": "Établissement public administratif",
+    "desc": "Finance le cinéma et conserve le patrimoine cinématographique : sa direction du patrimoine gère les collections de films (Archives françaises du film, Bois-d’Arcy) et le dépôt légal des œuvres cinématographiques.",
+    "law": "Code du cinéma et de l’image animée ; Code du patrimoine (dépôt légal)",
+    "url": "https://www.cnc.fr"
+  },
+  {
+    "id": "ina",
+    "band": "op",
+    "group": "Archives & bibliothèques",
+    "acronym": "INA",
+    "name": "Institut national de l’audiovisuel",
+    "short": "Archives de la radio et de la télévision",
+    "type": "Établissement public à caractère industriel et commercial",
+    "desc": "Conserve et valorise les archives de la radio et de la télévision publiques et assure le dépôt légal de la radio, de la télévision et du web média.",
+    "law": "Code du patrimoine, art. L.131-1 et suivants (dépôt légal)",
+    "url": "https://www.ina.fr"
+  },
+  {
     "id": "inp",
     "band": "op",
     "group": "Formation",
@@ -854,6 +1013,191 @@
     "name": "Écoles nationales supérieures d’architecture et de paysage",
     "type": "Établissements publics",
     "desc": "21 écoles qui forment les architectes et paysagistes ; tutelle de la DGDCER depuis 2025."
+  },
+  {
+    "id": "cnrs",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "CNRS",
+    "name": "Centre national de la recherche scientifique",
+    "short": "Recherche publique (InSHS, chimie, physique)",
+    "type": "Établissement public à caractère scientifique et technologique",
+    "desc": "Co-tutelle de nombreux laboratoires des sciences du patrimoine (CRC, IPANEMA, laboratoires d’archéologie et d’histoire de l’art) et de l’infrastructure Huma-Num ; a coordonné le projet européen ECHOES (cloud européen du patrimoine).",
+    "roles": [
+      "Institut des sciences humaines et sociales (InSHS) : archéologie, histoire de l’art",
+      "Chimie et physique des matériaux anciens"
+    ],
+    "url": "https://www.cnrs.fr"
+  },
+  {
+    "id": "crc",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "CRC",
+    "name": "Centre de recherche sur la conservation",
+    "short": "Conservation des collections (Paris)",
+    "type": "Unité d’appui et de recherche (Culture, MNHN, CNRS)",
+    "desc": "Étudie la dégradation et la conservation des collections (papier, photographie, cuir, parchemin, matériaux contemporains) et conseille musées, archives et bibliothèques ; associe trois laboratoires du ministère."
+  },
+  {
+    "id": "ipanema",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "IPANEMA",
+    "name": "Institut photonique d’analyse non-destructive européen des matériaux anciens",
+    "short": "Analyse des matériaux anciens au synchrotron",
+    "type": "Unité de recherche (Culture, MNHN, CNRS, UVSQ)",
+    "desc": "Plateforme installée au synchrotron SOLEIL (Saclay) pour analyser sans les abîmer les matériaux archéologiques, artistiques et paléontologiques ; coordonne avec le C2RMF le nœud français de l’infrastructure européenne E-RIHS."
+  },
+  {
+    "id": "cicrp",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "CICRP",
+    "name": "Centre interdisciplinaire de conservation et de restauration du patrimoine",
+    "short": "Conservation-restauration (Marseille)",
+    "type": "Groupement d’intérêt public",
+    "desc": "À Marseille, études scientifiques et conseil en conservation-restauration pour les monuments et les collections, surtout dans le sud de la France ; partenaire de la Fondation des sciences du patrimoine."
+  },
+  {
+    "id": "arcnucleart",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "ARC-Nucléart",
+    "name": "Atelier régional de conservation ARC-Nucléart",
+    "short": "Bois gorgés d’eau et objets organiques (Grenoble)",
+    "type": "Groupement d’intérêt public à vocation culturelle (Culture, CEA, Ville de Grenoble)",
+    "desc": "Au centre CEA de Grenoble, traite les objets en bois gorgés d’eau (épaves, fouilles) par polyéthylène glycol et lyophilisation, et consolide les bois très dégradés par une résine durcie sous rayonnement (procédé Nucléart).",
+    "note": "Statut de GIP depuis 1997 selon le centre ; dates à vérifier sur le site officiel."
+  },
+  {
+    "id": "humanum",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "Huma-Num",
+    "name": "Infrastructure de recherche Huma-Num",
+    "short": "Données numériques des sciences humaines",
+    "type": "Infrastructure de recherche (CNRS)",
+    "desc": "Héberge, diffuse et archive les données numériques des sciences humaines : corpus, photographies, bases d’inventaire et de documentation produites par les projets de recherche sur le patrimoine.",
+    "url": "https://www.huma-num.fr"
+  },
+  {
+    "id": "paris1",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "Paris 1",
+    "name": "Université Paris 1 Panthéon-Sorbonne",
+    "short": "Histoire de l’art, archéologie, conservation-restauration",
+    "type": "Université (établissement public)",
+    "desc": "Forme en histoire de l’art, archéologie, gestion du patrimoine culturel et conservation-restauration des biens culturels ; son UFR d’histoire de l’art et d’archéologie est installée à l’INHA (galerie Colbert).",
+    "roles": [
+      "Master conservation-restauration des biens culturels (formation de restaurateurs habilités musées de France)",
+      "Masters de gestion du patrimoine culturel"
+    ],
+    "url": "https://www.pantheonsorbonne.fr"
+  },
+  {
+    "id": "chartes",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "École des chartes",
+    "name": "École nationale des chartes – PSL",
+    "short": "Archivistes et bibliothécaires paléographes",
+    "type": "Grand établissement d’enseignement supérieur",
+    "desc": "Forme les archivistes paléographes, futurs conservateurs du patrimoine (archives) et des bibliothèques, ainsi que des masters en humanités numériques et technologies appliquées à l’histoire.",
+    "url": "https://www.chartes.psl.eu"
+  },
+  {
+    "id": "cyu",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "CY Cergy",
+    "name": "CY Cergy Paris Université",
+    "short": "Siège de la Fondation des sciences du patrimoine",
+    "type": "Université (établissement public)",
+    "desc": "Membre fondateur et siège de la Fondation des sciences du patrimoine ; laboratoires et formations en sciences des matériaux et conservation du patrimoine.",
+    "url": "https://www.cyu.fr"
+  },
+  {
+    "id": "fsp",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "FSP",
+    "name": "Fondation des sciences du patrimoine",
+    "short": "Réseau de recherche (ex-Labex Patrima)",
+    "type": "Fondation de coopération scientifique, créée en 2013",
+    "desc": "Fédère universités, laboratoires et musées autour des sciences du patrimoine (ex-Labex Patrima) et finance chaque année des projets et des contrats doctoraux par appel à projets.",
+    "roles": [
+      "Membres fondateurs : CY Cergy Paris Université, Université de Versailles Saint-Quentin / Paris-Saclay, musée du Louvre, entre autres",
+      "Laboratoires associés : C2RMF, LRMH, CRC, IPANEMA ; partenaires : CICRP, EHESS, synchrotron SOLEIL"
+    ],
+    "url": "https://www.sciences-patrimoine.org"
+  },
+  {
+    "id": "eriheric",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "E-RIHS",
+    "name": "Infrastructure européenne de recherche en sciences du patrimoine (E-RIHS ERIC)",
+    "short": "Accès européen aux laboratoires du patrimoine",
+    "type": "Consortium européen d’infrastructure de recherche (ERIC)",
+    "desc": "Donne aux chercheurs accès aux instruments, archives scientifiques et laboratoires mobiles des sciences du patrimoine. Statut d’ERIC depuis le 28 mars 2025, siège à Florence ; la France est membre fondateur.",
+    "note": "Nœud national : E-RIHS France, coordonné par IPANEMA et le C2RMF."
+  },
+  {
+    "id": "anr",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "ANR",
+    "name": "Agence nationale de la recherche",
+    "short": "Financement de projets de recherche",
+    "type": "Établissement public administratif",
+    "desc": "Finance les projets de recherche sur appel (dont l’archéologie, l’histoire de l’art et les sciences du patrimoine) et opère une partie de France 2030.",
+    "url": "https://anr.fr"
+  },
+  {
+    "id": "lahic",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "LAHIC",
+    "name": "Laboratoire d’anthropologie et d’histoire de l’institution de la culture",
+    "short": "Ethnologie du patrimoine (IIAC, CNRS-EHESS)",
+    "type": "Équipe de recherche (IIAC, CNRS-EHESS), sous convention avec le ministère de la Culture",
+    "desc": "Étudie les politiques patrimoniales en France et dans le monde, l’histoire de l’ethnologie et l’institution de la culture ; publie avec le ministère la collection « Les Carnets du Lahic »."
+  },
+  {
+    "id": "ocim",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "OCIM",
+    "name": "Office de coopération et d’information muséales",
+    "short": "Formation et veille pour les musées",
+    "type": "Service de l’Université Bourgogne Europe (convention avec le ministère chargé de l’enseignement supérieur)",
+    "desc": "Forme et informe les professionnels des musées, en particulier des musées de sciences et de société ; publie La Lettre de l’OCIM et produit des observatoires des musées.",
+    "url": "https://ocim.fr"
+  },
+  {
+    "id": "parcsnat",
+    "band": "op",
+    "group": "Espaces naturels",
+    "acronym": "Parcs nationaux",
+    "name": "Parcs nationaux",
+    "short": "Cœurs de nature protégés",
+    "type": "Établissements publics de l’État",
+    "desc": "Protègent des espaces naturels d’exception ; selon le ministère de la Culture, le patrimoine culturel immatériel fait partie intégrante de leurs missions.",
+    "law": "Code de l’environnement, art. L.331-1 et suivants (loi du 22 juillet 1960)"
+  },
+  {
+    "id": "cdl",
+    "band": "op",
+    "group": "Espaces naturels",
+    "acronym": "Conservatoire du littoral",
+    "name": "Conservatoire de l’espace littoral et des rivages lacustres",
+    "short": "Acquisition des rivages",
+    "type": "Établissement public administratif",
+    "desc": "Achète des terrains sur les rivages pour les protéger définitivement ; gère avec les collectivités de nombreux sites naturels et bâtis (phares, forts, domaines).",
+    "law": "Code de l’environnement, art. L.322-1 et suivants",
+    "url": "https://www.conservatoire-du-littoral.fr"
   },
   {
     "id": "prefreg",
@@ -982,6 +1326,17 @@
     "desc": "Relais régional de la politique du patrimoine ethnologique et immatériel ; toutes les DRAC n’en disposent pas."
   },
   {
+    "id": "dac",
+    "band": "deconc",
+    "group": "DRAC",
+    "acronym": "DAC",
+    "name": "Direction des affaires culturelles (outre-mer)",
+    "short": "La DRAC des territoires d’outre-mer",
+    "type": "Service déconcentré du ministère de la Culture",
+    "desc": "En Guadeloupe, Martinique, Guyane, à La Réunion et à Mayotte, la DAC exerce les missions d’une DRAC (monuments historiques, archéologie, musées, PCI) auprès du préfet.",
+    "law": "Code du patrimoine"
+  },
+  {
     "id": "dreal",
     "band": "deconc",
     "group": "Environnement",
@@ -1017,6 +1372,17 @@
     "note": "Créé en 1964 à l’initiative d’André Malraux et André Chastel. Il documente, il ne protège pas."
   },
   {
+    "id": "pnr",
+    "band": "coll",
+    "group": "Région",
+    "acronym": "PNR",
+    "name": "Parcs naturels régionaux",
+    "short": "Territoires ruraux à charte",
+    "type": "Syndicats mixtes (charte approuvée par l’État)",
+    "desc": "Créés à l’initiative des régions pour protéger et mettre en valeur de grands espaces ruraux habités ; leurs chartes intègrent patrimoine bâti, paysages et patrimoine culturel immatériel.",
+    "law": "Code de l’environnement, art. L.333-1 et suivants"
+  },
+  {
     "id": "dept",
     "band": "coll",
     "group": "Département",
@@ -1048,6 +1414,17 @@
     "name": "Conseil d’architecture, d’urbanisme et de l’environnement",
     "type": "Association départementale (loi de 1977)",
     "desc": "Conseil gratuit aux particuliers et aux élus sur la qualité architecturale, urbaine et paysagère, en amont des projets."
+  },
+  {
+    "id": "sdis",
+    "band": "coll",
+    "group": "Département",
+    "acronym": "SDIS",
+    "name": "Service départemental d’incendie et de secours",
+    "short": "Pompiers du département",
+    "type": "Établissement public départemental",
+    "desc": "Hors Paris et la petite couronne, ce sont les pompiers qui interviennent sur un sinistre ; ils valident avec l’établissement la stratégie d’évacuation des œuvres prévue dans le plan de sauvegarde.",
+    "law": "Code général des collectivités territoriales, art. L.1424-1 et suivants"
   },
   {
     "id": "commune",
@@ -1600,6 +1977,40 @@
     "law": "Code du patrimoine, livre V"
   },
   {
+    "id": "psbc",
+    "band": "statut",
+    "group": "Procédures",
+    "acronym": "PSBC",
+    "name": "Plan de sauvegarde des biens culturels",
+    "short": "Plan d’urgence pour les collections",
+    "type": "Document de prévention et d’intervention",
+    "desc": "Document opérationnel qui dit aux équipes et aux pompiers quelles œuvres sauver en priorité, où elles sont, comment les évacuer et où les mettre à l’abri. Il s’inscrit dans le plan ORSEC départemental.",
+    "roles": [
+      "Terme unique retenu par le ministère en juillet 2023 (remplace PU, PSO, PSU)",
+      "Manuel méthodologique du C2RMF (2022) et ateliers d’écriture avec les DRAC",
+      "Stratégie d’évacuation validée avec le SDIS ou la BSPP",
+      "Cathédrales dotées d’un PSBC : 13 en 2019, 66 ensuite (rapport parlementaire)"
+    ],
+    "examples": {
+      "count": "54 bibliothèques classées formées au PSBC en 2024, avec Bouclier bleu France",
+      "registry": {
+        "label": "Plan de sauvegarde des biens culturels (culture.gouv.fr)",
+        "url": "https://www.culture.gouv.fr/Thematiques/Securite-Surete/Securite-et-surete-des-biens/Plan-de-sauvegarde-des-biens-culturels"
+      }
+    }
+  },
+  {
+    "id": "preemption",
+    "band": "statut",
+    "group": "Procédures",
+    "acronym": "Préemption",
+    "name": "Droit de préemption de l’État en vente publique",
+    "short": "Acheter en vente aux enchères pour une collection publique",
+    "type": "Procédure d’acquisition",
+    "desc": "L’État peut se substituer au dernier enchérisseur d’une vente publique, pour lui-même ou pour une collectivité ou un musée de France, au prix de l’adjudication. Il le déclare à l’issue des enchères, puis doit confirmer dans les quinze jours.",
+    "law": "Code du patrimoine, art. L.123-1 à L.123-3"
+  },
+  {
     "id": "p175",
     "band": "fin",
     "group": "Crédits publics",
@@ -1779,6 +2190,90 @@
     "desc": "Billetterie, mécénat, locations d’espaces, boutiques, concessions, ingénierie culturelle : une part croissante du budget des grands établissements."
   },
   {
+    "id": "acv",
+    "band": "fin",
+    "group": "Programmes territoriaux",
+    "acronym": "Action cœur de ville",
+    "name": "Programme Action cœur de ville",
+    "short": "Revitalisation des villes moyennes",
+    "type": "Programme national (ANCT)",
+    "desc": "Accompagne depuis 2018 les villes moyennes dans la revitalisation de leur centre : réhabilitation de l’habitat ancien, commerces, espaces publics, mise en valeur du patrimoine.",
+    "note": "Deuxième phase 2023-2026 ; prolongation au-delà de 2026 demandée par des députés, à vérifier."
+  },
+  {
+    "id": "pvd",
+    "band": "fin",
+    "group": "Programmes territoriaux",
+    "acronym": "Petites villes de demain",
+    "name": "Programme Petites villes de demain",
+    "short": "Revitalisation des petites centralités",
+    "type": "Programme national (ANCT)",
+    "desc": "Soutient depuis 2020 les communes de moins de 20 000 habitants exerçant des fonctions de centralité : chef de projet financé, ingénierie, crédits pour l’habitat ancien et le patrimoine.",
+    "note": "Fin prévue en mars 2026 ; poursuite annoncée par le Premier ministre en juin 2025, modalités à vérifier."
+  },
+  {
+    "id": "fondsvert",
+    "band": "fin",
+    "group": "Programmes territoriaux",
+    "acronym": "Fonds vert",
+    "name": "Fonds d’accélération de la transition écologique dans les territoires",
+    "short": "Rénovation énergétique et adaptation",
+    "type": "Crédits de l’État (préfets)",
+    "desc": "Finance, depuis 2023, les projets de transition écologique des collectivités, dont la rénovation énergétique de bâtiments publics anciens ; les travaux sur un monument protégé restent soumis à autorisation.",
+    "note": "Montant et priorités fixés chaque année en loi de finances."
+  },
+  {
+    "id": "france2030",
+    "band": "fin",
+    "group": "Programmes territoriaux",
+    "acronym": "France 2030",
+    "name": "Plan d’investissement France 2030",
+    "short": "Investissements d’avenir",
+    "type": "Plan d’investissement de l’État",
+    "desc": "Prend la suite des Programmes d’investissements d’avenir (PIA), qui ont financé les laboratoires d’excellence comme le Labex Patrima ; appels à projets culture et numérique selon les années."
+  },
+  {
+    "id": "europecreative",
+    "band": "fin",
+    "group": "Programmes européens",
+    "acronym": "Europe créative",
+    "name": "Programme Europe créative (2021-2027)",
+    "short": "Coopération culturelle européenne",
+    "type": "Programme de l’Union européenne",
+    "desc": "Finance les projets de coopération culturelle, les réseaux et plateformes européens ; soutient notamment Europa Nostra et les Journées européennes du patrimoine."
+  },
+  {
+    "id": "horizon",
+    "band": "fin",
+    "group": "Programmes européens",
+    "acronym": "Horizon Europe",
+    "name": "Programme-cadre de recherche Horizon Europe (2021-2027)",
+    "short": "Recherche ; cloud européen du patrimoine",
+    "type": "Programme de l’Union européenne",
+    "desc": "Son pôle 2 (culture, créativité et société inclusive) finance la recherche sur le patrimoine, dont le cloud collaboratif européen du patrimoine culturel (ECCCH) : appel de 2023 remporté par le projet ECHOES coordonné par le CNRS.",
+    "note": "Calendrier des appels : portail Funding & Tenders de la Commission."
+  },
+  {
+    "id": "interreg",
+    "band": "fin",
+    "group": "Programmes européens",
+    "acronym": "Interreg",
+    "name": "Programmes de coopération territoriale européenne Interreg",
+    "short": "Projets transfrontaliers",
+    "type": "Programme de l’Union européenne (FEDER)",
+    "desc": "Finance des projets menés avec des partenaires d’autres pays (régions frontalières, espaces atlantique, alpin, méditerranéen), souvent sur le patrimoine, les itinéraires et le tourisme culturel."
+  },
+  {
+    "id": "leader",
+    "band": "fin",
+    "group": "Programmes européens",
+    "acronym": "LEADER",
+    "name": "Programme LEADER (FEADER)",
+    "short": "Projets ruraux portés par des groupes d’action locale",
+    "type": "Programme de l’Union européenne (développement rural)",
+    "desc": "Crédits européens de développement rural gérés par des groupes d’action locale ; financent de petits projets de valorisation du patrimoine rural."
+  },
+  {
     "id": "fdp",
     "band": "assoc",
     "group": "Fondations & mécénat",
@@ -1829,6 +2324,20 @@
     "name": "Admical",
     "type": "Association",
     "desc": "Réseau de référence du mécénat d’entreprise en France ; informe sur le cadre juridique et fiscal."
+  },
+  {
+    "id": "safr",
+    "band": "assoc",
+    "group": "Fondations & mécénat",
+    "acronym": "Sauvegarde de l’Art français",
+    "name": "Fondation pour la sauvegarde de l’art français",
+    "short": "Églises rurales et œuvres des communes",
+    "type": "Fondation reconnue d’utilité publique",
+    "desc": "Créée en 1921, elle aide la restauration des églises et chapelles rurales et des objets d’art des communes ; elle mène depuis 2013 la campagne participative « Le Plus Grand Musée de France ».",
+    "roles": [
+      "Version lycéenne de la campagne depuis 2018"
+    ],
+    "url": "https://www.sauvegardeartfrancais.fr"
   },
   {
     "id": "g8",
@@ -1988,6 +2497,55 @@
     "desc": "Réseau des écomusées et musées d’histoire, d’ethnographie et de société."
   },
   {
+    "id": "bbf",
+    "band": "assoc",
+    "group": "Autres acteurs",
+    "acronym": "Bouclier bleu France",
+    "name": "Bouclier bleu France",
+    "short": "Patrimoine en situation de crise",
+    "type": "Association agréée de sécurité civile",
+    "desc": "Branche française du réseau international Blue Shield : sensibilise, forme et intervient pour protéger le patrimoine lors des catastrophes et des conflits (Mayotte en 2025).",
+    "roles": [
+      "A formé 54 bibliothèques classées au PSBC en 2024 avec le ministère",
+      "Sections locales dans la plupart des régions"
+    ],
+    "note": "Ancien nom : Comité français du Bouclier bleu.",
+    "url": "https://theblueshield.org"
+  },
+  {
+    "id": "cinematheque",
+    "band": "assoc",
+    "group": "Autres acteurs",
+    "acronym": "Cinémathèque française",
+    "name": "La Cinémathèque française",
+    "short": "Collections du cinéma",
+    "type": "Association (fondée en 1936)",
+    "desc": "Conserve et montre des films, appareils, costumes, affiches et archives du cinéma ; soutenue par le CNC.",
+    "url": "https://www.cinematheque.fr"
+  },
+  {
+    "id": "pmf",
+    "band": "assoc",
+    "group": "Autres acteurs",
+    "acronym": "PMF",
+    "name": "Patrimoine maritime et fluvial (ex-Fondation du patrimoine maritime et fluvial)",
+    "short": "Bateaux d’intérêt patrimonial",
+    "type": "Association chargée d’une mission de service public",
+    "desc": "Inventorie les bateaux anciens et décerne le label d’État « Bateau d’intérêt patrimonial » (BIP), pour cinq ans ; le label exonère des droits de francisation et ouvre des aides locales.",
+    "law": "Loi du 30 décembre 2006 (mission de service public)",
+    "note": "Près de 1 000 bateaux labellisés selon la presse spécialisée ; règles en vigueur à vérifier sur le site de l’association."
+  },
+  {
+    "id": "cilac",
+    "band": "assoc",
+    "group": "Autres acteurs",
+    "acronym": "CILAC",
+    "name": "Comité d’information et de liaison pour l’archéologie, l’étude et la mise en valeur du patrimoine industriel",
+    "short": "Patrimoine industriel",
+    "type": "Association",
+    "desc": "Réseau national des chercheurs, associations et collectivités qui étudient et valorisent le patrimoine industriel (usines, mines, machines, archives d’entreprises) ; publie la revue L’Archéologie industrielle en France."
+  },
+  {
     "id": "opprive",
     "band": "assoc",
     "group": "Acteurs privés",
@@ -2005,6 +2563,131 @@
     "name": "FDJ United (ex-Française des Jeux)",
     "type": "Entreprise",
     "desc": "Opérateur des jeux de la Mission Patrimoine (tickets à gratter et tirages Loto dédiés)."
+  },
+  {
+    "id": "ovv",
+    "band": "assoc",
+    "group": "Acteurs privés",
+    "acronym": "Maisons de vente",
+    "name": "Opérateurs de ventes volontaires (maisons de vente aux enchères)",
+    "short": "Ventes aux enchères",
+    "type": "Sociétés commerciales régulées",
+    "desc": "Organisent les ventes aux enchères publiques de meubles, dont les œuvres d’art ; enregistrées auprès du Conseil des maisons de vente. L’État peut y exercer son droit de préemption.",
+    "law": "Code de commerce, art. L.320-1 et suivants"
+  },
+  {
+    "id": "cfpci",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "CFPCI",
+    "name": "Maison des cultures du monde – Centre français du patrimoine culturel immatériel",
+    "short": "Maison des cultures du monde (Vitré)",
+    "type": "Association, ONG accréditée par l’UNESCO (2010)",
+    "desc": "Fondée en 1982 à Paris, la Maison des cultures du monde a été désignée en 2011 par le ministère de la Culture Centre français du PCI, organisme compétent pour la sauvegarde du PCI en France, puis labellisée ethnopôle en 2016.",
+    "roles": [
+      "Expertise pour le ministère ; centre de documentation, formations, colloques, publications",
+      "Assure la coordination et le secrétariat de France PCI",
+      "Journée du patrimoine culturel immatériel depuis 2004, dans le cadre du Festival de l’imaginaire"
+    ],
+    "url": "https://www.maisondesculturesdumonde.org"
+  },
+  {
+    "id": "francepci",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "France PCI",
+    "name": "Association française des éléments inscrits au patrimoine culturel immatériel de l’UNESCO",
+    "short": "Réseau des éléments français inscrits à l’UNESCO",
+    "type": "Association, ONG accréditée par l’UNESCO (2022)",
+    "desc": "Réunit les communautés, associations et collectivités qui portent la vingtaine d’éléments français inscrits sur les listes ou le registre de la convention de 2003 (repas gastronomique, fest-noz, gwoka, baguette de pain, tapisserie d’Aubusson…).",
+    "roles": [
+      "Promeut l’esprit de la convention et les éléments inscrits ; exposition itinérante",
+      "Partage d’expériences entre porteurs d’éléments, force de proposition auprès des acteurs du PCI",
+      "Assemblée générale annuelle itinérante ; lettre d’information trimestrielle"
+    ],
+    "note": "Créée le 25 septembre 2013 selon la brochure du ministère (2023) ; la fiche UNESCO indique 2014. Siège au Centre français du PCI à Vitré.",
+    "url": "https://ich.unesco.org/fr/ong-accreditees/association-francaise-des-elements-inscrits-au-patrimoine-culturel-immateriel-de-l-unesco-01319"
+  },
+  {
+    "id": "dastum",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "Dastum",
+    "name": "Dastum",
+    "short": "Archives sonores et PCI de Bretagne",
+    "type": "Association, ONG accréditée par l’UNESCO (2010)",
+    "desc": "Née en 1972, collecte, sauvegarde et transmet le patrimoine oral et musical de la Bretagne historique ; sa phonothèque dépasse 120 000 documents sonores, consultables en ligne.",
+    "url": "https://www.dastum.bzh"
+  },
+  {
+    "id": "repriz",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "Rèpriz",
+    "name": "Rèpriz – Centre des musiques et danses traditionnelles et populaires de Guadeloupe",
+    "short": "PCI de Guadeloupe",
+    "type": "Association, ONG accréditée par l’UNESCO (2010)",
+    "desc": "Créé en 2005, centre de ressources pour la sauvegarde, la transmission et la diffusion des musiques et danses traditionnelles de Guadeloupe, dont le gwoka."
+  },
+  {
+    "id": "ankrake",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "Ankraké",
+    "name": "Association Ankraké",
+    "short": "PCI de La Réunion",
+    "type": "Association, ONG accréditée par l’UNESCO (2022)",
+    "desc": "Créée en 1995 à La Réunion, elle travaille sur le patrimoine immatériel issu de l’esclavage et du métissage réunionnais, et sur son rôle dans l’insertion sociale."
+  },
+  {
+    "id": "garae",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "GARAE",
+    "name": "Groupe audois de recherche et d’animation ethnographique – Maison des Mémoires",
+    "short": "Ethnopôle (Aude)",
+    "type": "Association, ONG accréditée par l’UNESCO (2012)",
+    "desc": "Créé en 1981 dans l’Aude, centre de documentation et maison d’édition en ethnologie, labellisé ethnopôle ; anime le GIS « Patrimoines en partage » et une semaine annuelle de formation au PCI avec des universités d’Occitanie."
+  },
+  {
+    "id": "mpob",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "MPOB",
+    "name": "Maison du patrimoine oral de Bourgogne",
+    "short": "Patrimoine oral de Bourgogne",
+    "type": "Association, ONG accréditée par l’UNESCO (2012)",
+    "desc": "Centre de ressources sur le patrimoine oral de Bourgogne : archives sonores et audiovisuelles, recherche, transmission et création à partir des sources orales."
+  },
+  {
+    "id": "amta",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "AMTA",
+    "name": "Agence des musiques des territoires d’Auvergne",
+    "short": "Musiques traditionnelles d’Auvergne",
+    "type": "Association, ONG accréditée par l’UNESCO (2014)",
+    "desc": "Collecte, documente et valorise les musiques et pratiques traditionnelles d’Auvergne."
+  },
+  {
+    "id": "cmtra",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "CMTRA",
+    "name": "Centre des musiques traditionnelles Rhône-Alpes",
+    "short": "Musiques traditionnelles et du monde",
+    "type": "Association, ONG accréditée par l’UNESCO (2018)",
+    "desc": "Travaille sur les musiques traditionnelles et les patrimoines musicaux des habitants de la région, y compris ceux des migrations, par des enquêtes, des disques et des projets de territoire."
+  },
+  {
+    "id": "colbert",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "Comité Colbert",
+    "name": "Comité Colbert",
+    "short": "Maisons du luxe et savoir-faire",
+    "type": "Association, ONG accréditée par l’UNESCO (2010)",
+    "desc": "Réunit des maisons françaises du luxe et des institutions culturelles autour de la transmission des savoir-faire d’excellence et des métiers de la création."
   },
   {
     "id": "conservateur",
@@ -2066,6 +2749,16 @@
     "name": "Animateur de l’architecture et du patrimoine",
     "type": "Fonction (label VPAH)",
     "desc": "Professionnel recruté par les villes et pays d’art et d’histoire pour concevoir et coordonner la médiation."
+  },
+  {
+    "id": "commissaire",
+    "band": "metier",
+    "group": "Corps & professions",
+    "acronym": "Commissaire-priseur",
+    "name": "Commissaire-priseur de ventes volontaires et commissaire de justice",
+    "short": "Dirige les ventes aux enchères",
+    "type": "Profession réglementée",
+    "desc": "Le commissaire-priseur de ventes volontaires dirige les enchères dans une maison de vente. Les ventes judiciaires relèvent depuis le 1er juillet 2022 du commissaire de justice, issu de la fusion des huissiers et des commissaires-priseurs judiciaires."
   },
   {
     "id": "afroa",
@@ -2151,6 +2844,27 @@
     "desc": "Réunit les entreprises qualifiées (taille de pierre, charpente, couverture…) qui interviennent sur les MH."
   },
   {
+    "id": "adaf",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "Ateliers d’Art de France",
+    "name": "Ateliers d’Art de France",
+    "short": "Syndicat des métiers d’art",
+    "type": "Syndicat professionnel",
+    "desc": "Fédère les artisans d’art, artistes et manufactures d’art ; défend la profession, organise des salons et des prix et porte la voix des métiers d’art auprès des pouvoirs publics.",
+    "url": "https://www.ateliersdart.com"
+  },
+  {
+    "id": "agccpf",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "AGCCPF",
+    "name": "Association générale des conservateurs des collections publiques de France",
+    "short": "Réseau des professionnels des musées",
+    "type": "Association professionnelle",
+    "desc": "Réseau national des conservateurs et professionnels des collections publiques, organisé en sections régionales ; congrès, formations et prises de position sur la politique des musées."
+  },
+  {
     "id": "isf",
     "band": "metier",
     "group": "Formation & transmission",
@@ -2169,6 +2883,16 @@
     "name": "Centre national de la fonction publique territoriale",
     "type": "Établissement public",
     "desc": "Forme les agents des collectivités et organise, avec l’INP, la formation des conservateurs territoriaux."
+  },
+  {
+    "id": "compagnons",
+    "band": "metier",
+    "group": "Formation & transmission",
+    "acronym": "Compagnons du Devoir",
+    "name": "Compagnonnage (Compagnons du Devoir et du Tour de France et autres associations compagnonniques)",
+    "short": "Transmission des métiers par le Tour de France",
+    "type": "Associations de formation",
+    "desc": "Forment aux métiers du bâtiment, du patrimoine et de l’artisanat par l’apprentissage et le voyage ; le compagnonnage est inscrit sur la liste représentative du PCI de l’humanité depuis 2010."
   },
   {
     "id": "codepat",
@@ -2224,6 +2948,78 @@
     "name": "Code pénal",
     "type": "Code",
     "desc": "Aggrave les peines pour la destruction ou la dégradation d’un bien culturel protégé (art. 322-3-1) et pour le vol d’un bien culturel (art. 311-4-2) : jusqu’à 7 ans d’emprisonnement et 100 000 € d’amende."
+  },
+  {
+    "id": "codecom",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "Code de commerce",
+    "name": "Code de commerce (ventes de meubles aux enchères publiques)",
+    "short": "Code de commerce",
+    "type": "Code",
+    "desc": "Encadre les ventes volontaires aux enchères publiques, les opérateurs de ventes et le Conseil des maisons de vente.",
+    "law": "Code de commerce, livre III, titre II, art. L.320-1 et suivants"
+  },
+  {
+    "id": "codedouanes",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "Code des douanes",
+    "name": "Code des douanes",
+    "short": "Code des douanes",
+    "type": "Code",
+    "desc": "Fonde les contrôles douaniers et les sanctions : l’exportation d’un bien culturel sans certificat ou licence est une infraction douanière.",
+    "law": "Code des douanes, art. 38 (marchandises prohibées)"
+  },
+  {
+    "id": "csi",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "Code de la sécurité intérieure",
+    "name": "Code de la sécurité intérieure (livre VII : sécurité civile)",
+    "short": "Sécurité civile, ORSEC",
+    "type": "Code",
+    "desc": "Organise la sécurité civile, les plans ORSEC et les services d’incendie et de secours ; c’est le cadre dans lequel s’inscrivent les plans de sauvegarde des biens culturels."
+  },
+  {
+    "id": "cgct",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "CGCT",
+    "name": "Code général des collectivités territoriales",
+    "short": "Collectivités, ANCT, SDIS",
+    "type": "Code",
+    "desc": "Fixe l’organisation et les compétences des communes, départements et régions, ainsi que le statut de l’ANCT et des SDIS."
+  },
+  {
+    "id": "coderech",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "Code de la recherche",
+    "name": "Code de la recherche",
+    "short": "Organismes et agences de recherche",
+    "type": "Code",
+    "desc": "Encadre les établissements publics de recherche (CNRS), l’Agence nationale de la recherche et les fondations de coopération scientifique."
+  },
+  {
+    "id": "codeedu",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "Code de l’éducation",
+    "name": "Code de l’éducation (enseignement supérieur)",
+    "short": "Universités et grandes écoles",
+    "type": "Code",
+    "desc": "Fixe le statut et les missions des universités et des grands établissements d’enseignement supérieur."
+  },
+  {
+    "id": "codedef",
+    "band": "textes",
+    "group": "Codes",
+    "acronym": "Code de la défense",
+    "name": "Code de la défense",
+    "short": "Défense et sécurité nationale",
+    "type": "Code",
+    "desc": "Organise la défense et la sécurité nationale : rôle du SGDSN et réseau des hauts fonctionnaires de défense et de sécurité placés auprès de chaque ministre."
   },
   {
     "id": "loi1905",
@@ -2338,6 +3134,56 @@
     "note": "Vérifier sur Légifrance la date de promulgation et les décrets d’application."
   },
   {
+    "id": "loi2022marche",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi 2022 marché de l’art",
+    "name": "Loi n° 2022-267 du 28 février 2022 visant à moderniser la régulation du marché de l’art",
+    "short": "Modernisation du marché de l’art",
+    "type": "Loi",
+    "desc": "Remplace le Conseil des ventes volontaires par le Conseil des maisons de vente, crée sa commission des sanctions et modernise les obligations des maisons de vente."
+  },
+  {
+    "id": "loind2019",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi Notre-Dame 2019",
+    "name": "Loi n° 2019-803 du 29 juillet 2019 pour la conservation et la restauration de la cathédrale Notre-Dame de Paris",
+    "short": "Restauration de Notre-Dame",
+    "type": "Loi",
+    "desc": "Organise la souscription nationale, crée l’établissement public chargé du chantier et permet des dérogations encadrées pour accélérer les travaux."
+  },
+  {
+    "id": "erp",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Règlement incendie ERP",
+    "name": "Règlement de sécurité contre l’incendie dans les établissements recevant du public (arrêté du 25 juin 1980)",
+    "short": "Sécurité incendie des musées et monuments ouverts au public",
+    "type": "Arrêté",
+    "desc": "S’applique aux musées, monuments et bibliothèques ouverts au public : désenfumage, compartimentage, alarmes, exercices, contrôle par les commissions de sécurité."
+  },
+  {
+    "id": "loigip",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi GIP 2011",
+    "name": "Loi n° 2011-525 du 17 mai 2011 (chapitre II : groupements d’intérêt public)",
+    "short": "Régime des groupements d’intérêt public",
+    "type": "Loi",
+    "desc": "Fixe le régime commun des groupements d’intérêt public, forme choisie par plusieurs centres de conservation-restauration (CICRP, ARC-Nucléart)."
+  },
+  {
+    "id": "loitoubon",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi Toubon 1994",
+    "name": "Loi n° 94-665 du 4 août 1994 relative à l’emploi de la langue française",
+    "short": "Emploi de la langue française",
+    "type": "Loi",
+    "desc": "Impose l’emploi du français dans de nombreux domaines (commerce, travail, enseignement, services publics) ; la DGLFLF en suit l’application."
+  },
+  {
     "id": "conv1954",
     "band": "textes",
     "group": "Conventions internationales",
@@ -2390,6 +3236,18 @@
     "name": "Règlements européens sur la circulation des biens culturels",
     "type": "Droit de l’Union",
     "desc": "Licence d’exportation hors de l’UE pour les biens culturels (règlement n° 116/2009) et contrôle de l’importation (règlement 2019/880)."
+  },
+  {
+    "id": "unidroit",
+    "band": "textes",
+    "group": "Conventions internationales",
+    "acronym": "Convention UNIDROIT 1995",
+    "name": "Convention d’UNIDROIT sur les biens culturels volés ou illicitement exportés (Rome, 24 juin 1995)",
+    "short": "Restitution des biens volés",
+    "type": "Convention internationale (signée, non ratifiée par la France)",
+    "desc": "Complète la convention UNESCO de 1970 en droit privé : le possesseur d’un bien volé doit le restituer, avec une indemnité s’il prouve sa diligence. La France l’a signée en 1995 mais ne l’a pas ratifiée.",
+    "note": "Projet de loi de ratification adopté par l’Assemblée nationale en 2002, jamais examiné jusqu’au bout ; un rapport du Sénat recommande la ratification. Statut à revérifier.",
+    "url": "https://www.unidroit.org"
   },
   {
     "id": "pop",
@@ -2450,6 +3308,48 @@
     "type": "Portail (ministère)",
     "desc": "Lancé en 2025 pour faire connaître les pratiques de l’Inventaire national et leurs événements.",
     "url": "https://immateriel.culture.gouv.fr"
+  },
+  {
+    "id": "treima",
+    "band": "outils",
+    "group": "Bases & portails",
+    "acronym": "TREIMA",
+    "name": "Thésaurus de recherche électronique et d’imagerie en matière artistique",
+    "short": "Base des biens culturels volés (OCBC)",
+    "type": "Base de données de police",
+    "desc": "Base de l’OCBC qui recense les biens culturels volés en France, avec photographies, pour les rapprocher des objets retrouvés ou mis en vente."
+  },
+  {
+    "id": "interpolbase",
+    "band": "outils",
+    "group": "Bases & portails",
+    "acronym": "Base Interpol",
+    "name": "Base de données Interpol des œuvres d’art volées et application ID-Art",
+    "short": "Œuvres volées dans le monde",
+    "type": "Base de données internationale",
+    "desc": "Alimentée par les polices des pays membres, dont l’OCBC pour la France ; l’application ID-Art permet à chacun de vérifier si un objet est signalé volé.",
+    "url": "https://www.interpol.int"
+  },
+  {
+    "id": "listesrouges",
+    "band": "outils",
+    "group": "Bases & portails",
+    "acronym": "Listes rouges ICOM",
+    "name": "Listes rouges des biens culturels en péril (ICOM)",
+    "short": "Catégories d’objets les plus pillés",
+    "type": "Outil de référence",
+    "desc": "Décrivent, région par région, les catégories d’objets archéologiques et ethnographiques les plus exposés au trafic, pour aider douaniers, policiers et marchands à les repérer.",
+    "url": "https://icom.museum"
+  },
+  {
+    "id": "alr",
+    "band": "outils",
+    "group": "Bases & portails",
+    "acronym": "Art Loss Register",
+    "name": "Art Loss Register",
+    "short": "Registre privé d’œuvres volées",
+    "type": "Base de données privée",
+    "desc": "Registre commercial d’œuvres volées ou disputées, consulté par les maisons de vente et les marchands avant une vente pour vérifier la provenance."
   },
   {
     "id": "jep",

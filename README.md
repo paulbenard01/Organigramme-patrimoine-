@@ -4,7 +4,7 @@ Une carte interactive, en français, de l'écosystème du patrimoine en France :
 
 **En ligne : https://paulbenard01.github.io/Organigramme-patrimoine-/**
 
-- **216** acteurs, statuts, dispositifs et textes, **434** liens typés, **85** images libres créditées
+- **294** acteurs, statuts, dispositifs et textes, **633** liens typés, **100** images libres créditées
 - Vues : Carte mentale · Strates · Musées · Qui est qui · Droit · Parcours · Glossaire · Images
 - Une seule page HTML autonome, mobile d'abord, thèmes clair et sombre
 - Liens partageables vers une fiche : `#mindmap/drac`, `#carte/mhclasse`…

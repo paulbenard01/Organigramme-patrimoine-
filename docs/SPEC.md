@@ -47,10 +47,10 @@ Familles de statut (nationaux EP, nationaux SCN, manufactures, Armées, recherch
 Trombinoscope par niveau (international, gouvernement, ministère, commissions, opérateurs, collectivités, société civile) avec initiales ou photo, fonction, date, lien vers la fiche, source. Puis « Les fonctions à connaître à chaque niveau » (postes génériques par niveau territorial).
 
 ### Droit
-14 thèmes de légalité patrimoniale (socle, domaine public, servitudes, travaux, archéologie, musées de France, circulation, restitutions, archives, cultes, PCI, pénal, fiscalité, international), chacun avec résumé, points clés, textes et acteurs cliquables. Puis un tableau « Textes et institutions concernées » qui liste, pour chaque texte, les nœuds auxquels il s'applique.
+15 thèmes de légalité patrimoniale (socle, domaine public, servitudes, travaux, archéologie, musées de France, circulation et marché de l’art, restitutions, archives, cultes, PCI, sécurité des collections, pénal, fiscalité, international), chacun avec résumé, points clés, textes et acteurs cliquables. Puis un tableau « Textes et institutions concernées » qui liste, pour chaque texte, les nœuds auxquels il s'applique.
 
 ### Parcours
-8 procédures numérotées : protéger un MH, travaux en abords, appellation Musée de France, archéologie préventive, PCI vers l'UNESCO, patrimoine mondial, financer une église communale, prêter une œuvre.
+11 procédures numérotées : protéger un MH, travaux en abords, appellation Musée de France, archéologie préventive, PCI vers l'UNESCO, patrimoine mondial, financer une église communale, prêter une œuvre, faire sortir une œuvre de France, acheter en vente aux enchères (préemption), préparer un plan de sauvegarde des biens culturels.
 
 ### Glossaire
 Tous les sigles des nœuds + termes hors nœuds (anciens sigles, notions juridiques), classés par lettre.

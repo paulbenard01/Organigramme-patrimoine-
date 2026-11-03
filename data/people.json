@@ -192,5 +192,29 @@
     "node": "loto",
     "level": "Société civile",
     "source": "https://www.culture.gouv.fr/actualites/loto-du-patrimoine-2026-100-sites-100-histoires-a-preserver"
+  },
+  {
+    "name": "Édouard de Lamaze",
+    "role": "Président du Conseil des maisons de vente",
+    "node": "cmv",
+    "level": "Commissions",
+    "since": "nommé par arrêté du 15 mars 2024",
+    "source": "https://artnewspaper.fr/2024/03/20/edouard-de-lamaze-nomme-president-du-conseil-des-maisons-de-vente"
+  },
+  {
+    "name": "Philippe Jost",
+    "role": "Président de l’établissement public Rebâtir Notre-Dame de Paris",
+    "node": "rnd",
+    "level": "Opérateurs & musées nationaux",
+    "since": "en fonction en juillet 2026",
+    "source": "https://www.dhnet.be/dernieres-depeches/2026/07/03/france-nouveaux-travaux-pour-finaliser-la-restauration-de-notre-dame-de-paris-AY4WEIPAXZAKLNAHQUNLWDW67E/"
+  },
+  {
+    "name": "Marie Courselaud",
+    "role": "Présidente de Bouclier bleu France",
+    "node": "bbf",
+    "level": "Société civile",
+    "since": "en fonction en 2025",
+    "source": "https://www.revueconflits.com/proteger-le-patrimoine-en-temps-de-crise-lengagement-du-bouclier-bleu-france/"
   }
 ]

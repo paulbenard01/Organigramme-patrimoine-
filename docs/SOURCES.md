@@ -35,6 +35,33 @@ Voir le champ `source` de chaque entrée de `data/people.json`. Points à revér
 - Présidence de l'INRAP (offre d'emploi publiée en 2026).
 - Présidence de la CNPA après le renouvellement sénatorial de septembre 2026.
 
+## Marché de l'art, sécurité, recherche et programmes (ajout du 3 novembre 2026)
+
+| Point vérifié | Source |
+|---|---|
+| Conseil des maisons de vente (loi n° 2022-267 du 28 février 2022, Code de commerce art. L.321-18) ; commissaires de justice depuis le 1er juillet 2022 | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045276941 |
+| Présidence du CMV : Édouard de Lamaze, arrêté du 15 mars 2024 | https://artnewspaper.fr/2024/03/20/edouard-de-lamaze-nomme-president-du-conseil-des-maisons-de-vente |
+| Règlement (UE) 2019/880 applicable depuis le 28 juin 2025, système ICG obligatoire | https://trade.ec.europa.eu/access-to-markets/fr/news/lue-introduit-de-nouveaux-controles-limportation-de-biens-culturels ; https://www.douane.gouv.fr/demarche/importer-des-biens-culturels |
+| Convention UNIDROIT 1995 : signée par la France, non ratifiée ; rapport du Sénat | https://www.senat.fr/rap/r20-239/r20-2395.html |
+| Plan de sauvegarde des biens culturels : doctrine, terme unique (juillet 2023), manuel C2RMF, circulaire bibliothèques 2024, chiffres cathédrales | https://www.culture.gouv.fr/Thematiques/Securite-Surete/Securite-et-surete-des-biens/Plan-de-sauvegarde-des-biens-culturels ; https://c2rmf.fr/sites/c2rmf/files/documents/Manuel PSBC C2RMF.pdf |
+| Rebâtir Notre-Dame : nouvelle phase (grande rose, façade nord) annoncée en juillet 2026, président Philippe Jost | https://www.dhnet.be/dernieres-depeches/2026/07/03/france-nouveaux-travaux-pour-finaliser-la-restauration-de-notre-dame-de-paris-AY4WEIPAXZAKLNAHQUNLWDW67E/ |
+| Bouclier bleu France : présidence, sections, interventions | https://www.revueconflits.com/proteger-le-patrimoine-en-temps-de-crise-lengagement-du-bouclier-bleu-france/ |
+| Fondation des sciences du patrimoine : création 2013, membres, laboratoires CRC, LRMH, C2RMF, IPANEMA, partenaires | https://www.sciences-patrimoine.org/?p=5254 |
+| E-RIHS ERIC : statut le 28 mars 2025, siège à Florence, France membre fondateur ; nœud E-RIHS France | https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/european-research-infrastructure-heritage-science-becomes-european-research-infrastructure-2025-03-28_en |
+| ARC-Nucléart : GIP Culture, CEA, Ville de Grenoble ; procédés | https://cameo.mfa.org/wiki/ARC-Nucleart |
+| Horizon Europe : appel ECCCH 2023 remporté par ECHOES (coordination CNRS) | https://www.horizon-europe.gouv.fr/european-collaborative-cloud-cultural-heritage-32185 |
+| Action cœur de ville 2023-2026 ; Petites villes de demain (fin prévue mars 2026, poursuite annoncée juin 2025) | https://maire-info.com/le-dispositif-action-coeur-de-ville-prolonge-pour-la-periode-2023-2026-le-gouvernement-detaille-sa-mise-en-oeuvre-article2-27563 ; https://www.senat.fr/rap/r25-040/r25-0401.pdf |
+| Fondation pour la sauvegarde de l'art français : création 1921, FRUP 2017, campagne « Le Plus Grand Musée de France » (2013) | https://www.sauvegardeartfrancais.fr/wp/wp-content/uploads/saf-ra-2024-web.pdf |
+
+| Patrimoine culturel immatériel : ONG françaises accréditées (France PCI créée le 25 septembre 2013, accréditée en 2022 ; MCM-CFPCI désignée en 2011, ethnopôle en 2016 ; années d'accréditation des autres ONG) | https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/PCI-France_brochure-ONG-accreditees_10072023 |
+| France PCI : fiche UNESCO (création indiquée : 2014, siège à Vitré) | https://ich.unesco.org/fr/ong-accreditees/association-francaise-des-elements-inscrits-au-patrimoine-culturel-immateriel-de-l-unesco-01319 |
+| Acteurs de la sauvegarde du PCI (LAHIC, parcs nationaux, parcs naturels régionaux) | https://www.culture.gouv.fr/fr/thematiques/patrimoine-culturel-immateriel/le-patrimoine-culturel-immateriel/les-acteurs-de-la-sauvegarde-du-patrimoine-culturel-immateriel |
+| LAHIC (IIAC, CNRS-EHESS, convention avec le ministère) | https://www.culture.gouv.fr/thematiques/ethnologie-de-la-france/ressources-et-publications/les-collections-en-partenariat-avec-le-ministere-autour-de-l-ethnologie-de-la-france-et-du-patrimoine/collection-electronique-les-carnets-du-lahic |
+| Label BIP et association Patrimoine maritime et fluvial (loi du 30 décembre 2006) | https://www.bateaux.com/article/36672/l-association-patrimoine-maritime-et-fluvial-conserve-l-histoire-de-la-navigation |
+| OCIM, service de l'université de Bourgogne (convention avec le ministère chargé de l'enseignement supérieur) | https://www.ube.fr/en/student-space/ocim/ |
+
+À revérifier en priorité : date de création de France PCI (2013 selon le ministère, 2014 selon l'UNESCO), suite des programmes ANCT après 2026, statut de la convention UNIDROIT, calendrier de l'établissement Rebâtir Notre-Dame, dates du GIP ARC-Nucléart.
+
 ## Images
 
 Les images de `data/pictures.json` viennent de Wikimedia Commons, via l'image principale de l'article fr.wikipedia.org correspondant (recherche du 2 novembre 2026). Chaque image garde son auteur et sa licence, affichés sous l'image et dans la vue Images (« Crédits des images »). 100 images trouvées automatiquement ; 15 écartées à la relecture des titres (portrait d'un ancien directeur pour la DGPA, fonds belge homonyme pour le Fonds du patrimoine, cartes politiques pour régions et départements, photos sans rapport…) ; 85 retenues.
