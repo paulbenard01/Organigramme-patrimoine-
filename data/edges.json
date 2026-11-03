@@ -2954,5 +2954,416 @@
     "source": "codedef",
     "target": "bspp",
     "type": "loi"
+  },
+  {
+    "source": "mc",
+    "target": "cfpci",
+    "type": "oct",
+    "label": "désigné Centre français du PCI (2011)"
+  },
+  {
+    "source": "cfpci",
+    "target": "francepci",
+    "type": "ges",
+    "label": "coordination et secrétariat"
+  },
+  {
+    "source": "cfpci",
+    "target": "ethnopole",
+    "type": "lien",
+    "label": "labellisé ethnopôle (2016)"
+  },
+  {
+    "source": "cfpci",
+    "target": "invpci",
+    "type": "lien",
+    "label": "expertise"
+  },
+  {
+    "source": "drvpci",
+    "target": "cfpci",
+    "type": "lien"
+  },
+  {
+    "source": "conv2003",
+    "target": "cfpci",
+    "type": "loi"
+  },
+  {
+    "source": "conv2003",
+    "target": "francepci",
+    "type": "loi"
+  },
+  {
+    "source": "francepci",
+    "target": "pciunesco",
+    "type": "res",
+    "label": "porteurs des éléments inscrits"
+  },
+  {
+    "source": "francepci",
+    "target": "cnpci",
+    "type": "lien"
+  },
+  {
+    "source": "igcpci",
+    "target": "cfpci",
+    "type": "oct",
+    "label": "accréditée (2010)"
+  },
+  {
+    "source": "igcpci",
+    "target": "francepci",
+    "type": "oct",
+    "label": "accréditée (2022)"
+  },
+  {
+    "source": "igcpci",
+    "target": "dastum",
+    "type": "oct",
+    "label": "accréditée (2010)"
+  },
+  {
+    "source": "igcpci",
+    "target": "repriz",
+    "type": "oct",
+    "label": "accréditée (2010)"
+  },
+  {
+    "source": "igcpci",
+    "target": "ankrake",
+    "type": "oct",
+    "label": "accréditée (2022)"
+  },
+  {
+    "source": "igcpci",
+    "target": "garae",
+    "type": "oct",
+    "label": "accréditée (2012)"
+  },
+  {
+    "source": "igcpci",
+    "target": "mpob",
+    "type": "oct",
+    "label": "accréditée (2012)"
+  },
+  {
+    "source": "igcpci",
+    "target": "amta",
+    "type": "oct",
+    "label": "accréditée (2014)"
+  },
+  {
+    "source": "igcpci",
+    "target": "cmtra",
+    "type": "oct",
+    "label": "accréditée (2018)"
+  },
+  {
+    "source": "igcpci",
+    "target": "colbert",
+    "type": "oct",
+    "label": "accréditée (2010)"
+  },
+  {
+    "source": "igcpci",
+    "target": "isf",
+    "type": "oct",
+    "label": "accréditée (2022)"
+  },
+  {
+    "source": "igcpci",
+    "target": "icom",
+    "type": "oct",
+    "label": "accréditée (2018)"
+  },
+  {
+    "source": "igcpci",
+    "target": "icomos",
+    "type": "oct",
+    "label": "accréditée (2018)"
+  },
+  {
+    "source": "garae",
+    "target": "ethnopole",
+    "type": "lien",
+    "label": "Maison des Mémoires, ethnopôle"
+  },
+  {
+    "source": "dastum",
+    "target": "invpci",
+    "type": "lien"
+  },
+  {
+    "source": "mpob",
+    "target": "invpci",
+    "type": "lien"
+  },
+  {
+    "source": "amta",
+    "target": "invpci",
+    "type": "lien"
+  },
+  {
+    "source": "cmtra",
+    "target": "invpci",
+    "type": "lien"
+  },
+  {
+    "source": "repriz",
+    "target": "dac",
+    "type": "lien",
+    "label": "Guadeloupe"
+  },
+  {
+    "source": "ankrake",
+    "target": "dac",
+    "type": "lien",
+    "label": "La Réunion"
+  },
+  {
+    "source": "colbert",
+    "target": "isf",
+    "type": "lien",
+    "label": "savoir-faire d’excellence"
+  },
+  {
+    "source": "colbert",
+    "target": "epv",
+    "type": "lien"
+  },
+  {
+    "source": "cnrs",
+    "target": "lahic",
+    "type": "tut",
+    "label": "co-tutelle (IIAC)"
+  },
+  {
+    "source": "lahic",
+    "target": "drvpci",
+    "type": "lien",
+    "label": "convention avec le ministère"
+  },
+  {
+    "source": "coderech",
+    "target": "lahic",
+    "type": "loi"
+  },
+  {
+    "source": "lahic",
+    "target": "ethnopole",
+    "type": "lien"
+  },
+  {
+    "source": "codeenv",
+    "target": "pnr",
+    "type": "loi"
+  },
+  {
+    "source": "region",
+    "target": "pnr",
+    "type": "ges",
+    "label": "crée le parc (charte)"
+  },
+  {
+    "source": "pnr",
+    "target": "invpci",
+    "type": "lien",
+    "label": "PCI des territoires"
+  },
+  {
+    "source": "pnr",
+    "target": "siteclasse",
+    "type": "lien"
+  },
+  {
+    "source": "codeenv",
+    "target": "parcsnat",
+    "type": "loi"
+  },
+  {
+    "source": "mte",
+    "target": "parcsnat",
+    "type": "tut"
+  },
+  {
+    "source": "parcsnat",
+    "target": "invpci",
+    "type": "lien",
+    "label": "PCI dans les parcs"
+  },
+  {
+    "source": "codeenv",
+    "target": "cdl",
+    "type": "loi"
+  },
+  {
+    "source": "mte",
+    "target": "cdl",
+    "type": "tut"
+  },
+  {
+    "source": "cdl",
+    "target": "commune",
+    "type": "lien",
+    "label": "gestion des sites"
+  },
+  {
+    "source": "cdl",
+    "target": "siteclasse",
+    "type": "lien"
+  },
+  {
+    "source": "mc",
+    "target": "cnc",
+    "type": "tut"
+  },
+  {
+    "source": "codepat",
+    "target": "cnc",
+    "type": "loi",
+    "label": "dépôt légal des films"
+  },
+  {
+    "source": "cnc",
+    "target": "cinematheque",
+    "type": "fin"
+  },
+  {
+    "source": "mc",
+    "target": "ina",
+    "type": "tut"
+  },
+  {
+    "source": "codepat",
+    "target": "ina",
+    "type": "loi",
+    "label": "dépôt légal radio-télévision"
+  },
+  {
+    "source": "ina",
+    "target": "bnf",
+    "type": "lien",
+    "label": "dépôt légal"
+  },
+  {
+    "source": "mc",
+    "target": "dglflf",
+    "type": "tut"
+  },
+  {
+    "source": "loitoubon",
+    "target": "dglflf",
+    "type": "loi"
+  },
+  {
+    "source": "dglflf",
+    "target": "invpci",
+    "type": "lien",
+    "label": "langues de France"
+  },
+  {
+    "source": "pmf",
+    "target": "drassm",
+    "type": "lien",
+    "label": "patrimoine maritime"
+  },
+  {
+    "source": "pmf",
+    "target": "mpf",
+    "type": "lien"
+  },
+  {
+    "source": "cilac",
+    "target": "inventaire",
+    "type": "lien",
+    "label": "patrimoine industriel"
+  },
+  {
+    "source": "cilac",
+    "target": "icomosfr",
+    "type": "lien"
+  },
+  {
+    "source": "adaf",
+    "target": "maitreart",
+    "type": "lien"
+  },
+  {
+    "source": "adaf",
+    "target": "isf",
+    "type": "lien"
+  },
+  {
+    "source": "adaf",
+    "target": "jema",
+    "type": "lien"
+  },
+  {
+    "source": "compagnons",
+    "target": "pciunesco",
+    "type": "lien",
+    "label": "inscrit en 2010"
+  },
+  {
+    "source": "compagnons",
+    "target": "gmh",
+    "type": "lien",
+    "label": "métiers des monuments"
+  },
+  {
+    "source": "compagnons",
+    "target": "isf",
+    "type": "lien"
+  },
+  {
+    "source": "agccpf",
+    "target": "conservateur",
+    "type": "res"
+  },
+  {
+    "source": "agccpf",
+    "target": "musterr",
+    "type": "lien"
+  },
+  {
+    "source": "ocim",
+    "target": "fems",
+    "type": "lien",
+    "label": "observatoires"
+  },
+  {
+    "source": "ocim",
+    "target": "musterr",
+    "type": "lien",
+    "label": "formation des équipes"
+  },
+  {
+    "source": "mesr",
+    "target": "ocim",
+    "type": "lien",
+    "label": "convention"
+  },
+  {
+    "source": "mc",
+    "target": "dac",
+    "type": "tut"
+  },
+  {
+    "source": "codepat",
+    "target": "dac",
+    "type": "loi"
+  },
+  {
+    "source": "dac",
+    "target": "drac",
+    "type": "lien",
+    "label": "équivalent outre-mer"
+  },
+  {
+    "source": "prefreg",
+    "target": "dac",
+    "type": "lien",
+    "label": "sous l’autorité du préfet"
   }
 ]

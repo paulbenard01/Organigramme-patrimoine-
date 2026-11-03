@@ -589,6 +589,20 @@
     "licenseUrl": "",
     "checked": "2026-11-03"
   },
+  "n:dglflf": {
+    "file": "Ministère_de_la_Culture.svg",
+    "title": "Délégation générale à la langue française et aux langues de France",
+    "match": "auto",
+    "q": "Délégation générale à la langue française et aux langues de France",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Minist%C3%A8re_de_la_Culture.svg/500px-Minist%C3%A8re_de_la_Culture.svg.png",
+    "w": 400,
+    "h": 305,
+    "commons": "https://commons.wikimedia.org/wiki/File:Minist%C3%A8re_de_la_Culture.svg",
+    "artist": "Gouvernement de la République française",
+    "license": "Licence Ouverte",
+    "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+    "checked": "2026-11-03"
+  },
   "n:dgpa": {
     "none": true,
     "why": "image trouvée automatiquement mais sans rapport ou trompeuse (relu le 2026-11-02)"
@@ -758,6 +772,20 @@
     "license": "Public domain",
     "licenseUrl": "",
     "checked": "2026-11-02"
+  },
+  "n:ina": {
+    "file": "Logo_INA.svg",
+    "title": "Institut national de l'audiovisuel",
+    "match": "auto",
+    "q": "Institut national de l’audiovisuel",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Logo_INA.svg/500px-Logo_INA.svg.png",
+    "w": 400,
+    "h": 400,
+    "commons": "https://commons.wikimedia.org/wiki/File:Logo_INA.svg",
+    "artist": "Institut national de l'audiovisuel - BrandBox",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "checked": "2026-11-03"
   },
   "n:inha": {
     "file": "Bibliothèque_nationale_de_France_-_Site_Richelieu-Louvois_-_Salle_Labrouste_-_Ensemble_-2.JPG",
@@ -1036,6 +1064,20 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "checked": "2026-11-02"
+  },
+  "n:ocim": {
+    "file": "Logo-OCIM.svg",
+    "title": "Office de coopération et d'information muséales",
+    "match": "auto",
+    "q": "Office de coopération et d’information muséales",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo-OCIM.svg/500px-Logo-OCIM.svg.png",
+    "w": 400,
+    "h": 200,
+    "commons": "https://commons.wikimedia.org/wiki/File:Logo-OCIM.svg",
+    "artist": "fr:Office de Coopération et d’Information Muséales",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "checked": "2026-11-03"
   },
   "n:opprive": {
     "none": true,

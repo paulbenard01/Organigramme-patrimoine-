@@ -412,5 +412,31 @@
       "france2030",
       "sgpi"
     ]
+  },
+  {
+    "term": "MCM",
+    "name": "Maison des cultures du monde",
+    "def": "Association fondée en 1982, désignée Centre français du patrimoine culturel immatériel en 2011.",
+    "see": [
+      "cfpci"
+    ]
+  },
+  {
+    "term": "BIP",
+    "name": "Bateau d’intérêt patrimonial",
+    "def": "Label d’État attribué pour cinq ans aux bateaux anciens par l’association Patrimoine maritime et fluvial.",
+    "see": [
+      "pmf"
+    ]
+  },
+  {
+    "term": "ONG accréditée",
+    "name": "ONG accréditée au titre de la convention de 2003",
+    "def": "Organisation reconnue par l’Assemblée générale de la convention pour conseiller le Comité intergouvernemental du PCI ; une vingtaine en France.",
+    "see": [
+      "igcpci",
+      "cfpci",
+      "francepci"
+    ]
   }
 ]

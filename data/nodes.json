@@ -240,6 +240,17 @@
     "note": "Remplace la DG2TDC : les documents plus anciens utilisent ce sigle."
   },
   {
+    "id": "dglflf",
+    "band": "etat",
+    "group": "Ministère de la Culture",
+    "acronym": "DGLFLF",
+    "name": "Délégation générale à la langue française et aux langues de France",
+    "short": "Langue française et langues régionales",
+    "type": "Service du ministère de la Culture",
+    "desc": "Veille à l’emploi du français et soutient les langues de France (langues régionales, langues d’outre-mer, langue des signes) ; les pratiques linguistiques relèvent aussi du patrimoine culturel immatériel.",
+    "law": "Loi n° 94-665 du 4 août 1994 relative à l’emploi de la langue française"
+  },
+  {
     "id": "smf",
     "band": "etat",
     "group": "DGPA : services",
@@ -941,6 +952,30 @@
     "desc": "Archives et bibliothèques de la Défense, siège au château de Vincennes ; rattaché à la DMCA."
   },
   {
+    "id": "cnc",
+    "band": "op",
+    "group": "Archives & bibliothèques",
+    "acronym": "CNC",
+    "name": "Centre national du cinéma et de l’image animée",
+    "short": "Patrimoine cinématographique",
+    "type": "Établissement public administratif",
+    "desc": "Finance le cinéma et conserve le patrimoine cinématographique : sa direction du patrimoine gère les collections de films (Archives françaises du film, Bois-d’Arcy) et le dépôt légal des œuvres cinématographiques.",
+    "law": "Code du cinéma et de l’image animée ; Code du patrimoine (dépôt légal)",
+    "url": "https://www.cnc.fr"
+  },
+  {
+    "id": "ina",
+    "band": "op",
+    "group": "Archives & bibliothèques",
+    "acronym": "INA",
+    "name": "Institut national de l’audiovisuel",
+    "short": "Archives de la radio et de la télévision",
+    "type": "Établissement public à caractère industriel et commercial",
+    "desc": "Conserve et valorise les archives de la radio et de la télévision publiques et assure le dépôt légal de la radio, de la télévision et du web média.",
+    "law": "Code du patrimoine, art. L.131-1 et suivants (dépôt légal)",
+    "url": "https://www.ina.fr"
+  },
+  {
     "id": "inp",
     "band": "op",
     "group": "Formation",
@@ -1121,6 +1156,50 @@
     "url": "https://anr.fr"
   },
   {
+    "id": "lahic",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "LAHIC",
+    "name": "Laboratoire d’anthropologie et d’histoire de l’institution de la culture",
+    "short": "Ethnologie du patrimoine (IIAC, CNRS-EHESS)",
+    "type": "Équipe de recherche (IIAC, CNRS-EHESS), sous convention avec le ministère de la Culture",
+    "desc": "Étudie les politiques patrimoniales en France et dans le monde, l’histoire de l’ethnologie et l’institution de la culture ; publie avec le ministère la collection « Les Carnets du Lahic »."
+  },
+  {
+    "id": "ocim",
+    "band": "op",
+    "group": "Recherche & universités",
+    "acronym": "OCIM",
+    "name": "Office de coopération et d’information muséales",
+    "short": "Formation et veille pour les musées",
+    "type": "Service de l’Université Bourgogne Europe (convention avec le ministère chargé de l’enseignement supérieur)",
+    "desc": "Forme et informe les professionnels des musées, en particulier des musées de sciences et de société ; publie La Lettre de l’OCIM et produit des observatoires des musées.",
+    "url": "https://ocim.fr"
+  },
+  {
+    "id": "parcsnat",
+    "band": "op",
+    "group": "Espaces naturels",
+    "acronym": "Parcs nationaux",
+    "name": "Parcs nationaux",
+    "short": "Cœurs de nature protégés",
+    "type": "Établissements publics de l’État",
+    "desc": "Protègent des espaces naturels d’exception ; selon le ministère de la Culture, le patrimoine culturel immatériel fait partie intégrante de leurs missions.",
+    "law": "Code de l’environnement, art. L.331-1 et suivants (loi du 22 juillet 1960)"
+  },
+  {
+    "id": "cdl",
+    "band": "op",
+    "group": "Espaces naturels",
+    "acronym": "Conservatoire du littoral",
+    "name": "Conservatoire de l’espace littoral et des rivages lacustres",
+    "short": "Acquisition des rivages",
+    "type": "Établissement public administratif",
+    "desc": "Achète des terrains sur les rivages pour les protéger définitivement ; gère avec les collectivités de nombreux sites naturels et bâtis (phares, forts, domaines).",
+    "law": "Code de l’environnement, art. L.322-1 et suivants",
+    "url": "https://www.conservatoire-du-littoral.fr"
+  },
+  {
     "id": "prefreg",
     "band": "deconc",
     "group": "Préfets",
@@ -1247,6 +1326,17 @@
     "desc": "Relais régional de la politique du patrimoine ethnologique et immatériel ; toutes les DRAC n’en disposent pas."
   },
   {
+    "id": "dac",
+    "band": "deconc",
+    "group": "DRAC",
+    "acronym": "DAC",
+    "name": "Direction des affaires culturelles (outre-mer)",
+    "short": "La DRAC des territoires d’outre-mer",
+    "type": "Service déconcentré du ministère de la Culture",
+    "desc": "En Guadeloupe, Martinique, Guyane, à La Réunion et à Mayotte, la DAC exerce les missions d’une DRAC (monuments historiques, archéologie, musées, PCI) auprès du préfet.",
+    "law": "Code du patrimoine"
+  },
+  {
     "id": "dreal",
     "band": "deconc",
     "group": "Environnement",
@@ -1280,6 +1370,17 @@
     "desc": "Recense, étudie et fait connaître le patrimoine, protégé ou non, à travers des dossiers d’inventaire versés dans les bases nationales.",
     "short": "Inventaire général (Région)",
     "note": "Créé en 1964 à l’initiative d’André Malraux et André Chastel. Il documente, il ne protège pas."
+  },
+  {
+    "id": "pnr",
+    "band": "coll",
+    "group": "Région",
+    "acronym": "PNR",
+    "name": "Parcs naturels régionaux",
+    "short": "Territoires ruraux à charte",
+    "type": "Syndicats mixtes (charte approuvée par l’État)",
+    "desc": "Créés à l’initiative des régions pour protéger et mettre en valeur de grands espaces ruraux habités ; leurs chartes intègrent patrimoine bâti, paysages et patrimoine culturel immatériel.",
+    "law": "Code de l’environnement, art. L.333-1 et suivants"
   },
   {
     "id": "dept",
@@ -2412,6 +2513,39 @@
     "url": "https://theblueshield.org"
   },
   {
+    "id": "cinematheque",
+    "band": "assoc",
+    "group": "Autres acteurs",
+    "acronym": "Cinémathèque française",
+    "name": "La Cinémathèque française",
+    "short": "Collections du cinéma",
+    "type": "Association (fondée en 1936)",
+    "desc": "Conserve et montre des films, appareils, costumes, affiches et archives du cinéma ; soutenue par le CNC.",
+    "url": "https://www.cinematheque.fr"
+  },
+  {
+    "id": "pmf",
+    "band": "assoc",
+    "group": "Autres acteurs",
+    "acronym": "PMF",
+    "name": "Patrimoine maritime et fluvial (ex-Fondation du patrimoine maritime et fluvial)",
+    "short": "Bateaux d’intérêt patrimonial",
+    "type": "Association chargée d’une mission de service public",
+    "desc": "Inventorie les bateaux anciens et décerne le label d’État « Bateau d’intérêt patrimonial » (BIP), pour cinq ans ; le label exonère des droits de francisation et ouvre des aides locales.",
+    "law": "Loi du 30 décembre 2006 (mission de service public)",
+    "note": "Près de 1 000 bateaux labellisés selon la presse spécialisée ; règles en vigueur à vérifier sur le site de l’association."
+  },
+  {
+    "id": "cilac",
+    "band": "assoc",
+    "group": "Autres acteurs",
+    "acronym": "CILAC",
+    "name": "Comité d’information et de liaison pour l’archéologie, l’étude et la mise en valeur du patrimoine industriel",
+    "short": "Patrimoine industriel",
+    "type": "Association",
+    "desc": "Réseau national des chercheurs, associations et collectivités qui étudient et valorisent le patrimoine industriel (usines, mines, machines, archives d’entreprises) ; publie la revue L’Archéologie industrielle en France."
+  },
+  {
     "id": "opprive",
     "band": "assoc",
     "group": "Acteurs privés",
@@ -2440,6 +2574,120 @@
     "type": "Sociétés commerciales régulées",
     "desc": "Organisent les ventes aux enchères publiques de meubles, dont les œuvres d’art ; enregistrées auprès du Conseil des maisons de vente. L’État peut y exercer son droit de préemption.",
     "law": "Code de commerce, art. L.320-1 et suivants"
+  },
+  {
+    "id": "cfpci",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "CFPCI",
+    "name": "Maison des cultures du monde – Centre français du patrimoine culturel immatériel",
+    "short": "Maison des cultures du monde (Vitré)",
+    "type": "Association, ONG accréditée par l’UNESCO (2010)",
+    "desc": "Fondée en 1982 à Paris, la Maison des cultures du monde a été désignée en 2011 par le ministère de la Culture Centre français du PCI, organisme compétent pour la sauvegarde du PCI en France, puis labellisée ethnopôle en 2016.",
+    "roles": [
+      "Expertise pour le ministère ; centre de documentation, formations, colloques, publications",
+      "Assure la coordination et le secrétariat de France PCI",
+      "Journée du patrimoine culturel immatériel depuis 2004, dans le cadre du Festival de l’imaginaire"
+    ],
+    "url": "https://www.maisondesculturesdumonde.org"
+  },
+  {
+    "id": "francepci",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "France PCI",
+    "name": "Association française des éléments inscrits au patrimoine culturel immatériel de l’UNESCO",
+    "short": "Réseau des éléments français inscrits à l’UNESCO",
+    "type": "Association, ONG accréditée par l’UNESCO (2022)",
+    "desc": "Réunit les communautés, associations et collectivités qui portent la vingtaine d’éléments français inscrits sur les listes ou le registre de la convention de 2003 (repas gastronomique, fest-noz, gwoka, baguette de pain, tapisserie d’Aubusson…).",
+    "roles": [
+      "Promeut l’esprit de la convention et les éléments inscrits ; exposition itinérante",
+      "Partage d’expériences entre porteurs d’éléments, force de proposition auprès des acteurs du PCI",
+      "Assemblée générale annuelle itinérante ; lettre d’information trimestrielle"
+    ],
+    "note": "Créée le 25 septembre 2013 selon la brochure du ministère (2023) ; la fiche UNESCO indique 2014. Siège au Centre français du PCI à Vitré.",
+    "url": "https://ich.unesco.org/fr/ong-accreditees/association-francaise-des-elements-inscrits-au-patrimoine-culturel-immateriel-de-l-unesco-01319"
+  },
+  {
+    "id": "dastum",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "Dastum",
+    "name": "Dastum",
+    "short": "Archives sonores et PCI de Bretagne",
+    "type": "Association, ONG accréditée par l’UNESCO (2010)",
+    "desc": "Née en 1972, collecte, sauvegarde et transmet le patrimoine oral et musical de la Bretagne historique ; sa phonothèque dépasse 120 000 documents sonores, consultables en ligne.",
+    "url": "https://www.dastum.bzh"
+  },
+  {
+    "id": "repriz",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "Rèpriz",
+    "name": "Rèpriz – Centre des musiques et danses traditionnelles et populaires de Guadeloupe",
+    "short": "PCI de Guadeloupe",
+    "type": "Association, ONG accréditée par l’UNESCO (2010)",
+    "desc": "Créé en 2005, centre de ressources pour la sauvegarde, la transmission et la diffusion des musiques et danses traditionnelles de Guadeloupe, dont le gwoka."
+  },
+  {
+    "id": "ankrake",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "Ankraké",
+    "name": "Association Ankraké",
+    "short": "PCI de La Réunion",
+    "type": "Association, ONG accréditée par l’UNESCO (2022)",
+    "desc": "Créée en 1995 à La Réunion, elle travaille sur le patrimoine immatériel issu de l’esclavage et du métissage réunionnais, et sur son rôle dans l’insertion sociale."
+  },
+  {
+    "id": "garae",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "GARAE",
+    "name": "Groupe audois de recherche et d’animation ethnographique – Maison des Mémoires",
+    "short": "Ethnopôle (Aude)",
+    "type": "Association, ONG accréditée par l’UNESCO (2012)",
+    "desc": "Créé en 1981 dans l’Aude, centre de documentation et maison d’édition en ethnologie, labellisé ethnopôle ; anime le GIS « Patrimoines en partage » et une semaine annuelle de formation au PCI avec des universités d’Occitanie."
+  },
+  {
+    "id": "mpob",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "MPOB",
+    "name": "Maison du patrimoine oral de Bourgogne",
+    "short": "Patrimoine oral de Bourgogne",
+    "type": "Association, ONG accréditée par l’UNESCO (2012)",
+    "desc": "Centre de ressources sur le patrimoine oral de Bourgogne : archives sonores et audiovisuelles, recherche, transmission et création à partir des sources orales."
+  },
+  {
+    "id": "amta",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "AMTA",
+    "name": "Agence des musiques des territoires d’Auvergne",
+    "short": "Musiques traditionnelles d’Auvergne",
+    "type": "Association, ONG accréditée par l’UNESCO (2014)",
+    "desc": "Collecte, documente et valorise les musiques et pratiques traditionnelles d’Auvergne."
+  },
+  {
+    "id": "cmtra",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "CMTRA",
+    "name": "Centre des musiques traditionnelles Rhône-Alpes",
+    "short": "Musiques traditionnelles et du monde",
+    "type": "Association, ONG accréditée par l’UNESCO (2018)",
+    "desc": "Travaille sur les musiques traditionnelles et les patrimoines musicaux des habitants de la région, y compris ceux des migrations, par des enquêtes, des disques et des projets de territoire."
+  },
+  {
+    "id": "colbert",
+    "band": "assoc",
+    "group": "Patrimoine immatériel",
+    "acronym": "Comité Colbert",
+    "name": "Comité Colbert",
+    "short": "Maisons du luxe et savoir-faire",
+    "type": "Association, ONG accréditée par l’UNESCO (2010)",
+    "desc": "Réunit des maisons françaises du luxe et des institutions culturelles autour de la transmission des savoir-faire d’excellence et des métiers de la création."
   },
   {
     "id": "conservateur",
@@ -2596,6 +2844,27 @@
     "desc": "Réunit les entreprises qualifiées (taille de pierre, charpente, couverture…) qui interviennent sur les MH."
   },
   {
+    "id": "adaf",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "Ateliers d’Art de France",
+    "name": "Ateliers d’Art de France",
+    "short": "Syndicat des métiers d’art",
+    "type": "Syndicat professionnel",
+    "desc": "Fédère les artisans d’art, artistes et manufactures d’art ; défend la profession, organise des salons et des prix et porte la voix des métiers d’art auprès des pouvoirs publics.",
+    "url": "https://www.ateliersdart.com"
+  },
+  {
+    "id": "agccpf",
+    "band": "metier",
+    "group": "Réseaux professionnels",
+    "acronym": "AGCCPF",
+    "name": "Association générale des conservateurs des collections publiques de France",
+    "short": "Réseau des professionnels des musées",
+    "type": "Association professionnelle",
+    "desc": "Réseau national des conservateurs et professionnels des collections publiques, organisé en sections régionales ; congrès, formations et prises de position sur la politique des musées."
+  },
+  {
     "id": "isf",
     "band": "metier",
     "group": "Formation & transmission",
@@ -2614,6 +2883,16 @@
     "name": "Centre national de la fonction publique territoriale",
     "type": "Établissement public",
     "desc": "Forme les agents des collectivités et organise, avec l’INP, la formation des conservateurs territoriaux."
+  },
+  {
+    "id": "compagnons",
+    "band": "metier",
+    "group": "Formation & transmission",
+    "acronym": "Compagnons du Devoir",
+    "name": "Compagnonnage (Compagnons du Devoir et du Tour de France et autres associations compagnonniques)",
+    "short": "Transmission des métiers par le Tour de France",
+    "type": "Associations de formation",
+    "desc": "Forment aux métiers du bâtiment, du patrimoine et de l’artisanat par l’apprentissage et le voyage ; le compagnonnage est inscrit sur la liste représentative du PCI de l’humanité depuis 2010."
   },
   {
     "id": "codepat",
@@ -2893,6 +3172,16 @@
     "short": "Régime des groupements d’intérêt public",
     "type": "Loi",
     "desc": "Fixe le régime commun des groupements d’intérêt public, forme choisie par plusieurs centres de conservation-restauration (CICRP, ARC-Nucléart)."
+  },
+  {
+    "id": "loitoubon",
+    "band": "textes",
+    "group": "Lois",
+    "acronym": "Loi Toubon 1994",
+    "name": "Loi n° 94-665 du 4 août 1994 relative à l’emploi de la langue française",
+    "short": "Emploi de la langue française",
+    "type": "Loi",
+    "desc": "Impose l’emploi du français dans de nombreux domaines (commerce, travail, enseignement, services publics) ; la DGLFLF en suit l’application."
   },
   {
     "id": "conv1954",

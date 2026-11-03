@@ -53,7 +53,14 @@ Voir le champ `source` de chaque entrée de `data/people.json`. Points à revér
 | Action cœur de ville 2023-2026 ; Petites villes de demain (fin prévue mars 2026, poursuite annoncée juin 2025) | https://maire-info.com/le-dispositif-action-coeur-de-ville-prolonge-pour-la-periode-2023-2026-le-gouvernement-detaille-sa-mise-en-oeuvre-article2-27563 ; https://www.senat.fr/rap/r25-040/r25-0401.pdf |
 | Fondation pour la sauvegarde de l'art français : création 1921, FRUP 2017, campagne « Le Plus Grand Musée de France » (2013) | https://www.sauvegardeartfrancais.fr/wp/wp-content/uploads/saf-ra-2024-web.pdf |
 
-À revérifier en priorité : suite des programmes ANCT après 2026, statut de la convention UNIDROIT, calendrier de l'établissement Rebâtir Notre-Dame, dates du GIP ARC-Nucléart.
+| Patrimoine culturel immatériel : ONG françaises accréditées (France PCI créée le 25 septembre 2013, accréditée en 2022 ; MCM-CFPCI désignée en 2011, ethnopôle en 2016 ; années d'accréditation des autres ONG) | https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/PCI-France_brochure-ONG-accreditees_10072023 |
+| France PCI : fiche UNESCO (création indiquée : 2014, siège à Vitré) | https://ich.unesco.org/fr/ong-accreditees/association-francaise-des-elements-inscrits-au-patrimoine-culturel-immateriel-de-l-unesco-01319 |
+| Acteurs de la sauvegarde du PCI (LAHIC, parcs nationaux, parcs naturels régionaux) | https://www.culture.gouv.fr/fr/thematiques/patrimoine-culturel-immateriel/le-patrimoine-culturel-immateriel/les-acteurs-de-la-sauvegarde-du-patrimoine-culturel-immateriel |
+| LAHIC (IIAC, CNRS-EHESS, convention avec le ministère) | https://www.culture.gouv.fr/thematiques/ethnologie-de-la-france/ressources-et-publications/les-collections-en-partenariat-avec-le-ministere-autour-de-l-ethnologie-de-la-france-et-du-patrimoine/collection-electronique-les-carnets-du-lahic |
+| Label BIP et association Patrimoine maritime et fluvial (loi du 30 décembre 2006) | https://www.bateaux.com/article/36672/l-association-patrimoine-maritime-et-fluvial-conserve-l-histoire-de-la-navigation |
+| OCIM, service de l'université de Bourgogne (convention avec le ministère chargé de l'enseignement supérieur) | https://www.ube.fr/en/student-space/ocim/ |
+
+À revérifier en priorité : date de création de France PCI (2013 selon le ministère, 2014 selon l'UNESCO), suite des programmes ANCT après 2026, statut de la convention UNIDROIT, calendrier de l'établissement Rebâtir Notre-Dame, dates du GIP ARC-Nucléart.
 
 ## Images
 
