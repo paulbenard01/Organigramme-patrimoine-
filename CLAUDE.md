@@ -88,6 +88,7 @@ Les organigrammes, les nominations, les chiffres et les réformes changent souve
 - **Relire chaque nouvelle entrée** (titre d'article retenu dans `title`) : écarter les erreurs avec `{ "none": true, "why": "…" }`, et ajouter `"checked": "AAAA-MM-JJ"` aux images relues. La page signale « à vérifier » les images automatiques non relues.
 - Choix manuel : `{ "file": "Nom_sur_Commons.jpg", "pinned": true }` puis `npm run pictures -- --meta`. Le script ne remplace jamais une entrée `pinned` ou `none`.
 - Crédit obligatoire : le build refuse une image sans `artist` ni `license`. N'utilise que des fichiers de Commons sous licence libre ; pas de logo ou de photo copiés d'un site officiel.
+- La « Recherche web » du chercheur (moteurs classiques, adresse collée, photo de l'appareil) ne sert qu'au choix local de l'utilisateur : n'en reporte jamais une image dans `pictures.json`.
 - Le champ `photo` d'une personne (chemin local) reste accepté, mais l'image de `pictures.json` est prioritaire.
 - Wikimedia limite les requêtes sans User-Agent identifiable : le script en envoie un et attend entre deux appels.
 
