@@ -59,6 +59,7 @@ Tous les sigles des nœuds + termes hors nœuds (anciens sigles, notions juridiq
 - Photothèque des images libres (Wikipédia / Wikimedia Commons) associées aux nœuds, musées et personnes, filtrable (institutions, musées, personnes, sans image) et liste complète des crédits.
 - Toucher une vignette ouvre une visionneuse : image, auteur, licence, article source, lien vers la fiche, et un **chercheur** en direct (Articles Wikipédia ou Wikimedia Commons).
 - « Utiliser » garde une image dans le navigateur (mention « choix local ») ; « Copier » donne la ligne JSON à ajouter à `data/pictures.json`.
+- **Recherche web** (onglet par défaut pour une personne sans image) : boutons vers Google Images, Bing, DuckDuckGo et Qwant avec le nom et la fonction ; on rapporte l'image par son adresse (https, vérifiée avant d'être gardée) ou en choisissant une photo de l'appareil (réduite à 480 px). Ces images restent locales, marquées « droits non vérifiés, usage personnel », et ne se copient pas vers `pictures.json`.
 - Les images apparaissent aussi dans la fiche, la vue « liens », les musées et le trombinoscope.
 
 ## Application installable

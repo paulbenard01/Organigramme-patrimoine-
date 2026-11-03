@@ -48,7 +48,7 @@ npm run pictures -- --meta       # complète crédits et vignettes (après un ch
 
 Le script écrit `data/pictures.json`. Relisez les nouvelles entrées : une recherche automatique peut se tromper d'article. Pour écarter une image, remplacez l'entrée par `{ "none": true }`.
 
-Dans la page, la vue **Images** et le bouton « Chercher une image » de chaque fiche ouvrent un chercheur en direct (Wikipédia ou Commons). « Utiliser » garde l'image dans votre navigateur ; « Copier » donne la ligne à coller dans `data/pictures.json` (`"pinned": true`) pour la publier.
+Dans la page, la vue **Images** et le bouton « Chercher une image » de chaque fiche ouvrent un chercheur en direct (Wikipédia, Commons ou **recherche web**). La recherche web ouvre Google Images, Bing, DuckDuckGo ou Qwant ; on rapporte l'image en collant son adresse ou en choisissant une photo enregistrée sur l'appareil. Ces images restent dans le navigateur (droits non vérifiés, usage personnel) et ne sont pas publiées. « Utiliser » garde l'image dans votre navigateur ; « Copier » donne la ligne à coller dans `data/pictures.json` (`"pinned": true`) pour la publier.
 
 ## Déployer
 

@@ -347,6 +347,10 @@ button.mono{border:0; padding:0; cursor:pointer; overflow:hidden}
 .fres figcaption > span{overflow-wrap:anywhere}
 .fres .acts{display:flex; gap:6px; flex-wrap:wrap}
 .fres .acts button, .fres .acts a{font-size:.74rem; padding:4px 8px}
+.web{display:flex; flex-direction:column; gap:8px; grid-column:1/-1}
+.web .acts{display:flex; gap:6px; flex-wrap:wrap}
+.web .row{display:flex; gap:6px; flex-wrap:wrap; margin:0}
+.web .file{align-self:flex-start; cursor:pointer}
 .finder .help{font-size:.8rem; color:var(--muted); margin:8px 0 0}
 .finder code{font:500 .76rem var(--f-mono); background:var(--surface-2); padding:1px 4px; border-radius:3px; overflow-wrap:anywhere}
 .install{display:flex; gap:10px; align-items:center; flex-wrap:wrap; background:var(--surface); border:1px solid var(--rule); border-radius:8px; padding:10px 12px; margin:0 0 14px; font-size:.86rem}
@@ -617,7 +621,7 @@ const DATA = /*__APP_DATA__*/null;
     const LS = "carte-patrimoine:images";
     let local = {};
     try { local = JSON.parse(localStorage.getItem(LS) || "{}") || {}; } catch (e) { local = {}; }
-    const save = () => { try { localStorage.setItem(LS, JSON.stringify(local)); } catch (e) { /* stockage indisponible */ } };
+    const save = () => { try { localStorage.setItem(LS, JSON.stringify(local)); return true; } catch (e) { return false; } };
     const get = (key) => (local[key] ? { ...local[key], local: true } : BASE[key] && BASE[key].thumb ? BASE[key] : null);
 
     // Toutes les entités illustrables
@@ -628,11 +632,11 @@ const DATA = /*__APP_DATA__*/null;
     ];
     const entBy = Object.fromEntries(ENT.map((e) => [e.key, e]));
 
-    const creditHTML = (p) => !p ? "" :
+    const creditHTML = (p) => !p ? "" : p.web ? `${esc(p.artist)} · droits non vérifiés, usage personnel${p.page ? ` · <a href="${esc(p.page)}" target="_blank" rel="noopener">source</a>` : ""}<span class="pic-flag">choix local</span>` :
       `${esc(p.artist || "Auteur inconnu")} · ${p.licenseUrl ? `<a href="${esc(p.licenseUrl)}" target="_blank" rel="noopener">${esc(p.license || "licence")}</a>` : esc(p.license || "licence à vérifier")} · <a href="${esc(p.commons || "https://commons.wikimedia.org")}" target="_blank" rel="noopener">Wikimedia Commons</a>` +
       (p.local ? `<span class="pic-flag">choix local</span>` : p.match === "auto" && !p.checked ? `<span class="pic-flag">à vérifier</span>` : "");
     // Logos et emblèmes (SVG, PNG, GIF) : affichés en entier sur fond clair ; photos : recadrées.
-    const isLogo = (p) => /\.(svg|png|gif)$/i.test(p.file || p.thumb || "") || /logo/i.test(p.file || "");
+    const isLogo = (p) => !p.web && (/\.(svg|png|gif)$/i.test(p.file || p.thumb || "") || /logo/i.test(p.file || ""));
     const img = (p, alt = "") => `<img src="${esc(p.thumb)}" alt="${esc(alt)}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"${isLogo(p) ? ` class="logo"` : ""}>`;
 
     /* Visionneuse + chercheur */
@@ -640,10 +644,11 @@ const DATA = /*__APP_DATA__*/null;
     let cur = null, src = "wp";
     function open(key) {
       const e = entBy[key]; if (!e) return;
-      cur = e; src = "wp";
+      // Personnes sans image : Wikipédia n’a rien trouvé, on ouvre directement la recherche web.
+      cur = e; src = e.kind === "p" && !get(key) ? "web" : "wp";
       render();
       if (typeof dlg.showModal === "function") { if (!dlg.open) dlg.showModal(); } else dlg.setAttribute("open", "");
-      if (!get(key)) search(e.q);
+      if (!get(key) && src !== "web") search(e.q);
     }
     function close() { if (dlg.open) dlg.close(); else dlg.removeAttribute("open"); }
     dlg.addEventListener("click", (ev) => { if (ev.target === dlg) close(); });
@@ -654,22 +659,69 @@ const DATA = /*__APP_DATA__*/null;
         <div class="lb-top"><div><span class="p-band" style="--bc:${e.band ? `var(--b-${e.band})` : "var(--accent)"}">${esc(kindL)}</span><h2>${esc(e.label)}</h2>${e.sub && e.sub !== e.label ? `<div class="ref-n">${esc(e.sub)}</div>` : ""}</div>
           <button type="button" class="p-close" data-lb="close" aria-label="Fermer">×</button></div>
         <div class="lb-main">${p ? `${img(p, e.label)}<p class="credit">${creditHTML(p)}${p.title ? ` · article <a href="https://fr.wikipedia.org/wiki/${encodeURIComponent(p.title.replace(/ /g, "_"))}" target="_blank" rel="noopener">${esc(p.title)}</a>` : ""}</p>` : `<div class="lb-none">Pas encore d’image pour cet élément.${base && base.none ? " Les résultats automatiques ont été écartés car sans rapport." : ""}</div>`}</div>
-        <div class="p-actions">${e.node ? `<button type="button" class="btn" data-lb="fiche">Ouvrir la fiche ${esc(byId[e.node].acronym)}</button>` : ""}${p && p.local ? `<button type="button" class="btn" data-lb="reset">Revenir à l’image d’origine</button>` : ""}</div>
+        <div class="p-actions">${e.node ? `<button type="button" class="btn" data-lb="fiche">Ouvrir la fiche ${esc(byId[e.node].acronym)}</button>` : ""}${p && p.local ? `<button type="button" class="btn" data-lb="reset">${base && base.thumb ? "Revenir à l’image d’origine" : "Retirer cette image"}</button>` : ""}</div>
         <div class="finder">
           <h3>Trouver une image</h3>
-          <p class="help">Recherche en direct parmi les images libres de droits de Wikipédia et Wikimedia Commons.</p>
-          <form id="lb-form"><input id="lb-q" type="search" value="${esc(e.q)}" aria-label="Termes de recherche"><button type="submit" class="btn primary">Chercher</button></form>
-          <div class="src"><button type="button" class="fbtn" data-lb-src="wp" aria-pressed="${src === "wp"}">Articles Wikipédia</button><button type="button" class="fbtn" data-lb-src="commons" aria-pressed="${src === "commons"}">Wikimedia Commons</button></div>
+          <p class="help">Images libres de droits de Wikipédia et Wikimedia Commons, ou recherche d’images classique sur le web.</p>
+          <form id="lb-form"><input id="lb-q" type="search" value="${esc(src === "web" ? webQ(e) : e.q)}" aria-label="Termes de recherche"><button type="submit" class="btn primary">Chercher</button></form>
+          <div class="src"><button type="button" class="fbtn" data-lb-src="wp" aria-pressed="${src === "wp"}">Articles Wikipédia</button><button type="button" class="fbtn" data-lb-src="commons" aria-pressed="${src === "commons"}">Wikimedia Commons</button><button type="button" class="fbtn" data-lb-src="web" aria-pressed="${src === "web"}">Recherche web</button></div>
           <div class="fres" id="lb-res"></div>
           <p class="help">« Utiliser » garde l’image dans ce navigateur. Pour l’ajouter à la carte pour tout le monde, « Copier » donne la ligne à coller dans <code>data/pictures.json</code>, puis lancez <code>npm run pictures -- --meta</code> et <code>npm run build</code>.</p>
         </div>`;
       $("#lb-form").addEventListener("submit", (ev) => { ev.preventDefault(); search($("#lb-q").value); });
+      if (src === "web") webPanel();
+    }
+    // Recherche web : les moteurs ne permettent pas d’afficher leurs résultats dans la page ;
+    // on ouvre la recherche dans un onglet, puis on rapporte l’image (adresse copiée ou photo enregistrée).
+    const webQ = (e) => (e.kind === "p" ? `${e.label} ${e.sub}` : e.q);
+    const ENGINES = [["google", "Google Images", "https://www.google.com/search?tbm=isch&q="], ["bing", "Bing Images", "https://www.bing.com/images/search?q="],
+      ["ddg", "DuckDuckGo", "https://duckduckgo.com/?iax=images&ia=images&q="], ["qwant", "Qwant", "https://www.qwant.com/?t=images&q="]];
+    function webPanel(msg) {
+      $("#lb-res").innerHTML = `<div class="web">
+        <p class="help" style="margin:0">1. Cherchez l’image dans un moteur (nouvel onglet) :</p>
+        <div class="acts">${ENGINES.map(([k, l]) => `<button type="button" class="btn" data-lb-web="${k}">${l} ↗</button>`).join("")}</div>
+        <p class="help">2. Rapportez-la : sur téléphone, appui long sur l’image puis « Copier l’adresse de l’image » (ou « Enregistrer l’image »).</p>
+        <form id="lb-url" class="row"><input id="lb-url-in" type="url" inputmode="url" placeholder="https://… adresse de l’image" aria-label="Adresse de l’image"><button type="submit" class="btn primary">Utiliser</button></form>
+        <label class="btn file">Choisir une photo enregistrée<input id="lb-file" type="file" accept="image/*" hidden></label>
+        <p class="help" id="lb-web-msg">${msg ? esc(msg) : "Une image trouvée sur le web reste dans ce navigateur, pour votre usage personnel : ses droits ne sont pas vérifiés, elle n’est donc pas publiée sur le site."}</p>
+      </div>`;
+      $("#lb-url").addEventListener("submit", (ev) => { ev.preventDefault(); useUrl($("#lb-url-in").value); });
+      $("#lb-file").addEventListener("change", (ev) => { const f = ev.target.files && ev.target.files[0]; if (f) useFile(f); });
+    }
+    const webMsg = (m) => { const el = $("#lb-web-msg"); if (el) el.textContent = m; };
+    function keepWeb(entry) {
+      local[cur.key] = { web: true, ...entry };
+      if (!save()) { delete local[cur.key]; webMsg("Le navigateur n’a pas pu garder l’image (mémoire pleine ou navigation privée)."); return; }
+      render(); onChange();
+    }
+    function useUrl(raw) {
+      let u; try { u = new URL(String(raw).trim()); } catch (e) { webMsg("Adresse invalide : collez l’adresse de l’image (elle commence par https://)."); return; }
+      if (u.protocol !== "https:") { webMsg("Seules les adresses en https:// s’affichent sur le site."); return; }
+      webMsg("Vérification de l’image…");
+      const im = new Image(); im.referrerPolicy = "no-referrer";
+      im.onload = () => keepWeb({ thumb: u.href, artist: `Image du web (${u.hostname.replace(/^www\./, "")})`, page: u.href });
+      im.onerror = () => webMsg("Cette adresse ne donne pas d’image affichable (le site la bloque peut-être). Enregistrez l’image puis utilisez « Choisir une photo enregistrée ».");
+      im.src = u.href;
+    }
+    function useFile(f) {
+      if (!/^image\//.test(f.type)) { webMsg("Ce fichier n’est pas une image."); return; }
+      webMsg("Préparation de la photo…");
+      const r = new FileReader();
+      r.onload = () => { const im = new Image(); im.onload = () => {
+        // Réduite à 480 px pour tenir dans la mémoire du navigateur
+        const k = Math.min(1, 480 / Math.max(im.width, im.height)), c = document.createElement("canvas");
+        c.width = Math.round(im.width * k); c.height = Math.round(im.height * k);
+        c.getContext("2d").drawImage(im, 0, 0, c.width, c.height);
+        keepWeb({ thumb: c.toDataURL("image/jpeg", 0.82), artist: "Photo importée" });
+      }; im.onerror = () => webMsg("Impossible de lire cette image."); im.src = r.result; };
+      r.readAsDataURL(f);
     }
     const API = (base, params) => fetch(base + "?" + new URLSearchParams({ format: "json", formatversion: "2", origin: "*", ...params })).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
     const stripTags = (h) => { const d = document.createElement("div"); d.innerHTML = String(h || ""); return d.textContent.replace(/\s+/g, " ").trim(); };
     let results = [], seq = 0;
     async function search(q) {
       q = String(q || "").trim(); if (!q) return;
+      if (src === "web") { webPanel(); return; }
       const my = ++seq, out = $("#lb-res");
       out.innerHTML = `<p class="help">Recherche…</p>`;
       try {
@@ -705,11 +757,15 @@ const DATA = /*__APP_DATA__*/null;
     }
     let onChange = () => {};
     box.addEventListener("click", (ev) => {
-      const t = ev.target.closest("[data-lb],[data-lb-src],[data-lb-use],[data-lb-copy]"); if (!t) return;
+      const t = ev.target.closest("[data-lb],[data-lb-src],[data-lb-use],[data-lb-copy],[data-lb-web]"); if (!t) return;
+      if (t.dataset.lbWeb) { const en = ENGINES.find(([k]) => k === t.dataset.lbWeb); window.open(en[2] + encodeURIComponent($("#lb-q").value.trim() || webQ(cur)), "_blank", "noopener"); return; }
       if (t.dataset.lb === "close") return close();
       if (t.dataset.lb === "fiche") { const id = cur.node; close(); select(id); return; }
       if (t.dataset.lb === "reset") { delete local[cur.key]; save(); render(); onChange(); return; }
-      if (t.dataset.lbSrc) { src = t.dataset.lbSrc; const q = $("#lb-q").value; $$("[data-lb-src]", box).forEach((b) => b.setAttribute("aria-pressed", String(b === t))); search(q); return; }
+      if (t.dataset.lbSrc) { const was = src; src = t.dataset.lbSrc; const qi = $("#lb-q");
+        if (src === "web" && was !== "web" && qi.value === cur.q) qi.value = webQ(cur);
+        else if (src !== "web" && was === "web" && qi.value === webQ(cur)) qi.value = cur.q;
+        const q = qi.value; $$("[data-lb-src]", box).forEach((b) => b.setAttribute("aria-pressed", String(b === t))); search(q); return; }
       if (t.dataset.lbUse) { const r = results[+t.dataset.lbUse]; local[cur.key] = { file: r.file, thumb: r.thumb, commons: r.commons, artist: r.artist, license: r.license, licenseUrl: r.licenseUrl, title: r.title }; save(); render(); onChange(); return; }
       if (t.dataset.lbCopy) { const r = results[+t.dataset.lbCopy]; copy(`"${cur.key}": { "file": ${JSON.stringify(r.file)}, "pinned": true },`, t); }
     });
